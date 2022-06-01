@@ -1,19 +1,15 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
+    title: 'Google Clone',
+    description: `Una replica del frontend del mas famoso motor de busquedas, hecha con HTML y CSS puros`,
     imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    href: 'https://github.com/RaulprTech/google-clone',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'House for Sale',
+    description: `Una atractiva landing page sobre un sitio donde poder llevar a cabo todo el proceso de venta de una casa`,
+    imgSrc: '/static/images/projects/house.png',
+    href: '/blog/projects/houseforsale',
   },
 ]
 

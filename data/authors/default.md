@@ -1,16 +1,34 @@
 ---
-name: Tails Azimuth
+name: Raul Pacheco Rodriguez
 avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
+occupation: Frontend Developer & Electronic Engineer
+company:
 email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+twitter: https://twitter.com/RaulprTech
+linkedin: https://www.linkedin.com/in/raulprtech
+github: https://github.com/RaulprTech
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+## ¿Quien soy?
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+Hola 👋 Mi nombre es Raul Pacheco Rodriguez, soy un Frontend Developer 👨‍💻 que ama los retos y mantenerme en constante aprendizaje.
+Soy mexicano nacido en Campeche, actualmente viviendo en Jalisco. Busco abrirme paso en esta gran industria.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Tambien soy un Ingeniero Electronico, Pythonista principiante 🐍, aficionado a las FPGAs, a la Inteligencia Artificial y a la cultura Hacker. He sido profesor en talleres de electronica y programacion.
+
+**En resumen soy un fanatico de la ciencia 🧪, la tecnologia ⚙️.**
+
+## Mi Stack Favorito para Web
+
+- React
+- Next o Gatsby
+- Tailwind
+- Node
+
+## Trayectoria
+
+Desarrollador Frontend 👨‍💻 con mas de 4 años de experiencia, y varios mas previos en programacion. Actualmente enfocado a react y sus frameworks. He impartido talleres de programacion en javascript, C, processing y Arduino.
+
+## Proyectos Recientes
+
+Me gusta escribir sobre lo que voy aprendiendo de tecnologia a traves de mi blog en Dev.to y aqui. Principalmente escribo sobre Javasript y recientemente Python.
