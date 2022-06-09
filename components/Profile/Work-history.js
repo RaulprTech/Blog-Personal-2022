@@ -1,56 +1,52 @@
-const history = [
+const works = [
   {
-    company: 'Atomic Studio',
-    period: 'January 2017 - present',
-    position: 'Web Developer',
-    url: 'https://atomic.studio',
-  },
-  {
-    company: 'Atomic Studio',
-    period: 'January 2017 - present',
-    position: 'Web Developer',
-    url: 'https://atomic.studio',
-  },
-  {
-    company: 'Atomic Studio',
-    period: 'January 2017 - present',
-    position: 'Web Developer',
-    url: 'https://atomic.studio',
+    title: 'Trabajo 1',
+    date: '4 February, 2022',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
+    link: '/',
   },
 ]
+
+const Work = ({ title, date, description, link }) => {
+  return (
+    <li>
+      <div className="flex-start flex items-center">
+        <div className="-ml-2 mr-3 -mt-2 flex h-4 w-4 items-center justify-center rounded-full bg-primary-600" />
+        <h4 className="-mt-2 text-xl font-semibold text-gray-300">{title}</h4>
+      </div>
+      <div className="ml-6 mb-6 pb-6">
+        <a
+          href="#!"
+          className="text-sm text-primary-600 transition duration-300 ease-in-out hover:text-blue-700 focus:text-blue-800"
+        >
+          {date}
+        </a>
+        <p className="mt-2 mb-4 text-gray-300">{description}</p>
+        <a
+          href={link}
+          className="inline-block rounded bg-blue-600 px-4 py-1.5 text-xs font-medium uppercase leading-tight text-white shadow-md transition duration-150 ease-in-out hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg"
+        >
+          Ver mas
+        </a>
+      </div>
+    </li>
+  )
+}
 
 export default function WorkHistory() {
   return (
     <>
-      <h5 className="text-front font-header mt-12 mb-3 text-center text-sm font-semibold uppercase">
-        Work history
-      </h5>
-      <div className="history relative flex flex-col py-6">
-        {history.map(({ company, period, position, url }, i) => (
-          <div className="history-entry relative w-1/2 py-4" key={`${company}_${i}`}>
-            <span className="dot-bg absolute inline-flex h-14 w-14 items-center justify-center rounded-full bg-gray-300">
-              <span className="dot h-5 w-5 rounded-full bg-gray-100" />
-            </span>
-            {url ? (
-              <h4 className="subpixel-antialiased">
-                <a
-                  href={url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="transition-opacity duration-150 hover:opacity-75"
-                >
-                  {company}
-                </a>
-              </h4>
-            ) : (
-              <h4 className="subpixel-antialiased">{company}</h4>
-            )}
-
-            {position && <h5 className="mb-1 text-sm font-normal">{position}</h5>}
-            {period && <span className="text-sm font-medium opacity-50">{period}</span>}
-          </div>
+      <ol className="mt-6 border-l-2 border-primary-600">
+        {works.map((work) => (
+          <Work
+            title={work.title}
+            date={work.date}
+            description={work.description}
+            link={work.link}
+            key={work.title}
+          />
         ))}
-      </div>
+      </ol>
     </>
   )
 }

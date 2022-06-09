@@ -1,6 +1,5 @@
 import { MDXLayoutRenderer } from '@/components/MDXComponents'
 import { getFileBySlug } from '@/lib/mdx'
-import Me from '@/components/Profile/Me'
 
 const DEFAULT_LAYOUT = 'AuthorLayout'
 

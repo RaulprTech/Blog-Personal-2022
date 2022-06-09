@@ -28,8 +28,9 @@ module.exports = {
         sans: ['InterVariable', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        primary: colors.sky,
-        gray: colors.zinc,
+        primary: colors.blue,
+        secondary: colors.amber,
+        gray: colors.slate,
       },
       typography: (theme) => ({
         DEFAULT: {
