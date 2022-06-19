@@ -40,7 +40,7 @@ export default function Home({ posts, tags }) {
           </p>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
-          {!posts.length && 'No posts found.'}
+          {!posts.length && 'No se encontraron Posts.'}
           {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
             const { slug, date, title, summary, tags } = frontMatter
             return (
@@ -78,7 +78,7 @@ export default function Home({ posts, tags }) {
                         <Link
                           href={`/blog/${slug}`}
                           className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-                          aria-label={`Read "${title}"`}
+                          aria-label={`Leer "${title}"`}
                         >
                           Leer mas &rarr;
                         </Link>
@@ -96,7 +96,7 @@ export default function Home({ posts, tags }) {
           <Link
             href="/blog"
             className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-            aria-label="all posts"
+            aria-label="Todos los Posts"
           >
             Ver todo &rarr;
           </Link>

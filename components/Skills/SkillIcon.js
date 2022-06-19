@@ -71,7 +71,7 @@ const components = {
   redux: Redux,
   jamstack: Jamstack,
   tailwind: Tailwind,
-  styledComponents: StyledComponents,
+  styledcomponents: StyledComponents,
   bulma: Bulma,
   chakra: Chakra,
   materialui: Mui,
@@ -112,19 +112,23 @@ export default function SkillIcon({ kind, href, size = 8 }) {
   const SkillSvg = components[kind]
 
   return (
-    <div
-      className="m-4 h-20 w-20 cursor-pointer rounded-lg border-2 border-transparent bg-white p-2 shadow-lg hover:border-primary-500 dark:bg-gray-900 dark:hover:border-primary-600"
-      key={kind}
-    >
-      <Link href={href}>
-        <div className="flex flex-col items-center justify-around text-primary-400 transition dark:text-secondary-400">
-          <span className="sr-only">{kind}</span>
-          <SkillSvg
-            className={`fill-current text-gray-700 dark:text-gray-100 h-${size} w-${size}`}
-          />
-          <p className="mt-2 text-xs uppercase text-gray-700 dark:text-gray-100">{kind}</p>
+    <>
+      {components[kind] && (
+        <div
+          className="m-4 h-20 w-20 cursor-pointer rounded-lg border-2 border-transparent bg-white p-2 shadow-lg hover:border-primary-500 dark:bg-gray-900 dark:hover:border-primary-600"
+          key={kind}
+        >
+          <Link href={href}>
+            <div className="flex flex-col items-center justify-around text-secondary-400 transition dark:text-secondary-400">
+              <span className="sr-only">{kind}</span>
+              <SkillSvg
+                className={`fill-current text-secondary-400 dark:text-gray-100 h-${size} w-${size}`}
+              />
+              <p className="mt-2 text-xs uppercase text-secondary-400 dark:text-gray-100">{kind}</p>
+            </div>
+          </Link>
         </div>
-      </Link>
-    </div>
+      )}
+    </>
   )
 }
