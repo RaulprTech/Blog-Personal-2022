@@ -14,6 +14,12 @@ export default function Footer() {
           <SocialIcon kind="instagram" href={siteMetadata.instagram} size="6" />
           <SocialIcon kind="twitter" href={siteMetadata.twitter} size="6" />
         </div>
+        {/* <div className="mb-3 flex space-x-56">
+          <Link href="/">Hola</Link>
+          <Link href="/">Hola</Link>
+          <Link href="/">Mas Posts</Link>
+          <Link href="/">¿Necesitas un Freelance?</Link>
+        </div> */}
         <div className="m-2 mb-6 flex space-x-2 text-xs text-gray-500 dark:text-gray-400 sm:text-sm">
           <Link href="/">{siteMetadata.title}</Link>
           <div>{` • `}</div>
