@@ -1,6 +1,6 @@
 ---
 name: Raul Pacheco Rodriguez
-avatar: /static/images/avatar.png
+avatar: /static/images/avatar_bg_blue.png
 occupation: Frontend Developer & Electronic Engineer
 company:
 email: address@yoursite.com
@@ -16,14 +16,24 @@ Soy mexicano nacido en Campeche, actualmente viviendo en Jalisco. Busco abrirme 
 
 Tambien soy un Ingeniero Electronico, Pythonista principiante 🐍, aficionado a las FPGAs, a la Inteligencia Artificial y a la cultura Hacker. He sido profesor en talleres de electronica y programacion.
 
-**En resumen soy un fanatico de la ciencia 🧪, la tecnologia ⚙️.**
+**En resumen soy un fanatico de la ciencia 🧪 y la tecnologia ⚙️.**
 
 ## Mi Stack Favorito para Web
 
 - React
-- Next o Gatsby
+- Next
 - Tailwind
 - Node
+- PostgreSQL
+
+## Otras Tecnologias de mi interes
+
+- Python
+- FastAPI
+- MongoDB
+- Pytorch
+- Playwright
+- Gatsby
 
 ## Trayectoria
 
@@ -31,4 +41,4 @@ Desarrollador Frontend 👨‍💻 con mas de 4 años de experiencia, y varios m
 
 ## Proyectos Recientes
 
-Me gusta escribir sobre lo que voy aprendiendo de tecnologia a traves de mi blog en Dev.to y aqui. Principalmente escribo sobre Javasript y recientemente Python.
+Me gusta escribir sobre lo que voy aprendiendo de tecnologia a traves de este blog. Principalmente escribo sobre Javasript, Python, Iot e Inteligencia Artificial.
