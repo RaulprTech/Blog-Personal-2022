@@ -28,6 +28,21 @@ class MyDocument extends Document {
         <body className="bg-white text-black antialiased dark:bg-gray-900 dark:text-white">
           <Main />
           <NextScript />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              if (window.netlifyIdentity) {
+                window.netlifyIdentity.on("init", user => {
+                  if (!user) {
+                    window.netlifyIdentity.on("login", () => {
+                      document.location.href = "/admin/";
+                    });
+                  }
+                });
+              }
+          `,
+            }}
+          />
         </body>
       </Html>
     )
