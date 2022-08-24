@@ -3,7 +3,7 @@ const siteMetadata = {
   author: 'Raul Pacheco Rodriguez',
   headerTitle: 'Raul Pacheco',
   description:
-    'Bienvenido a mi blog. Aqui comparto lo que aprendo sobre ciencia, tecnologia y los proyectos que hago',
+    'Hola y bienvenido. Este es un espacio para compartir conocimientos sobre ciencia y tecnologia. Acompañame y construyamos juntos la tecnologia del futuro.',
   language: 'es-mx',
   theme: 'system', // system, dark or light
   siteUrl: 'https://raulpacheco.dev',

@@ -1,9 +1,9 @@
 ---
 name: Raul Pacheco Rodriguez
 avatar: /static/images/avatar_bg_blue.png
-occupation: Frontend Developer & Electronic Engineer
+occupation: Web Developer & Electronic Engineer
 company:
-email: address@yoursite.com
+email: contact@raulpacheco.me
 twitter: https://twitter.com/RaulprTech
 linkedin: https://www.linkedin.com/in/raulprtech
 github: https://github.com/RaulprTech
@@ -11,12 +11,12 @@ github: https://github.com/RaulprTech
 
 ## ¿Quien soy?
 
-Hola 👋 Mi nombre es Raul Pacheco Rodriguez, soy un Frontend Developer 👨‍💻 que ama los retos y mantenerme en constante aprendizaje.
+Hola 👋 Mi nombre es Raul Pacheco Rodriguez, soy un Ingeniero Electrónico, Pythonista principiante 🐍, aficionado a las FPGAs, a la Inteligencia Artificial y a la cultura Hacker. He sido profesor en talleres de electrónica y programación.
+
+Tambien soy un Web Developer 👨‍💻 que ama los retos y mantenerme en constante aprendizaje.
 Soy mexicano nacido en Campeche, actualmente viviendo en Jalisco. Busco abrirme paso en esta gran industria.
 
-Tambien soy un Ingeniero Electronico, Pythonista principiante 🐍, aficionado a las FPGAs, a la Inteligencia Artificial y a la cultura Hacker. He sido profesor en talleres de electronica y programacion.
-
-**En resumen soy un fanatico de la ciencia 🧪 y la tecnologia ⚙️.**
+**En resumen soy un fanático de la ciencia 🧪 y la tecnología ⚙️.**
 
 ## Mi Stack Favorito para Web
 
@@ -26,19 +26,19 @@ Tambien soy un Ingeniero Electronico, Pythonista principiante 🐍, aficionado a
 - Node
 - PostgreSQL
 
-## Otras Tecnologias de mi interes
+## Otras Tecnologías de mi interés
 
 - Python
 - FastAPI
 - MongoDB
 - Pytorch
-- Playwright
 - Gatsby
 
 ## Trayectoria
 
-Desarrollador Frontend 👨‍💻 con mas de 4 años de experiencia, y varios mas previos en programacion. Actualmente enfocado a react y sus frameworks. He impartido talleres de programacion en javascript, C, processing y Arduino.
+Desarrollador Web 👨‍💻 con mas de 4 años de experiencia, y varios mas previos en programación. Actualmente enfocado a react y sus frameworks. He impartido talleres de programación en javascript, C, processing y Arduino.
 
 ## Proyectos Recientes
 
-Me gusta escribir sobre lo que voy aprendiendo de tecnologia a traves de este blog. Principalmente escribo sobre Javasript, Python, Iot e Inteligencia Artificial.
+Me gusta escribir sobre ciencia y tecnología a través de este blog. Principalmente escribo sobre JavaScript, Python, Internet de las Cosas e Inteligencia Artificial.
+Actualmente me encuentro desarrollando mi tesis de maestría, que consiste en un Acelerador de Hardware para IA basado en el Swin Transformer aplicado en la detección temprana de Retinopatía Diabética.
