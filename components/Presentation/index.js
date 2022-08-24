@@ -21,15 +21,17 @@ export default function Presentation() {
             />
           </div>
           <div className="m-2 w-full sm:m-0 md:w-1/2">
-            <div className="w-full space-y-6 py-8 md:space-y-6 md:pb-0">
+            <div className="w-full space-y-6 py-4 md:space-y-6 md:pb-0">
               <span className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-primary-600 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
                 {/* <h2 className="block text-2xl xl:inline">Hola, Soy </h2> */}
-                <h1 className="block text-center text-primary-500 dark:text-secondary-400 sm:text-left xl:block">
+                <h1 className="block text-left text-primary-500 dark:text-secondary-400 xl:block">
                   Raul Pacheco
                 </h1>
-                <h2 className="block text-right text-2xl xl:inline">
-                  Web Developer & Electronic Engineer
-                </h2>
+                <span className="flex space-x-2 text-right text-lg text-white md:text-2xl xl:inline">
+                  <h3 className="inline-block">Electronic Engineer</h3>
+                  <h3 className="inline-block">{`  •  `}</h3>
+                  <h3 className="inline-block">Web Developer</h3>
+                </span>
               </span>
               <div className="relative flex flex-col sm:flex-row sm:space-x-4">
                 <Link href="/projects">
@@ -51,7 +53,7 @@ export default function Presentation() {
                   </a>
                 </Link>
                 <Link href="/about">
-                  <a className="flex cursor-pointer items-center justify-center rounded-md bg-gray-200 px-6 py-2 text-gray-500 hover:bg-gray-400 hover:text-gray-800">
+                  <a className="flex cursor-pointer items-center justify-center rounded-md bg-gray-300 px-6 py-2 text-gray-800 hover:bg-gray-100 hover:text-gray-800">
                     Mas sobre mi
                   </a>
                 </Link>

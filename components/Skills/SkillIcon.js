@@ -115,7 +115,7 @@ export default function SkillIcon({ kind, href, size = 8 }) {
     <>
       {components[kind] && (
         <div
-          className="m-4 h-20 w-20 cursor-pointer rounded-lg border-2 border-transparent bg-white p-2 shadow-lg hover:border-primary-500 dark:bg-gray-900 dark:hover:border-primary-600"
+          className="h-30 m-4 w-20 cursor-pointer rounded-lg border-2 border-transparent bg-white p-2 shadow-lg hover:border-primary-500 dark:bg-primary-900 dark:hover:border-primary-600"
           key={kind}
         >
           <Link href={href}>
@@ -124,7 +124,7 @@ export default function SkillIcon({ kind, href, size = 8 }) {
               <SkillSvg
                 className={`fill-current text-secondary-400 dark:text-gray-100 h-${size} w-${size}`}
               />
-              <p className="mt-2 text-xs uppercase text-secondary-400 dark:text-gray-100">{kind}</p>
+              <p className="mt-2 text-sm uppercase text-gray-800 dark:text-gray-100">{kind}</p>
             </div>
           </Link>
         </div>

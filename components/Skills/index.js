@@ -13,7 +13,7 @@ export default function index({ tags }) {
         {sortedTags.map((t) => {
           return (
             <div key={tags[t]}>
-              <SkillIcon kind={t} href={`/tags/${kebabCase(t)}`} size="10" />
+              <SkillIcon kind={t} href={`/tags/${kebabCase(t)}`} size="16" />
             </div>
           )
         })}
