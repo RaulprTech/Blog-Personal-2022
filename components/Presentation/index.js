@@ -22,13 +22,13 @@ export default function Presentation() {
           </div>
           <div className="m-2 w-full sm:m-0 md:w-1/2">
             <div className="w-full space-y-6 py-8 md:space-y-6 md:pb-0">
-              <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-primary-600 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-                <span className="block text-2xl xl:inline">Hola, Soy </span>
-                <span className="block text-center text-primary-500 dark:text-secondary-400 sm:text-left xl:block">
+              <span className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-primary-600 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+                <h2 className="block text-2xl xl:inline">Hola, Soy </h2>
+                <h1 className="block text-center text-primary-500 dark:text-secondary-400 sm:text-left xl:block">
                   Raul Pacheco
-                </span>
-                <span className="block text-right text-3xl xl:inline">Web Developer</span>
-              </h1>
+                </h1>
+                <h2 className="block text-right text-3xl xl:inline">Electronic Engineer</h2>
+              </span>
               <div className="relative flex flex-col sm:flex-row sm:space-x-4">
                 <Link href="/projects">
                   <a className="mb-3 flex w-full cursor-pointer items-center justify-center rounded-md bg-primary-500 px-6 py-2 text-lg text-white hover:bg-primary-400 sm:mb-0 sm:w-auto">
