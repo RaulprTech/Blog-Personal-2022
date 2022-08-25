@@ -94,8 +94,8 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                 <Link href={`https://twitter.com/RaulprTech/`} rel="nofollow">
                   {'Discusion en Twitter'}
                 </Link>
-                {` • `}
-                <Link href={editUrl(fileName)}>{'Ver en GitHub'}</Link>
+                {/* {` • `}
+                <Link href={editUrl(fileName)}>{'Ver en GitHub'}</Link> */}
               </div>
               <Comments frontMatter={frontMatter} />
             </div>

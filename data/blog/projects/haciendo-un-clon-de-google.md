@@ -4,18 +4,18 @@ date: '2022-06-16'
 tags: ['HTML', 'CSS']
 draft: false
 summary: '
-Una forma comun de practicar tus habilidades de desarrollo web es clonando webs famosas, por eso en este articulo se lleva un registro de como fue desarrollado un clon de uno de los motores de busqueda mas conocidos y usados
+Una forma común de practicar tus habilidades de desarrollo web es clonando webs famosas, por eso en este articulo se lleva un registro de como fue desarrollado un clon de uno de los motores de búsqueda mas conocidos y usados
 '
 layout: ProjectLayout
 ---
 
-## Introduccion
+## Introducción
 
-Una forma comun de practicar tus habilidades de desarrollo web es clonando webs famosas, por eso en este articulo se lleva un registro de como fue desarrollado un clon de uno de los motores de busqueda mas usados con solo HTML y CSS.
+Una forma común de practicar tus habilidades de desarrollo web es clonando webs famosas, por eso en este articulo se lleva un registro de como fue desarrollado un clon de uno de los motores de búsqueda mas usados con solo HTML y CSS.
 
 ## PreWork
 
-Para relizar el proyecto se usaron las siguientes herramientas:
+Para realizar el proyecto se usaron las siguientes herramientas:
 
 ### Editor
 
@@ -28,11 +28,11 @@ Para relizar el proyecto se usaron las siguientes herramientas:
 
 ## Componentes
 
-Despues de analizar la la pagina original podemos dividir la estructura de nuestro sitio en 3 partes: header, main y footer.
+Después de analizar la la pagina original podemos dividir la estructura de nuestro sitio en 3 partes: header, main y footer.
 
 ### Estructura
 
-Con la infromacion que tenemos partimos creando la estructura base y enlazando el archivo style.css con la etiqueta `link`.
+Con la información que tenemos partimos creando la estructura base y enlazando el archivo style.css con la etiqueta `link`.
 
 ```html
 <!DOCTYPE html>
@@ -71,7 +71,7 @@ body {
 }
 ```
 
-A todas las etiquetas `a` les quitamos la decoracion y elegimos el tipo de cursor que aparecera sobre ellas.
+A todas las etiquetas `a` les quitamos la decoración y elegimos el tipo de cursor que aparecerá sobre ellas.
 
 ```css
 a {
@@ -82,11 +82,11 @@ a {
 
 ## Header
 
-En el header pondremos una barra con diferentes opciones de seleccion, tal y como se ve en la pagina original.
+En el header pondremos una barra con diferentes opciones de selección, tal y como se ve en la pagina original.
 
 ### Estructura
 
-Le colocamos a la etiqueta `<header>` una clase que nombraremos con el mismo nombre. Dentro colocaremos una etiqueta `<nav>` que contendra una lista desordenada con la clase "nav-right-section".
+Le colocamos a la etiqueta `<header>` una clase que nombraremos con el mismo nombre. Dentro colocaremos una etiqueta `<nav>` que contendrá una lista desordenada con la clase "nav-right-section".
 
 ```html
 <header class="header">
@@ -96,7 +96,7 @@ Le colocamos a la etiqueta `<header>` una clase que nombraremos con el mismo nom
 </header>
 ```
 
-La lista desordenada `<ul>` es usada en conjunto con la etiqueta `<li>` la cual actua como separador para distinguir a cada elemento que se encuentre en su interior, de igual forma dentro de cada elemento habra una etiqueta `<a>` que llevara dentro el nombre del sitio hacia el que redirecciona.
+La lista desordenada `<ul>` es usada en conjunto con la etiqueta `<li>` la cual actúa como separador para distinguir a cada elemento que se encuentre en su interior, de igual forma dentro de cada elemento habrá una etiqueta `<a>` que llevara dentro el nombre del sitio hacia el que redirecciona.
 
 ```html
 <header class="header">
@@ -113,7 +113,7 @@ La lista desordenada `<ul>` es usada en conjunto con la etiqueta `<li>` la cual 
 </header>
 ```
 
-Solo nos faltan 2 elementos, los cuales son imagenes y las podemos obtener de internet. La primera es el icono de menu y la segunda es una foto de pefil. Los agregamos con la misma estructura y queda de la siguiente manera.
+Solo nos faltan 2 elementos, los cuales son imágenes y las podemos obtener de internet. La primera es el icono de menú y la segunda es una foto de perfil. Los agregamos con la misma estructura y queda de la siguiente manera.
 
 ```html
 <header class="header">
@@ -150,7 +150,7 @@ Solo nos faltan 2 elementos, los cuales son imagenes y las podemos obtener de in
 
 En este componente tenemos solo dos clases pero igual asignaremos algo mas de css por medio de las etiquetas.
 
-Comenzamos agregando un tamaño al header
+Comenzamos agregando un tamaño al `header`
 
 ```css
 .header {
@@ -159,7 +159,7 @@ Comenzamos agregando un tamaño al header
 }
 ```
 
-Llevamos a cualquier etiqueta `nav` dentro del header a la esquina derecha usando flexbox de la siguiente forma
+Llevamos a cualquier etiqueta `nav` dentro del `header` a la esquina derecha usando flexbox de la siguiente forma
 
 ```css
 header nav {
@@ -168,8 +168,8 @@ header nav {
 }
 ```
 
-Agregamos los estilos de la clase "nav-right-section" ubicada dentro de un nav y a vez este dentro del header.
-Aqui definimos el espacio que ocupara y usamos flexbox para centrar los elementos que tenga dentro.
+Agregamos los estilos de la clase "nav-right-section" ubicada dentro de un `nav` y a vez este dentro del `header`.
+Aquí definimos el espacio que ocupara y usamos flexbox para centrar los elementos que tenga dentro.
 
 ```css
 header nav .nav-right-section {
@@ -191,7 +191,7 @@ nav .nav-right-section li {
 }
 ```
 
-Por ultimo aagregamos unos detalles relacionados con la forma y el margen del nav.
+Por ultimo agregamos unos detalles relacionados con la forma y el margen del `nav`.
 
 ```css
 nav .nav-right-section img {
@@ -202,7 +202,7 @@ nav .nav-right-section img {
 
 ## Main
 
-Aqui partimos colocando 3 secciones con las clases "main-logo", "main-input" y "main-buttons" respectivamente.
+Aquí partimos colocando 3 secciones con las clases "main-logo", "main-input" y "main-buttons" respectivamente.
 
 ```html
 <main>
@@ -212,7 +212,7 @@ Aqui partimos colocando 3 secciones con las clases "main-logo", "main-input" y "
 </main>
 ```
 
-En la primera seccion agregaremos solamente una etiqueta `img` que contendra al logo de google.
+En la primera sección agregaremos solamente una etiqueta `img` que contendrá al logo de google.
 
 ```html
 <section class="main-logo">
@@ -220,7 +220,7 @@ En la primera seccion agregaremos solamente una etiqueta `img` que contendra al 
 </section>
 ```
 
-En la segunda seccion colocamos una etiqueta `div` con la clase "main-input-container".
+En la segunda sección colocamos una etiqueta `div` con la clase "main-input-container".
 
 ```html
 <section class="main-input">
@@ -263,7 +263,7 @@ Quedando de la siguiente forma:
 
 ### Estilos
 
-Agregamos estilos generales de la seccion como tamaño del margen superior y alineacion del texto.
+Agregamos estilos generales de la sección como tamaño del margen superior y alineación del texto.
 
 ```css
 main {
@@ -287,7 +287,7 @@ main .main-logo img {
 }
 ```
 
-Configuramos las dimensiones y caracteristicas del input, ademas de las del contenedor que lo tiene dentro.
+Configuramos las dimensiones y características del input, además de las del contenedor que lo tiene dentro.
 
 ```css
 main .main-input {
@@ -322,7 +322,7 @@ main .main-input-container:hover {
 }
 ```
 
-Ahora colocamos los iconos de busqueda y microfono en sus respectivos espacios. En este caso estamos agregando las imagenes por medio de css y no con etiquetas html.s
+Ahora colocamos los iconos de búsqueda y micrófono en sus respectivos espacios. En este caso estamos agregando las imágenes por medio de css y no con etiquetas html.
 
 ```css
 main .main-input .search-icon {
@@ -345,7 +345,7 @@ main .main-input .micro-icon {
 }
 ```
 
-Y configuramos las caracteristicas de los botones
+Y configuramos las características de los botones
 
 ```css
 main .main-buttons {
@@ -401,7 +401,7 @@ Para el footer el colocamos una clase del mismo nombre. Posteriormente agregamos
 
 ### Estilos
 
-Usamos grid para ajustar la posicion de los elementos dentro del footer, damos color al fondo y coloacamos el borde.
+Usamos grid para ajustar la posición de los elementos dentro del footer, damos color al fondo y colocamos el borde.
 
 ```css
 footer {
@@ -446,6 +446,4 @@ footer .footer-right {
 }
 ```
 
-Y asi es como hacemos un clon del frontend de google usando solo HTML y CSS, sin ningun framework o libreria adicional.
-
-![](../../public/static/../../../public/static/images/blog/google-clone.png)
+Y así es como hacemos un clon del Frontend de Google usando solo HTML y CSS, sin ningún Framework o biblioteca adicional.
