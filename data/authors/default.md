@@ -1,7 +1,7 @@
 ---
 name: Raul Pacheco Rodriguez
 avatar: /static/images/avatar_bg_blue.png
-occupation: Web Developer & Electronic Engineer
+occupation: Electronic Engineer && Web Developer
 company:
 email: contact@raulpacheco.me
 twitter: https://twitter.com/RaulprTech
@@ -9,11 +9,11 @@ linkedin: https://www.linkedin.com/in/raulprtech
 github: https://github.com/RaulprTech
 ---
 
-## ¿Quien soy?
+## ¿Quién soy?
 
 Hola 👋 Mi nombre es Raul Pacheco Rodriguez, soy un Ingeniero Electrónico, Pythonista principiante 🐍, aficionado a las FPGAs, a la Inteligencia Artificial y a la cultura Hacker. He sido profesor en talleres de electrónica y programación.
 
-Tambien soy un Web Developer 👨‍💻 que ama los retos y mantenerme en constante aprendizaje.
+También soy un Web Developer 👨‍💻 que ama los retos y mantenerme en constante aprendizaje.
 Soy mexicano nacido en Campeche, actualmente viviendo en Jalisco. Busco abrirme paso en esta gran industria.
 
 **En resumen soy un fanático de la ciencia 🧪 y la tecnología ⚙️.**
@@ -36,7 +36,7 @@ Soy mexicano nacido en Campeche, actualmente viviendo en Jalisco. Busco abrirme 
 
 ## Trayectoria
 
-Desarrollador Web 👨‍💻 con mas de 4 años de experiencia, y varios mas previos en programación. Actualmente enfocado a react y sus frameworks. He impartido talleres de programación en javascript, C, processing y Arduino.
+Desarrollador Web 👨‍💻 con mas de 4 años de experiencia, y varios mas previos en programación. Actualmente enfocado a React y sus Frameworks. He impartido talleres de programación en JavaScript, C, Processing y Arduino.
 
 ## Proyectos Recientes
 

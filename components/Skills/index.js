@@ -6,7 +6,7 @@ export default function index({ tags }) {
   const sortedTags = Object.keys(tags).sort((a, b) => tags[b] - tags[a])
   return (
     <section className="my-8 flex max-w-screen-lg flex-col justify-center">
-      <h1 className="mb-6 text-3xl font-extrabold leading-9 tracking-tight text-primary-500 dark:text-primary-600 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+      <h1 className="mb-6 text-3xl font-extrabold leading-9 tracking-tight text-primary-500 dark:text-secondary-400 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
         Skills
       </h1>
       <div className="flex flex-wrap">
