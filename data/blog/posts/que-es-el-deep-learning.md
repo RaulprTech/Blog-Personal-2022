@@ -1,5 +1,5 @@
 ---
-title: '¿Que es el Deep Learning?'
+title: '¿Qué es el Deep Learning?'
 date: '2022-08-22'
 tags: ['Machine Learning', 'Deep Learning', 'Generative Adversarial Networks']
 draft: false
@@ -8,9 +8,10 @@ El Deep Learning es un área del Machine Learning que usa Redes Neuronales Artif
 '
 layout: PostLayout
 bibliography: references-data.bib
+tweets: https://
 ---
 
-El **Deep Learning** es un área del **Machine Learning** que usa Redes Neuronales Artificiales de múltiples capas para lograr aprender automáticamente las características en distintos niveles de abstracción, y así resolver problemas que tradicionalmente eran difíciles para el **Machine Learning** tradicional.
+El **Deep Learning** es un área del **Machine Learning** que usa Redes Neuronales Artificiales de múltiples capas para aprendizaje automático de características en distintos niveles de abstracción, y así resolver problemas que tradicionalmente eran difíciles para el **Machine Learning** tradicional.
 
 ## Algo de Historia
 
