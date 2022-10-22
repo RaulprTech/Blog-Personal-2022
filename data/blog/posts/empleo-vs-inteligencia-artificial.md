@@ -1,8 +1,8 @@
 ---
 title: 'Empleos vs Inteligencia Artificial'
-date: '2022-08-05'
+date: '2022-11-21'
 tags: ['Machine Learning']
-draft: false
+draft: true
 summary: '
 Las redes neuronales recurrentes (RNN) fueron por mucho tiempo la red mas usada en el modelado de secuencias y problemas de transducción. Mientras mas esfuerzos se realizaban para empujar los límites de estos modelos, mas evidentes se volvían los problemas que implicaban su uso.
 '

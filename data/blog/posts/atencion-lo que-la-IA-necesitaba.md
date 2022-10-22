@@ -1,6 +1,6 @@
 ---
 title: 'Atención era lo que la IA necesitaba'
-date: '2022-08-29'
+date: '2022-10-17'
 tags: ['Deep Learning', 'Natural Language Processing', 'Transformers']
 draft: false
 summary: '
