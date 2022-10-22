@@ -1,7 +1,7 @@
 ---
 title: 'Pytorch se une a la Fundación Linux'
 date: '2022-09-12'
-tags: ['Deep Learning', 'Pytorch', 'Linux']
+tags: ['Deep Learning', 'Python', 'Pytorch', 'Linux']
 draft: false
 summary: '
 Pytorch es uno de los proyectos estrella en el campo del Deep Learning. Fue desarrollado y mantenido por el equipo de inteligencia artificial de Meta (antes Facebook) y ahora pasa a manos de la Fundación Linux.
