@@ -8,7 +8,7 @@ El Deep Learning es un área del Machine Learning que usa Redes Neuronales Artif
 '
 layout: PostLayout
 bibliography: references-data.bib
-tweets: https://
+thread: https://twitter.com/RaulprTech/status/1564397629399769092
 ---
 
 El **Deep Learning** es un área del **Machine Learning** que usa Redes Neuronales Artificiales de múltiples capas para aprendizaje automático de características en distintos niveles de abstracción, y así resolver problemas que tradicionalmente eran difíciles para el **Machine Learning** tradicional.

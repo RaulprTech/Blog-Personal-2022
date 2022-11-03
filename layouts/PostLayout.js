@@ -17,7 +17,7 @@ const discussUrl = (slug) =>
 const postDateTemplate = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
 
 export default function PostLayout({ frontMatter, authorDetails, next, prev, children }) {
-  const { slug, fileName, date, title, tags } = frontMatter
+  const { slug, fileName, date, title, tags, repository, thread } = frontMatter
 
   return (
     <SectionContainer>
@@ -91,13 +91,15 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                 {/* <Link href={discussUrl(slug)} rel="nofollow">
                   {'Discusion en Twitter'}
                 </Link> */}
-                <Link href={`https://twitter.com/RaulprTech/`} rel="nofollow">
-                  {'Discusion en Twitter'}
-                </Link>
-                {/* {` • `}
-                <Link href={editUrl(fileName)}>{'Ver en GitHub'}</Link> */}
+                {thread && (
+                  <Link href={thread} rel="nofollow">
+                    {'Discusion en Twitter'}
+                  </Link>
+                )}
+                {repository && thread && ` • `}
+                {repository && <Link href={editUrl(fileName)}>{'Ver en GitHub'}</Link>}
               </div>
-              <Comments frontMatter={frontMatter} />
+              {/* <Comments frontMatter={frontMatter} /> */}
             </div>
             <footer>
               <div className="divide-gray-200 text-sm font-medium leading-5 dark:divide-gray-700 xl:col-start-1 xl:row-start-2 xl:divide-y">

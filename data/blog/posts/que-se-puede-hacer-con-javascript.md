@@ -1,7 +1,7 @@
 ---
 title: '¿Qué se puede hacer con JavaScript?'
-date: '2021-04-28'
-tags: ['JavaScript', 'Web-Development']
+date: '2021-04-18'
+tags: ['Js', 'Web-Development']
 draft: false
 summary: '
 Actualmente podemos encontrar muchas formas de aplicar JavaScript en distintas áreas de la tecnología. Aquí te presento un recuento de los más importantes usos que puedes encontrar para JavaScript. Si sabes de algún otro que no haya tenido en cuenta, no dudes en dejarlo en los comentarios.

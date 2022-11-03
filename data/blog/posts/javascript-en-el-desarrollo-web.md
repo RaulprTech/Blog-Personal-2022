@@ -1,6 +1,6 @@
 ---
 title: 'JavaScript en el Desarrollo Web'
-date: '2021-05-08'
+date: '2021-05-02'
 tags: ['JavaScript', 'Web-Development']
 draft: false
 summary: '

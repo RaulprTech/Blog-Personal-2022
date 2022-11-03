@@ -1,12 +1,14 @@
 ---
 title: 'Haciendo un clon de Google'
-date: '2022-06-16'
-tags: ['HTML', 'CSS']
+date: '2021-04-04'
+tags: ['HTML', 'CSS', 'web-development']
 draft: false
 summary: '
 Una forma común de practicar tus habilidades de desarrollo web es clonando webs famosas, por eso en este articulo se lleva un registro de como fue desarrollado un clon de uno de los motores de búsqueda mas conocidos y usados
 '
 layout: ProjectLayout
+repository: https://github.com/RaulprTech/google-clone
+demo: http://raulpacheco.me/google-clone/
 ---
 
 ## Introducción
