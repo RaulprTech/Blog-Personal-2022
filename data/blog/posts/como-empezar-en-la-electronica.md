@@ -1,6 +1,6 @@
 ---
 title: '¿Cómo empezar en la electrónica?'
-date: '2020-11-31'
+date: '2020-03-31'
 tags: ['Electrónica', 'Arduino']
 draft: false
 summary: '
