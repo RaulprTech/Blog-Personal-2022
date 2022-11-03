@@ -34,9 +34,20 @@ Soy mexicano nacido en Campeche, actualmente viviendo en Jalisco. Busco abrirme 
 - Pytorch
 - Gatsby
 
+## Educación
+
+### Títulos
+
+- Técnico en Mecatrónica en CECYTEC Campeche
+- Ingeniero en Electrónica en Instituto Tecnológico de Lerma
+
+### Cursos Online
+
+- [Platzi](https://platzi.com/p/RaulprTech/)
+
 ## Trayectoria
 
-Desarrollador Web 👨‍💻 con mas de 4 años de experiencia, y varios mas previos en programación. Actualmente enfocado a React y sus Frameworks. He impartido talleres de programación en JavaScript, C, Processing y Arduino.
+Desarrollador Web 👨‍💻 con mas de 2 años de experiencia, y varios mas previos en programación. Actualmente enfocado a React y sus Frameworks. He impartido talleres de programación en JavaScript, C, Processing y Arduino.
 
 ## Proyectos Recientes
 
