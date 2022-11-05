@@ -7,7 +7,7 @@ const projectsData = [
   },
   {
     title: 'Mi blog',
-    description: `El blog en que lees esto fue construido por mi ¿quieres saber mas?`,
+    description: `El blog en que lees esto fue construido por mi usando herramientas low-code ¿quieres saber mas?`,
     imgSrc: '/static/images/twitter-card.png',
     href: '/blog/projects/my-blog',
   },
