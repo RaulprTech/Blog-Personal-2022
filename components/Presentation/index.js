@@ -13,7 +13,8 @@ export default function Presentation() {
         <div className="flex flex-wrap items-center justify-center sm:-mx-3">
           <div className="w-screen sm:mx-0 md:w-1/2 lg:mb-4">
             <Image
-              src={`${router.basePath}/static/images/avatar_sf.png`}
+              // src={`${router.basePath}/static/images/avatar_sf.png`}
+              src="https://res.cloudinary.com/raulprtech/image/upload/v1667624658/avatar_bg_blue_jwczfe.png"
               alt="person with gray shirt looking in front"
               width={300}
               height={300}

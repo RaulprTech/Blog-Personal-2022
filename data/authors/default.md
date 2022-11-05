@@ -1,6 +1,6 @@
 ---
 name: Raul Pacheco Rodriguez
-avatar: /static/images/avatar_bg_blue.png
+avatar: https://res.cloudinary.com/raulprtech/image/upload/v1667624658/avatar_bg_blue_jwczfe.png
 occupation: Electronic Engineer && Web Developer
 company:
 email: contact@raulpacheco.me
