@@ -13,8 +13,8 @@ export default function Presentation() {
         <div className="flex flex-wrap items-center justify-center sm:-mx-3">
           <div className="w-screen sm:mx-0 md:w-1/2 lg:mb-4">
             <Image
-              // src={`${router.basePath}/static/images/avatar_sf.png`}
-              src="https://res.cloudinary.com/raulprtech/image/upload/v1667624658/avatar_bg_blue_jwczfe.png"
+              // src={`${router.basePath}/static/images/dev.svg`}
+              src="https://res.cloudinary.com/raulprtech/image/upload/v1667624658/Profile/avatar_bg_blue_jwczfe.png"
               alt="person with gray shirt looking in front"
               width={300}
               height={300}
@@ -24,21 +24,28 @@ export default function Presentation() {
             />
           </div>
           <div className="m-2 w-full sm:m-0 md:w-1/2">
-            <div className="w-full space-y-6 pb-4 md:space-y-6 md:pb-0">
-              <h1 className="mb-2 text-center text-4xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-secondary-400 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-                {/* <h2 className="block text-2xl xl:inline">Hola, Soy </h2> */}
-                Raul Pacheco
-              </h1>
-              <span className="flex space-x-2 text-right text-lg font-bold text-primary-500 dark:text-gray-100 md:text-2xl xl:inline">
-                <h3 className="inline-block">Electronic Engineer</h3>
-                <h3 className="inline-block">{`  •  `}</h3>
-                <h3 className="inline-block">Web Developer</h3>
+            <div className="w-full pb-4 md:pb-0">
+              <span className="text-left font-extrabold leading-9 tracking-tight sm:leading-10 md:mb-1 md:leading-14">
+                {/* <span className="block text-2xl text-gray-900 dark:text-gray-100 xl:inline">
+                  Hola, Soy{' '}
+                </span> */}
+                <h1 className="block text-4xl text-gray-900 dark:text-secondary-400 md:text-6xl xl:block">
+                  Raul Pacheco
+                </h1>
               </span>
-              {/* <p className=" text-justify font-normal text-gray-900 dark:text-gray-100">
-                Electronica, Programacion, Ingenieria, Sistemas Embebidos, Inteligencia Artificial y
-                mas de tecnologia. Aprendamos juntos a crear la tecnologia y las soluciones que
-                futuro.
+              {/* <h2 className="flex space-x-2 text-center text-lg font-bold text-primary-500 dark:text-blue-400 md:text-2xl xl:inline">
+                <span className="inline-block">Electronic Engineer</span>
+                <span className="inline-block">{`  •  `}</span>
+                <span className="inline-block">Web Developer</span>
+              </h2> */}
+              {/* <p className="pb-4 text-justify text-lg font-normal text-gray-900 dark:text-gray-100">
+                Te invito a aprender junto conmigo a crear la tecnologia que el mundo necesita.
+                Electronica, Desarrollo Web, Programacion, SoC, FPGA y mas.
               </p> */}
+              <p className="pb-4 pt-4 text-justify text-lg font-normal text-gray-900 dark:text-gray-100">
+                Electronic Engineer | React Developer | Javascript | Python | Deep Learning | C/C++
+                | FPGA
+              </p>
               <div className="mx-4 mb-3 flex justify-around px-4">
                 <SocialIcon kind="linkedin" href={siteMetadata.linkedin} size="8" />
                 <SocialIcon kind="instagram" href={siteMetadata.instagram} size="8" />

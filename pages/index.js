@@ -9,7 +9,7 @@ import Script from 'next/script'
 import Skills from '@/components/Skills'
 import { getAllTags } from '@/lib/tags'
 
-// import NewsletterForm from '@/components/NewsletterForm'
+import NewsletterForm from '@/components/NewsletterForm'
 
 const MAX_DISPLAY = 3
 
@@ -102,11 +102,11 @@ export default function Home({ posts, tags }) {
           </Link>
         </div>
       )}
-      {/* {siteMetadata.newsletter.provider !== '' && (   // set mailchimp keys for function
+      {siteMetadata.newsletter.provider !== '' && ( // set mailchimp keys for function
         <div className="flex items-center justify-center pt-4">
           <NewsletterForm />
         </div>
-      )} */}
+      )}
     </>
   )
 }
