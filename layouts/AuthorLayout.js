@@ -34,6 +34,18 @@ export default function AuthorLayout({ children, frontMatter }) {
               <SocialIcon kind="linkedin" href={linkedin} />
               <SocialIcon kind="twitter" href={twitter} />
             </div>
+            <div className="flex justify-center pt-8">
+              <a
+                href=""
+                target="_blank"
+                className="shadow-outline-teal inline-flex items-center rounded-full
+                bg-secondary-400 px-4 py-3 text-sm font-semibold
+                text-gray-900 hover:bg-gray-900 focus:border-secondary-400 focus:outline-none"
+                rel="noreferrer"
+              >
+                Descargar CV
+              </a>
+            </div>
             {/* <div className="mt-12">
               <h4 className="pt-4 pb-2 text-xl font-bold leading-8 tracking-tight">Experiencia</h4>
               <WorkHistory />

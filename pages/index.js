@@ -102,11 +102,11 @@ export default function Home({ posts, tags }) {
           </Link>
         </div>
       )}
-      {siteMetadata.newsletter.provider !== '' && ( // set mailchimp keys for function
+      {/* {siteMetadata.newsletter.provider !== '' && ( // set mailchimp keys for function
         <div className="flex items-center justify-center pt-4">
           <NewsletterForm />
         </div>
-      )}
+      )} */}
     </>
   )
 }
