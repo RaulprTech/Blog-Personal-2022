@@ -5,7 +5,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 // You might need to insert additional domains in script-src if you are using external services
 const ContentSecurityPolicy = `
   default-src 'self';
-  script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app netlify adbygoogle www.google-analytics.com www.googletagmanager.com https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js https://identity.netlify.com/v1/netlify-identity-widget.js http://static.hotjar.com/c/hotjar-1928200.js;
+  script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app netlify adbygoogle www.google-analytics.com www.googletagmanager.com https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js https://identity.netlify.com/v1/netlify-identity-widget.js http://static.hotjar.com/c/hotjar-1928200.js https://unpkg.com/netlify-cms@%5E2.0.0/dist/netlify-cms.js;
   style-src 'self' 'unsafe-inline' *.googleapis.com cdn.jsdelivr.net;
   img-src * blob: data:;
   media-src 'none';
