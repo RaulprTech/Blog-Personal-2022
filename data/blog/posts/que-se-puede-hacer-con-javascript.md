@@ -8,6 +8,7 @@ Actualmente podemos encontrar muchas formas de aplicar JavaScript en distintas �
 '
 layout: PostLayout
 bibliography: references-data.bib
+canonicalUrl: https://dev.to/raulprtech/que-puedo-hacer-con-javascript-34ef
 ---
 
 Una de las características más valoradas del lenguaje de programación JavaScript es que, aunque fue construido para el desarrollo web, su uso no se limita a ese sector. Actualmente podemos encontrar muchas más aplicaciones de este lenguaje en otras áreas.

@@ -8,6 +8,7 @@ En este articulo profundizaremos en el uso más común de JavaScript, el Desarro
 '
 layout: PostLayout
 bibliography: references-data.bib
+canonicalUrl: https://dev.to/raulprtech/javacript-en-la-web-3hge
 ---
 
 Anteriormente hablamos sobre algunos de los sectores más comunes en los que podemos encontrar aplicado JavaScript. Con eso nos dimos una idea del potencial que nos brinda aprender este lenguaje.

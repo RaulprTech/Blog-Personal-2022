@@ -8,6 +8,7 @@ Cuando decides comenzar a aprender en tecnología, mas específicamente en el de
 '
 layout: PostLayout
 bibliography: references-data.bib
+canonicalUrl: https://dev.to/raulprtech/por-que-javascript-debe-ser-mi-primer-lenguaje-ndj
 ---
 
 Cuando decides adentrarte en el mundo de la tecnología o mas específicamente en el desarrollo web, surgen ciertas preguntas que ya son todo un clásico.

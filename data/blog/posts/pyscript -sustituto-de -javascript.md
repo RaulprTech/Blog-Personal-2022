@@ -8,6 +8,7 @@ Por mucho tiempo, cualquier persona que deseara iniciarse en desarrollo web ya s
 '
 layout: PostLayout
 bibliography: references-data.bib
+canonicalUrl: https://dev.to/raulprtech/pyscript-reemplazara-a-javascript-276n
 ---
 
 En la reciente PyCon US 2022 tuvimos la grata sorpresa de ver una implementación que permite utilizar Python directamente en el navegador. Por supuesto, no tardaron en aparecer las preguntas en los foros sobre si Python sería el reemplazo de JavaScript.

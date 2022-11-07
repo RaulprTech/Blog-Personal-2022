@@ -108,23 +108,27 @@ const components = {
   notion: Notion,
 }
 
-export default function SkillIcon({ kind, href, size = 8 }) {
+export default function SkillIcon({ kind, href, size }) {
   const SkillSvg = components[kind]
 
   return (
     <>
       {components[kind] && (
         <div
-          className="m-4 h-20 w-20 cursor-pointer rounded-lg border-2 border-transparent bg-gray-100 p-2 shadow-lg hover:border-primary-500 dark:bg-gray-900 dark:hover:border-primary-600"
+          className={`m-4 h-${size * 4} w-${
+            size * 4
+          } cursor-pointer rounded-lg border-2 border-transparent bg-gray-100 p-2 shadow-lg hover:border-primary-500 dark:bg-gray-900 dark:hover:border-primary-600`}
           key={kind}
         >
           <Link href={href}>
             <div className="flex flex-col items-center justify-around text-secondary-400 transition dark:text-secondary-400">
               <span className="sr-only">{kind}</span>
               <SkillSvg
-                className={`fill-current text-gray-700 dark:text-gray-100 h-${size} w-${size}`}
+                className={`fill-current text-gray-900 dark:text-gray-100 h-${size || 6} w-${
+                  size || 6
+                }`}
               />
-              <p className="mt-2 text-xs font-semibold uppercase text-gray-800 dark:text-gray-100">
+              <p className="mt-2 text-xs font-semibold uppercase text-gray-900 dark:text-gray-100">
                 {kind}
               </p>
             </div>

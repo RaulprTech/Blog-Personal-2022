@@ -8,6 +8,7 @@ Estudiar ingeniería no es la única forma de volverte inventor . No importa lo
 '
 layout: PostLayout
 bibliography: references-data.bib
+canonicalUrl: https://raulprtech.medium.com/arduino-as%C3%AD-de-f%C3%A1cil-es-empezar-en-la-electr%C3%B3nica-4c5cc67e3244
 ---
 
 Estudiar ingeniería no es la única forma de volverte inventor . No importa lo que estudiaste antes, solo importan las ganas que tengas de hacer cosas asombrosas.

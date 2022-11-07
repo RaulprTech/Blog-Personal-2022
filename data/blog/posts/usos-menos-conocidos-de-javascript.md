@@ -8,6 +8,7 @@ Desarrollo web, móvil y de escritorio son algunas de las mas conocidas aplicaci
 '
 layout: PostLayout
 bibliography: references-data.bib
+canonicalUrl: https://dev.to/raulprtech/usos-poco-conocidos-de-javascript-3f3k
 ---
 
 En anteriores artículos hemos hablado de algunos de los usos mas conocidos de JavaScript. Desarrollo web, móvil y de escritorio son algunas de las mas conocidas aplicaciones de este lenguaje. Ahora te hablare de otras áreas que suelen ser mencionadas con menos frecuencia.

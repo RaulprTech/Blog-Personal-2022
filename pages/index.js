@@ -5,13 +5,13 @@ import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
 import Presentation from '@/components/Presentation'
-import Script from 'next/script'
+//import Script from 'next/script'
 import Skills from '@/components/Skills'
 import { getAllTags } from '@/lib/tags'
 
 import NewsletterForm from '@/components/NewsletterForm'
 
-const MAX_DISPLAY = 3
+const MAX_DISPLAY = 2
 
 export async function getStaticProps() {
   const posts = await getAllFilesFrontMatter('blog')
@@ -24,23 +24,23 @@ export default function Home({ posts, tags }) {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <Script
+      {/* <Script
         src="https://identity.netlify.com/v1/netlify-identity-widget.js"
         strategy="beforeInteractive"
-      ></Script>
+      ></Script> */}
       <Presentation />
-      <Skills tags={tags} />
+      {/* <Skills tags={tags} /> */}
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <h2 className="text-2xl font-extrabold leading-9 tracking-tight text-primary-500 dark:text-secondary-400 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            ¡Aprendamos Juntos!
+          <h2 className="text-2xl font-extrabold leading-6 tracking-tight text-primary-500 dark:text-secondary-400 sm:text-3xl sm:leading-8 md:text-4xl md:leading-10">
+            ¡Ultimos Articulos!
           </h2>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+          {/* <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             {siteMetadata.description}
-          </p>
+          </p> */}
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
-          {!posts.length && 'No se encontraron Posts.'}
+          {!posts.length && 'No se encontraron Articulos.'}
           {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
             const { slug, date, title, summary, tags } = frontMatter
             return (
