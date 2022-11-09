@@ -1,7 +1,7 @@
 ---
 title: 'PyScript, ¿El sustituto de JavaScript? 🤔'
 date: '2022-05-08'
-tags: ['Python', 'Js', 'Web-Development']
+tags: ['Python', 'Javascript', 'Web-Development']
 draft: false
 summary: '
 Por mucho tiempo, cualquier persona que deseara iniciarse en desarrollo web ya sea como Frontend o Backend requiere aprender los 3 lenguajes de siempre HTML para la estructura, CSS para los estilos y JavaScript como único lenguaje de programación.
@@ -19,21 +19,21 @@ Así que en este artículo analizaremos esta nueva herramienta y su posible alca
 
 ## Desarrollo Web
 
-Por mucho tiempo, cualquier persona que deseara iniciarse en desarrollo web ya sea como Frontend o Backend requiere aprender los 3 lenguajes de siempre HTML para la estructura, CSS para los estilos y JavaScript como único lenguaje de programación.
+Por mucho tiempo, cualquier persona que deseara iniciarse en Desarrollo web ya sea como Frontend o Backend requiere aprender los 3 lenguajes de siempre HTML para la estructura, CSS para los estilos y JavaScript como único lenguaje de programación.
 
-JavaScript era el único lenguaje de programación que se podía usar directamente en el navegador (lado del cliente). Esto causo que muchas personas lo aprendieran y su ecosistema creciera significativamente, pero a la vez se volvía una barrera de entrada para el desarrollo web.
+JavaScript era el único lenguaje de programación que se podía usar directamente en el navegador (lado del cliente). Esto causo que muchas personas lo aprendieran y su ecosistema creciera significativamente, pero a la vez se volvía una barrera de entrada para el [Desarrollo web](https://raulpacheco.dev/tags/web-development).
 
-Y si, frameworks como Django o Flask permitían usar Python para desarrollar sitios web, pero esto era desde el servidor.
+Y si, Frameworks como Django o Flask permitían usar Python para desarrollar sitios web, pero esto era desde el servidor.
 
 Una forma común de aprovechar al lenguaje que se ejecuta en el navegador es a través de las famosas SPA (Single Page Application), las cuales cargan todo lo necesario para su visualización desde el principio, lo que reduce los tiempos de reacción ante las interacciones del usuario.
 
-Las SPA solo podían hacerse con JavaScript hasta ahora.
+Las SPA solo podían hacerse con [JavaScript](https://raulpacheco.dev/tags/javascript) hasta ahora.
 
 ## ¿Qué es PyScript?
 
-[PyScript](https://www.anaconda.com/blog/pyscript-python-in-the-browser) es un framework que permite utilizar código Python en el navegador, en conjunto con las tecnologías habituales HTML, CSS y JavaScript.
+[PyScript](https://www.anaconda.com/blog/pyscript-python-in-the-browser) es un Framework que permite utilizar código Python en el navegador, en conjunto con las tecnologías habituales HTML, CSS y JavaScript.
 
-En otras palabras es un html vitaminado con Python, con características como:
+En otras palabras es un HTML vitaminado con Python, con características como:
 
 - Poder usar el ecosistema de Python en el navegador (numpy, pandas, scikit-learn, etc)
 - Comunicación bidireccional entre Python y JavaScript

@@ -1,7 +1,7 @@
 ---
 title: 'Usos menos conocidos de JavaScript'
 date: '2021-04-25'
-tags: ['Js', 'Web-Development']
+tags: ['Javascript', 'Web-Development']
 draft: false
 summary: '
 Desarrollo web, móvil y de escritorio son algunas de las mas conocidas aplicaciones de este lenguaje. Ahora te hablare de otras áreas que suelen ser mencionadas con menos frecuencia.
@@ -11,7 +11,7 @@ bibliography: references-data.bib
 canonicalUrl: https://dev.to/raulprtech/usos-poco-conocidos-de-javascript-3f3k
 ---
 
-En anteriores artículos hemos hablado de algunos de los usos mas conocidos de JavaScript. Desarrollo web, móvil y de escritorio son algunas de las mas conocidas aplicaciones de este lenguaje. Ahora te hablare de otras áreas que suelen ser mencionadas con menos frecuencia.
+En anteriores artículos hemos hablado de algunos de los usos mas conocidos de [JavaScript](https://raulpacheco.dev/tags/javascript). Desarrollo web, móvil y de escritorio son algunas de las mas conocidas aplicaciones de este lenguaje. Ahora te hablare de otras áreas que suelen ser mencionadas con menos frecuencia.
 
 ## Desarrollo de videojuegos 🎮
 
@@ -35,18 +35,18 @@ Un ejemplo de este uso, es la construcción de un sitio web para visualizar los 
 
 La otra forma en que podemos encontrar a JavaScript, aunque es menos común. Es usar JavaScript para programar el firmware de las placas electrónicas.
 
-Frameworks como [Johnny Five](http://johnny-five.io/) permiten tener nuestro primer acercamiento a la electrónica.
+Frameworks como [Johnny Five](http://johnny-five.io/) permiten tener nuestro primer acercamiento a la [electrónica](https://raulpacheco.dev/tags/electr%C3%B3nica).
+
+Si te interesa empezar a aprender de electrónica este articulo podría interesarte, te recomiendo el articulo [¿Cómo empezar en la electrónica?](https://raulpacheco.dev/blog/posts/como-empezar-en-la-electronica)
 
 ## Inteligencia Artificial 🤖
 
-Por ultimo hablaremos de JavaScript en la IA, un sector que se ha popularizado bastante en los últimos años, debido al sin fin de aplicaciones que se le ha dado.
+Por ultimo hablaremos de JavaScript en la Inteligencia Artificial, un sector que se ha popularizado bastante en los últimos años, debido al sin fin de aplicaciones que se le ha dado y al aumento en capacidad de computo.
 
-Si bien, no es el lenguaje mas popular para este uso. No podemos descartar la capacidad de implementación de JavaScript aquí.
-
-Desde Chatbots hasta redes neuronales. JavaScript ha recibido distintos usos en el campo de la inteligencia artificial.
+Si bien, Javascript no es el lenguaje mas popular para este uso. Existen varias aplicaciones en las que se puede aprovechar. Desde Chatbots hasta redes neuronales.
 
 Existen varias librerías dentro de este campo hechas con JavaScript, pero basta con mencionar que el mismo Google tiene una versión del famoso **_TensorFlow_** para este lenguaje ([TensorFlow.js](https://www.tensorflow.org/js?hl=es-419)).
 
-Como ves, JavaScript tiene muchas aplicaciones en muy diversas áreas de conocimiento. Estoy seguro que debes estar muy emocionado por empezar a programar con el 🧑‍💻.
+## Conclusión
 
-Si quieres conocer más, no te pierdas el próximo artículo.
+Como ves, JavaScript tiene muchas aplicaciones en muy diversas áreas de conocimiento. Estoy seguro que debes estar muy emocionado por empezar a programar con el 🧑‍💻. Si quieres conocer más, no te pierdas el próximo artículo y si aun no has leído los artículos anteriores puedes buscarlos [aqui](https://raulpacheco.dev/tags/javascript)

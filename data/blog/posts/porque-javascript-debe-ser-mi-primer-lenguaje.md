@@ -1,7 +1,7 @@
 ---
 title: '¿Por qué aprender primero JavaScript?'
 date: '2021-04-11'
-tags: ['Js', 'Web-Development']
+tags: ['Javascript', 'Web-Development']
 draft: false
 summary: '
 Cuando decides comenzar a aprender en tecnología, mas específicamente en el desarrollo web, surgen ciertas preguntas. ¿Con que lenguaje debo empezar? ¿Cuál es el mejor lenguaje? ¿Por que todas estas personas usan ese lenguaje y esas otras no? ¿Por que existen tantos lenguajes de programación? Te mostrare las ventajas de iniciar con JavaScript
@@ -69,4 +69,4 @@ Sin duda, la mayor ventaja de JavaScript contra otros lenguajes es su versatilid
 
 Su popularidad esta bien fundamentada, sin embargo no es el único camino. Tus decisiones deberían basarse principalmente en tus metas. Probablemente este lenguaje será mas conveniente para ti si buscas integrarte al sector del desarrollo web que si prefieres la ciencia de datos.
 
-¿Qué opinas tu?
+_Continua tu aprendizaje con [¿Que se puede hacer con Javascript?](https://raulpacheco.dev/blog/posts/que-se-puede-hacer-con-javascript)._

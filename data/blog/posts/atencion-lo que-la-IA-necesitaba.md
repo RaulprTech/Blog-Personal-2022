@@ -12,7 +12,7 @@ bibliography: references-data.bib
 
 ## Introducción
 
-Las redes neuronales recurrentes (RNN) fueron por mucho tiempo la red mas usada en el modelado de secuencias y problemas de transducción. Mientras mas esfuerzos se realizaban para empujar los límites de estos modelos, mas evidentes se volvían los problemas que implicaban su uso. Fue entonces cuando la propuesta de una nueva arquitectura, los Transformers trajeron consigo cambios significativos que expandieron los limites de la Inteligencia Artificial.
+Las redes neuronales recurrentes (RNN) fueron por mucho tiempo la red mas usada en el modelado de secuencias y problemas de transducción. Mientras mas esfuerzos se realizaban para empujar los límites de estos modelos, mas evidentes se volvían los problemas que implicaban su uso. Fue entonces cuando la propuesta de una nueva arquitectura, los Transformers trajeron consigo cambios significativos que expandieron los limites de la [Inteligencia Artificial](https://raulpacheco.dev/tags/machine-learning).
 
 ## Redes Neuronales Recurrentes
 
@@ -28,16 +28,16 @@ Los mecanismos de atención son operaciones matemáticas que reciben como entrad
 
 ## El Transformer
 
-Propuesto en 2017 en el icónico documento **Atenttion is all you need**, el Transformer [@Vaswani-2017] es una arquitectura de red simple basada únicamente en mecanismos de atención, prescindiendo por completo de la recurrencia y las circunvoluciones.
+Propuesto en 2017 en el icónico documento [**Atenttion is all you need**](https://arxiv.org/abs/1706.03762), el [Transformer](https://raulpacheco.dev/tags/transformers) [@Vaswani-2017] es una arquitectura de red simple basada únicamente en mecanismos de atención, prescindiendo por completo de la recurrencia y las circunvoluciones.
 
 La principal ventaja de esta nueva arquitectura es que la información no ingresa un símbolo a la vez como en las RNN, si no que ingresan varios al mismo tiempo. Su forma de ingresar los datos permite una gran capacidad de paralelizar su entrenamiento.
 
-Esta arquitectura termino por volverse el nuevo estándar para aplicaciones de modelado de secuencias, poco a poco incorporándose en otros campos, por ejemplo en la visión con los Vision Transformers [@Dosovitskiy-2020] y Swin Transformers [@Liu-2021].
+Esta arquitectura termino por volverse el nuevo estándar para aplicaciones de modelado de secuencias, poco a poco incorporándose en otros campos, por ejemplo en la visión con los [Vision Transformer](https://raulpacheco.dev/tags/transformers) [@Dosovitskiy-2020] y [Swin Transformer](https://raulpacheco.dev/tags/transformers) [@Liu-2021].
 
-En años recientes, han surgido grandes modelos de Inteligencia Artificial que aprovechan las ventajas de esta arquitectura con sorprendentes aplicaciones, tales como GPT3 que convierte frases en artículos completos, Dalle-2 que crea imágenes al recibir solo una breve descripción o el nuevo Autopilot de Tesla.
+En años recientes, han surgido grandes modelos de [Inteligencia Artificial](https://raulpacheco.dev/tags/machine-learning) que aprovechan las ventajas de esta arquitectura con sorprendentes aplicaciones, tales como GPT3 que convierte frases en artículos completos, Dalle-2 que crea imágenes al recibir solo una breve descripción o el nuevo Autopilot de Tesla.
 
 ## Conclusión
 
-A solo 5 años de su primera aparición, las variaciones del Transformer [@Vaswani-2017] ya dominan en diferentes campos de la Inteligencia Artificial por las ventajas que ofrece. Lo mas interesante de esto, es que una sola arquitectura base esta siendo estudiada por múltiples equipos de investigación en diversos campos de aplicación.
+A solo 5 años de su primera aparición, las variaciones del [Transformer](https://raulpacheco.dev/tags/transformers) [@Vaswani-2017] ya dominan en diferentes campos de la [Inteligencia Artificial](https://raulpacheco.dev/tags/machine-learning) por las ventajas que ofrece. Lo mas interesante de esto, es que una sola arquitectura base esta siendo estudiada por múltiples equipos de investigación en diversos campos de aplicación.
 
 ## Referencias

@@ -1,7 +1,7 @@
 ---
 title: '¿Qué se puede hacer con JavaScript?'
 date: '2021-04-18'
-tags: ['Js', 'Web-Development']
+tags: ['Javascript', 'Web-Development']
 draft: false
 summary: '
 Actualmente podemos encontrar muchas formas de aplicar JavaScript en distintas áreas de la tecnología. Aquí te presento un recuento de los más importantes usos que puedes encontrar para JavaScript. Si sabes de algún otro que no haya tenido en cuenta, no dudes en dejarlo en los comentarios.
@@ -21,7 +21,9 @@ Primero recordemos su uso más común y para el que fue creado originalmente. Im
 
 Actualmente sería muy difícil encontrar un sitio web que no use este lenguaje.
 
-React, Angular, Vue y Svelte son los _frameworks/librerías_ más usados.
+React, Angular, Vue y Svelte son los **Frameworks/Librerías** más usados.
+
+_Profundiza mas leyendo [Javascript en el Desarrollo Web](https://raulpacheco.dev/blog/posts/javascript-en-el-desarrollo-web)._
 
 ## Desarrollo web del lado del servidor
 
@@ -53,4 +55,4 @@ No fue hasta que apareció **React Native** que se logró un resultado bastante 
 
 React Native es muy popular para empresas de tecnología que están iniciando, pues les permite llevar sus apps a los principales sistemas móviles usando el mismo código y personal.
 
-El universo de posibles implementaciones de este lenguaje es muy amplio. Ahora conoces los más populares. Si quieres conocer más, no te pierdas el próximo artículo.
+El universo de posibles implementaciones de este lenguaje es muy amplio. Ahora conoces los más populares. Si quieres conocer más, te recomiendo leer [Usos menos conocidos de Javascript](https://raulpacheco.dev/blog/posts/usos-menos-conocidos-de-javascript).

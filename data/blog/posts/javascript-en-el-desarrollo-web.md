@@ -63,11 +63,11 @@ Existen 4 Frameworks que, a su manera particular de cada uno, hacen más fácil 
 
   Es un nuevo Framework para construir interfaces de usuario. Comparado al resto las cuales realizan la mayor parte de su trabajo en el navegador, Svelte cambia este paradigma y se ejecuta en tiempo de compilación, convirtiendo sus componentes en código imperativo altamente eficiente.
 
-- ###React
+- ### React
   Una librería para construir interfaces de usuario es el único de la lista que no es un Framework. Emplea un Virtual DOM para realizar los cambios en la interfaz. Es la más popular de la lista hasta el día de hoy con casi la mitad del mercado.
 
 ## Conclusión 👨‍🏫
 
 El desarrollo web cambia constantemente, JavaScript igual. En el tiempo que ha existido ha experimentado numerosos cambios. Muchos de ellos impulsados por su gran comunidad.
 
-Hay un mundo de herramientas para poder desarrollar sitios con más facilidad, más optimizados y con mejores funcionalidades. Todas listas para que las uses en tus proyectos. Por lo que, es el mejor momento para ¡Aprender JavaScript! 🙌
+Hay un mundo de herramientas para poder desarrollar sitios con más facilidad, más optimizados y con mejores funcionalidades. Todas listas para que las uses en tus proyectos. Por lo que, es el mejor momento para [¡Aprender JavaScript!](https://raulpacheco.dev/tags/javascript) 🙌.
