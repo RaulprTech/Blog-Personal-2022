@@ -26,12 +26,12 @@ export default function App({ Component, pageProps }) {
           name="netlify"
           src="https://identity.netlify.com/v1/netlify-identity-widget.js"
         ></script>
-        <script
+        {/* <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9581585585937945"
           crossOrigin="anonymous"
           name="adsbygoogle"
-        ></script>
+        ></script> */}
       </Head>
       <script
         dangerouslySetInnerHTML={{

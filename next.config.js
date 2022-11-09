@@ -5,13 +5,13 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 // You might need to insert additional domains in script-src if you are using external services
 const ContentSecurityPolicy = `
   default-src 'self';
-  script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app netlify www.google-analytics.com www.googletagmanager.com https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js https://identity.netlify.com/v1/netlify-identity-widget.js http://static.hotjar.com/c/hotjar-1928200.js https://unpkg.com/netlify-cms@%5E2.0.0/dist/netlify-cms.js https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202211010101/show_ads_impl_fy2021.js https://partner.googleadservices.com/gampad/cookie.js https://adservice.google.com.mx/adsid/integrator.js https://tpc.googlesyndication.com/sodar/sodar2.js https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202211010101/show_ads_impl_fy2021.js;
+  script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app netlify www.google-analytics.com www.googletagmanager.com https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js https://identity.netlify.com/v1/netlify-identity-widget.js http://static.hotjar.com/c/hotjar-1928200.js https://unpkg.com/netlify-cms@%5E2.0.0/dist/netlify-cms.js https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202211010101/show_ads_impl_fy2021.js https://partner.googleadservices.com/gampad/cookie.js https://adservice.google.com.mx/adsid/integrator.js https://tpc.googlesyndication.com/sodar/sodar2.js https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202211010101/show_ads_impl_fy2021.js https://script.hotjar.com/modules.43d9c9e9a68c20171706.js https://plausible.io/js/plausible.js https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202211080101/show_ads_impl_fy2021.js;
   style-src 'self' 'unsafe-inline' *.googleapis.com cdn.jsdelivr.net;
   img-src * blob: data:;
   media-src 'none';
   connect-src *;
   font-src 'self' fonts.gstatic.com cdn.jsdelivr.net;
-  frame-src giscus.app youtube.com www.youtube.com netlify https://googleads.g.doubleclick.net/ https://tpc.googlesyndication.com/ https://www.google.com/; 
+  frame-src giscus.app youtube.com www.youtube.com netlify https://googleads.g.doubleclick.net/ https://tpc.googlesyndication.com/ https://www.google.com/ https://vars.hotjar.com/ ; 
   `
 
 const securityHeaders = [
