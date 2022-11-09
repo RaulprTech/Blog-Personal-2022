@@ -30,7 +30,7 @@ Para realizar el proyecto se usaron las siguientes herramientas:
 
 ## Componentes
 
-Después de analizar la la pagina original podemos dividir la estructura de nuestro sitio en 3 partes: header, main y footer.
+Después de analizar la pagina original podemos dividir la estructura de nuestro sitio en 3 partes: header, main y footer.
 
 ### Estructura
 
