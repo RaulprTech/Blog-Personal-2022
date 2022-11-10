@@ -85,7 +85,7 @@ export default function Presentation() {
     <div>
       <div className="mb-12 flex flex-col items-center gap-x-12 xl:flex-row">
         <div className="">
-          <span className="text-left font-extrabold leading-9 tracking-tight sm:leading-10 md:mb-1 md:leading-14">
+          <span className="text-center font-extrabold leading-9 tracking-tight sm:text-left sm:leading-10 md:mb-1 md:leading-14">
             {/* <span className="inline text-2xl text-gray-900 dark:text-gray-100 md:text-3xl">
               Hola 👋, soy{' '}
             </span> */}
@@ -93,14 +93,14 @@ export default function Presentation() {
               Raul Pacheco
             </h1>
           </span>
-          <h2 className="flex space-x-2 text-center text-lg font-bold text-primary-500 dark:text-blue-400 md:text-2xl xl:inline">
+          <h2 className="text-md flex space-x-4 text-center font-bold text-primary-500 dark:text-blue-400 sm:text-lg md:text-2xl xl:inline">
             <span className="inline-block">Electronic Engineer</span>
             <span className="inline-block">{`  •  `}</span>
             <span className="inline-block">Web Developer</span>
           </h2>
-          <h2 className="prose pt-2 text-lg text-gray-600 dark:text-gray-300">
+          <h3 className="sm:text-md prose pt-2 text-sm text-gray-600 dark:text-gray-300 md:text-lg">
             {`Bienvenido 👋 a mi blog. ${siteMetadata.description}`}
-          </h2>
+          </h3>
           {/* <div className="mx-4 mt-8 flex justify-around px-4">
             <SocialIcon kind="linkedin" href={siteMetadata.linkedin} size="8" />
             <SocialIcon kind="instagram" href={siteMetadata.instagram} size="8" />
@@ -109,7 +109,7 @@ export default function Presentation() {
           </div> */}
         </div>
         <div className="flex items-end justify-center">
-          <div className="grid grid-cols-1 grid-rows-2 gap-8 py-12">
+          <div className="grid grid-cols-2 grid-rows-1 gap-8 py-12 md:grid-cols-1 md:grid-rows-2">
             <IconCard message="Creaciones" link="projects">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

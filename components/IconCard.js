@@ -14,7 +14,7 @@ export default function IconCard({ children, callToAction, message, link }) {
                 {callToAction}
               </span> */}
             </span>
-            <span className="pl-4 text-gray-900 transition duration-200 group-hover:text-gray-900 dark:text-gray-100 dark:group-hover:text-secondary-400">
+            <span className="pl-4 text-xs text-gray-900 transition duration-200 group-hover:text-blue-900 dark:text-gray-100 dark:group-hover:text-secondary-400 md:text-sm">
               {message}
             </span>
           </span>

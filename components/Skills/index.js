@@ -115,7 +115,7 @@ export default function index({ tags, title }) {
   return (
     <section className="mb-6 flex max-w-screen-lg flex-col justify-center">
       <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100">{title || 'Skills'}</h1>
-      <div className="grid grid-cols-2 grid-rows-4 gap-2 py-8 text-xs uppercase">
+      <div className="grid grid-cols-2 grid-rows-2 gap-2 py-8 uppercase">
         {sortedTags.map((t) => {
           const SkillSvg = components[t]
           return (

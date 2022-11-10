@@ -2,152 +2,16 @@ import SocialIcon from '@/components/social-icons'
 import Image from '@/components/Image'
 import { PageSEO } from '@/components/SEO'
 import IconCard from '@/components/IconCard'
-import Skills from '@/components/Skills'
 import Quote from '@/components/Quotes/quote'
+
 import { useRouter } from 'next/router'
-import Timeline from '@/components/Profile/Timeline'
 
 // import WorkHistory from '@/components/Profile/Work-history'
 
 export default function AuthorLayout({ children, frontMatter }) {
-  const { name, avatar, occupation, company, email, twitter, linkedin, github } = frontMatter
-  const router = useRouter()
-
-  const skills = {
-    html: 1,
-    css: 1,
-    js: 1,
-    react: 1,
-    next: 1,
-    tailwind: 1,
-    node: 1,
-    python: 1,
-  }
-
-  const jobs = [
-    {
-      title: 'Aplicando a trabajos',
-      place: 'Independence',
-      type: 'professional',
-      date: '20 de Octubre de 2022',
-      description: 'Escuchando ofertas, disponible para codear',
-      current: true,
-    },
-    {
-      title: 'Taller: Programación de Microcontroladores con C',
-      place: 'Instituto Tecnologico de Lerma',
-      type: 'professional',
-      date: 'Diciembre de 2021',
-      description: 'Taller introductorio de programacion orientada a objetos con Processing',
-      current: false,
-    },
-    {
-      title: 'Web Developer',
-      place: 'TMaker',
-      type: 'professional',
-      date: 'Noviembre de 2020',
-      description: 'Desarrollo de Sitio promocional para evento online organizado por Game Center',
-      current: false,
-    },
-    {
-      title: 'Web Developer',
-      place: 'TMaker',
-      type: 'professional',
-      date: 'Junio de 2020',
-      description:
-        'Diseño y Desarrollo de sitio web MVP para negocio inmobiliario con Next, React y Tailwind',
-      current: false,
-    },
-    {
-      title: 'Full Stack Developer Junior',
-      place: 'Flexxo',
-      type: 'professional',
-      date: 'Enero de 2020',
-      description:
-        'Diseño y Desarrollo de sitio web de reservas, responsive design conectado a Base de Datos No-SQL de Firebase',
-      current: false,
-    },
-    {
-      title: 'Taller: Programación de Arduino con Javascript',
-      place: 'Instituto Tecnologico de Lerma',
-      type: 'professional',
-      date: 'Diciembre de 2019',
-      description:
-        'Taller sobre el uso de Node y Johnny Five para programar Arduinos con Javascript',
-      current: false,
-    },
-    {
-      title: 'Aprendiendo de robotica con Iron-Man',
-      place: 'CreativeFest',
-      type: 'professional',
-      date: 'Mayo de 2019',
-      description:
-        'Taller sobre el uso de Node y Johnny Five para programar Arduinos con Javascript',
-      current: false,
-    },
-    {
-      title: 'Desarrollador Android',
-      place: 'Hackathon Campeche',
-      type: 'professional',
-      date: 'Agosto de 2017',
-      description:
-        'Colabore en el desarrollo de una aplicación para la participacion ciudadana en situaciones de desastres naturales.',
-      current: false,
-    },
-    {
-      title: 'Cofundador y Desarrollador Movil en Kaxbi App',
-      place: 'Campeche',
-      type: 'professional',
-      date: 'Enero de 2017',
-      description: 'Emprendimiento de Aplicacion de Realidad Virtual con Geolocalizacion',
-      current: false,
-    },
-    {
-      title: 'Taller: Programación Básica con Arduino',
-      place: 'Instituto Tecnologico de Lerma',
-      type: 'professional',
-      date: 'Diciembre de 2016',
-      description: 'Taller de principios basicos de la programacion de placas Arduino UNO',
-      current: false,
-    },
-    {
-      title: 'Taller: Introducción a Processing',
-      place: 'Instituto Tecnologico de Lerma',
-      type: 'professional',
-      date: 'Junio de 2016',
-      description: 'Taller introductorio de programacion orientada a objetos con Processing',
-      current: false,
-    },
-  ]
-
-  const edu = [
-    {
-      title: 'Msc Ingenieria Electrica en Diseño Electronico',
-      place: 'CINVESTAV Gdl',
-      type: 'educational',
-      date: 'Agosto de 2023',
-      description:
-        'Diseñando un acelerador de Hardware para Swin Transformer con aplicacion en el diagnostico temprano de Retinopatia Diabetica',
-      current: false,
-    },
-    {
-      title: 'Ingeniería Electrónica',
-      place: 'Instituto Tecnologico de Lerma',
-      type: 'educational',
-      date: 'Diciembre de 2018',
-      description: 'Licenciatura en Ingenieria Electrónica con especialidad en Telematica',
-      current: false,
-    },
-    {
-      title: 'Tecnico en Mecatronica',
-      place: 'CECYTEC',
-      type: 'educational',
-      date: 'Julio de 2013',
-      description:
-        'Graduacion de preparatoria tecnica con la especialidad de Tecnico en Mecatronica',
-      current: false,
-    },
-  ]
+  const { name, avatar, occupation, company, email, twitter, linkedin, github, platzi, CV } =
+    frontMatter
+  // const router = useRouter()
 
   return (
     <>
@@ -176,8 +40,8 @@ export default function AuthorLayout({ children, frontMatter }) {
               <SocialIcon kind="linkedin" href={linkedin} />
               <SocialIcon kind="twitter" href={twitter} />
             </div>
-            <div className="grid grid-cols-1 grid-rows-2 gap-3 py-12">
-              <IconCard message="Descargar CV" link={`${router.basePath}/static/CV/CV.pdf`}>
+            <div className="grid grid-cols-2 grid-rows-1 gap-3 py-12 lg:grid-cols-1 lg:grid-rows-2">
+              <IconCard message="Descargar CV" link={CV}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -193,7 +57,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                   />
                 </svg>
               </IconCard>
-              <IconCard message="Perfil de Platzi" link="https://platzi.com/p/RaulprTech/">
+              <IconCard message="Perfil de Platzi" link={platzi}>
                 <svg
                   viewBox="0 0 24 24"
                   fill="none"
@@ -207,16 +71,9 @@ export default function AuthorLayout({ children, frontMatter }) {
                 </svg>
               </IconCard>
             </div>
-          </div>
-          <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">{children}</div>
-          <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-1">
-            <Skills tags={skills} />
-            <Timeline title="Trayectoria Escolar" jobs={edu} />
             <Quote />
           </div>
-          <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">
-            <Timeline title="Trayectoria Profesional" jobs={jobs} />
-          </div>
+          <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">{children}</div>
         </article>
       </section>
     </>

@@ -21,7 +21,7 @@ export default function Timeline({ title, jobs }) {
             place={job.place}
             date={job.date}
             jobDescription={job.description}
-            key={title}
+            key={job.title}
           >
             {job.type == 'professional' ? (
               <FaBlackTie className="animate-none" />
