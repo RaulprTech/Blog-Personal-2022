@@ -47,8 +47,8 @@ const talleres = [
 export default function workshops() {
   return (
     <article className="items-start space-y-2 xl:grid xl:grid-cols-4 xl:gap-x-8 xl:space-y-0">
-      <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">
-        <Timeline title="Estudios" jobs={talleres} />
+      <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-4">
+        <Timeline title="Talleres" jobs={talleres} />
       </div>
     </article>
   )
