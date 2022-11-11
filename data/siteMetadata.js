@@ -3,7 +3,7 @@ const siteMetadata = {
   author: 'Raul Pacheco Rodriguez',
   headerTitle: 'Raul Pacheco',
   description:
-    '✨ Este es un espacio para que aprendamos juntos 👩‍💻👨‍💻 sobre desarrollo de tecnologia 🛰️. Ven y aprende Desarrollo Web, Inteligencia Artificial y Electronica. ¡Construyamos la tecnologia del futuro 🙌!',
+    '✨ Este es un espacio para que aprendamos juntos 👩‍💻👨‍💻 sobre desarrollo de tecnologia 🛰️. Aprende conmigo Desarrollo Web, Inteligencia Artificial, Electronica y más. ¡Construyamos la tecnologia del futuro 🙌!',
   language: 'es-mx',
   theme: 'system', // system, dark or light
   siteUrl: 'https://raulpacheco.dev',
