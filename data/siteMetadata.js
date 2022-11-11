@@ -3,7 +3,7 @@ const siteMetadata = {
   author: 'Raul Pacheco Rodriguez',
   headerTitle: 'Raul Pacheco',
   description:
-    '✨ Este es un espacio para que aprendamos juntos 👩‍💻👨‍💻 sobre desarrollo de tecnologia 🛰️. Acompañame y aprendamos Desarrollo Web, Inteligencia Artificial y Electronica. ¡Construyamos la tecnologia del futuro 🙌!',
+    '✨ Este es un espacio para que aprendamos juntos 👩‍💻👨‍💻 sobre desarrollo de tecnologia 🛰️. Ven y aprende Desarrollo Web, Inteligencia Artificial y Electronica. ¡Construyamos la tecnologia del futuro 🙌!',
   language: 'es-mx',
   theme: 'system', // system, dark or light
   siteUrl: 'https://raulpacheco.dev',
@@ -31,7 +31,7 @@ const siteMetadata = {
   newsletter: {
     // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus
     // Please add your .env file and modify it according to your selection
-    provider: 'convertkit',
+    provider: 'mailchimp',
   },
   comment: {
     // If you want to use a commenting system other than giscus you have to add it to the
