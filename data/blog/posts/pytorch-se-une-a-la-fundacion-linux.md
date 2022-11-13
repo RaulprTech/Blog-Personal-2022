@@ -6,9 +6,12 @@ draft: false
 summary: '
 Pytorch es uno de los proyectos estrella en el campo del Deep Learning. Fue desarrollado y mantenido por el equipo de inteligencia artificial de Meta (antes Facebook) y ahora pasa a manos de la Fundación Linux.
 '
+images: ['/static/images/blog/pytorch-fundacion-linux/portada.png']
 layout: PostLayout
 bibliography: references-data.bib
 ---
+
+![Portada - pingüino de Linux viendo hacia el logo de Pytorch](/static/images/blog/pytorch-fundacion-linux/portada.png)
 
 Como es bien sabido por la comunidad de desarrollo de Machine Learning, Pytorch es uno de los proyectos estrella en esta área Desarrollado y mantenido por el equipo de inteligencia artificial de Meta (antes Facebook) ahora pasa a manos de la Fundación Linux.
 
@@ -29,3 +32,5 @@ En ese sentido, que Pytorch pase a manos de la Fundación Linux muestra la visi�
 ## Conclusión
 
 Como desarrollador y usuario de este Framework, solo puedo desear que se siga manteniendo y actualizando tan bien como Meta estuvo haciendo hasta ahora y poder ver una gran evolución que siga trayendo facilidad al desarrollo de aplicaciones de Deep Learning.
+
+Si aun no sabes mucho sobre el Deep Learning quizas te interese [¿Qué es el Deep Learning](https://raulpacheco.dev/blog/posts/que-es-el-deep-learning) o [Atención era lo que la IA necesitaba](https://raulpacheco.dev/blog/posts/atencion-lo%20que-la-IA-necesitaba).

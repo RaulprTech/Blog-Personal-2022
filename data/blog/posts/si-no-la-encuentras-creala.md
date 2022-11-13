@@ -8,3 +8,5 @@ images: []
 layout: PostLayout
 canonicalUrl:
 ---
+
+La nueva tendencia entre las grandes empresas de búsqueda de imágenes, que la IA las cree para ti

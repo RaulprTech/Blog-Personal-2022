@@ -6,10 +6,13 @@ draft: false
 summary: '
 No son pocas las razones por las que React domina las interfaces visuales para web e incluso gran parte de las interfaces para móviles. Fácil de aprender e integrar y con un gran ecosistema son algunas de las ventajas que hacen de React una librería tan popular y en este artículo las conocerás.
 '
+images: ['/static/images/blog/por-que-usar-react/portada.png']
 layout: PostLayout
 bibliography: references-data.bib
 canonicalUrl: 
 ---
+
+![Portada - Logo de React sobre código de programación](/static/images/blog/por-que-usar-react/portada.png)
 
 No son pocas las razones por las que React domina las interfaces visuales para web e incluso gran parte de las interfaces para móviles. Fácil de aprender e integrar y con un gran ecosistema son algunas de las ventajas que hacen de React una librería tan popular y en este artículo las conocerás.
 
@@ -68,6 +71,8 @@ React no solo se ha quedado en el Desarrollo Web. Su popularidad y característi
 React Native es un Framework que lleva a React al Desarrollo Móvil y es una de las soluciones más utilizadas para crear aplicaciones móviles multiplataforma.
 
 Por otra parte, no solo el Desarrollo Móvil ha sido invadido por React, otro ejemplo a destacar es React 360-VR, una implementación realizada por Facebook para sus dispositivos de Realidad Virtual.
+
+![Ventajas de React escritas dentro de círculos alrededor de su logo](/static/images/blog/por-que-usar-react/ventajas-react.png)
 
 ## Conclusión
 

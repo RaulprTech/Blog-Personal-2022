@@ -6,16 +6,19 @@ draft: false
 summary: '
 Por mucho tiempo, cualquier persona que deseara iniciarse en desarrollo web ya sea como Frontend o Backend requiere aprender los 3 lenguajes de siempre HTML para la estructura, CSS para los estilos y JavaScript como único lenguaje de programación.
 '
+images: ['/static/images/blog/pyscript/portada.png']
 layout: PostLayout
 bibliography: references-data.bib
 canonicalUrl: https://dev.to/raulprtech/pyscript-reemplazara-a-javascript-276n
 ---
 
+![Portada - Logo de PyScript de un lado, en medio guantes golpeándose y en el otro extremo el logo de JavaScript](/static/images/blog/pyscript/portada.png)
+
 En la reciente PyCon US 2022 tuvimos la grata sorpresa de ver una implementación que permite utilizar Python directamente en el navegador. Por supuesto, no tardaron en aparecer las preguntas en los foros sobre si Python sería el reemplazo de JavaScript.
 
 Así que en este artículo analizaremos esta nueva herramienta y su posible alcance.
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/l4jv4p257uk131jfrjpy.png)
+![PyScript - Python en el navegador](/static/images/blog/pyscript/python-in-the-browser.gif)
 
 ## Desarrollo Web
 
@@ -51,7 +54,7 @@ PyScript esta construido por sobre otras conocidas tecnologías:
 
 **WebAssembly** fue el primer acercamiento que tuvimos a utilizar otros lenguajes en el navegador. Es un formato de código binario que puede ser usado en la web y es capaz de compilar código en diversos lenguajes de programación para poder ser aprovechados desde JavaScript.
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rqzfntk4rf41zp37h2tf.png)
+![PyScript - Stack de tecnologias](/static/images/blog/pyscript/browser_stack.webp)
 
 Los creadores estaban especialmente interesados en crear una solución que reduzca la curva de aprendizaje del desarrollo web y así hacer la programación mas divertida y sencilla.
 

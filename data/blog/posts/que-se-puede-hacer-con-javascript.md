@@ -6,10 +6,13 @@ draft: false
 summary: '
 Actualmente podemos encontrar muchas formas de aplicar JavaScript en distintas áreas de la tecnología. Aquí te presento un recuento de los más importantes usos que puedes encontrar para JavaScript. Si sabes de algún otro que no haya tenido en cuenta, no dudes en dejarlo en los comentarios.
 '
+images: ['/static/images/blog/que-se-puede-hacer-con-javascript/portada.png']
 layout: PostLayout
 bibliography: references-data.bib
-canonicalUrl: https://dev.to/raulprtech/que-puedo-hacer-con-javascript-34ef
+canonicalUrl:
 ---
+
+![Portada - Desarrollador con múltiples opciones](/static/images/blog/que-se-puede-hacer-con-javascript/portada.png)
 
 Una de las características más valoradas del lenguaje de programación JavaScript es que, aunque fue construido para el desarrollo web, su uso no se limita a ese sector. Actualmente podemos encontrar muchas más aplicaciones de este lenguaje en otras áreas.
 
@@ -23,6 +26,8 @@ Actualmente sería muy difícil encontrar un sitio web que no use este lenguaje.
 
 React, Angular, Vue y Svelte son los **Frameworks/Librerías** más usados.
 
+![Desarrollo Web del lado del cliente - Persona escribiendo y de la computadora salta una imagen del mundo con el logo de JavaScript y múltiples servicios web alrededor](/static/images/blog/que-se-puede-hacer-con-javascript/web.png)
+
 _Profundiza mas leyendo [Javascript en el Desarrollo Web](https://raulpacheco.dev/blog/posts/javascript-en-el-desarrollo-web)._
 
 ## Desarrollo web del lado del servidor
@@ -31,7 +36,7 @@ Node, el entorno en tiempo de ejecución multiplataforma para JavaScript fue cre
 
 Gracias a esta implementación del lenguaje surgió la oportunidad para las que comentaremos a continuación.
 
-![Alt Text](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ovi9ge25jswpri8up2m4.png)
+![Logo de Node.js frente a un servidor](/static/images/blog/porque-aprender-javascript-primero/node.png)
 
 ## Desarrollo de software de escritorio
 
@@ -41,11 +46,11 @@ El objetivo era usar tecnologías web para cualquier sistema en vez de tener que
 
 Actualmente Electronjs es el Framework más popular para este uso.
 
+![Desarrollo de software de Escritorio - Computadora de escritorio con el logo de JavaScript en la pantalla](/static/images/blog/que-se-puede-hacer-con-javascript/desktop.png)
+
 ## Desarrollo de Aplicaciones para dispositivos móviles
 
 Otro gran uso para JavaScript es poder crear aplicaciones para teléfonos con cualquier sistema operativo, empleando el mismo código base.
-
-![Alt Text](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ozepwkmtu3q72fqsy943.png)
 
 Por mucho tiempo se buscó una implementación en dispositivos móviles que se sintiera similar a una aplicación nativa.
 
@@ -55,4 +60,6 @@ No fue hasta que apareció **React Native** que se logró un resultado bastante 
 
 React Native es muy popular para empresas de tecnología que están iniciando, pues les permite llevar sus apps a los principales sistemas móviles usando el mismo código y personal.
 
-El universo de posibles implementaciones de este lenguaje es muy amplio. Ahora conoces los más populares. Si quieres conocer más, te recomiendo leer [Usos menos conocidos de Javascript](https://raulpacheco.dev/blog/posts/usos-menos-conocidos-de-javascript).
+![Desarrollo de Aplicaciones Móviles - Múltiples logos de apps dibujados en un pizarrón](/static/images/blog/que-se-puede-hacer-con-javascript/apps.png)
+
+El universo de posibles implementaciones de este lenguaje es muy amplio. Ahora conoces los más populares. Si quieres conocer más, puedes continuar tu lectura con [Usos menos conocidos de JavaScript](https://raulpacheco.dev/blog/posts/usos-menos-conocidos-de-javascript).

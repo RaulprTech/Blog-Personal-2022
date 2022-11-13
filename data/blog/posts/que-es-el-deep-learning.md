@@ -1,15 +1,18 @@
 ---
 title: '¿Qué es el Deep Learning?'
 date: '2022-08-22'
-tags: ['Machine Learning', 'Deep Learning', 'Generative Adversarial Networks']
+tags: ['Machine Learning', 'Deep Learning']
 draft: false
 summary: '
 El Deep Learning es un área del Machine Learning que usa Redes Neuronales Artificiales de múltiples capas para lograr aprender automáticamente las características en distintos niveles de abstracción y resolver problemas que tradicionalmente eran difíciles para el Machine Learning.
 '
+images: ['/static/images/blog/que-es-el-deep-learning/portada.png']
 layout: PostLayout
 bibliography: references-data.bib
 thread: https://twitter.com/RaulprTech/status/1564397629399769092
 ---
+
+![Portada - Cerebro digital](/static/images/blog/que-es-el-deep-learning/portada.png)
 
 El **Deep Learning** es un área del **Machine Learning** que usa Redes Neuronales Artificiales de múltiples capas para aprendizaje automático de características en distintos niveles de abstracción, y así resolver problemas que normalmente eran difíciles para el **Machine Learning** tradicional.
 
@@ -28,6 +31,8 @@ El **Deep Learning** cada vez esta impactando más campos, como la física, la m
 En el 2018 se otorgo **el Premio Turing** a tres investigadores en Inteligencia Artificial: Geoffrey Hinton, Yann LeCun y Yoshua Bengio, por sus aportaciones en **Deep Learning,** que han permitido grandes avances en áreas como la visión artificial y el reconocimiento de voz.
 
 Ante estos logros se empezó a comentar el comienzo de una nueva era de la computación, la era del **Deep Learning.**
+
+![Historia del Deep Learning - Linea de tiempo de algunos eventos importantes en la evolución del Deep Learning](/static/images/blog/que-es-el-deep-learning/evolucion-dl.png)
 
 ## Deep Learning Aplicado
 

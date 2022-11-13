@@ -6,10 +6,13 @@ draft: false
 summary: '
 Cuando decides comenzar a aprender en tecnología, mas específicamente en el desarrollo web, surgen ciertas preguntas. ¿Con que lenguaje debo empezar? ¿Cuál es el mejor lenguaje? ¿Por que todas estas personas usan ese lenguaje y esas otras no? ¿Por que existen tantos lenguajes de programación? Te mostrare las ventajas de iniciar con JavaScript
 '
+images: ['/static/images/blog/porque-aprender-javascript-primero/js.png']
 layout: PostLayout
 bibliography: references-data.bib
-canonicalUrl: https://dev.to/raulprtech/por-que-javascript-debe-ser-mi-primer-lenguaje-ndj
+canonicalUrl:
 ---
+
+![Portada - Múltiples flechas apuntando a JavaScript](/static/images/blog/porque-aprender-javascript-primero/js.png)
 
 Cuando decides adentrarte en el mundo de la tecnología o mas específicamente en el desarrollo web, surgen ciertas preguntas que ya son todo un clásico.
 
@@ -20,8 +23,6 @@ Así que mi tarea será mostrarte las ventajas de iniciarte con este gran lengua
 ## ¿Qué es JavaScript?
 
 JavaScript es el lenguaje principal con el que esta construida la web. Es el único lenguaje de programación que puede ser usado del lado del cliente, por lo cual si quieres dedicarte a crear sitios web este lenguaje será obligatorio en tu formación.
-
-![Alt Text](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/c96cz4rw29v8u7ll808p.png)
 
 JavaScript brinda interactividad a los sitios web que se construyen, sin el, no tendríamos sitios tan complejos como las
 redes sociales que usamos diariamente.
@@ -40,13 +41,11 @@ Una característica de JavaScript es la forma en la que funciona en su interior,
 
 5. Sigue mejorando en funciones y otras características. El lenguaje que conocemos ahora es muy diferente al de sus inicios, su evolución año con año ha hecho que resulte tan atractivo para los desarrolladores.
 
-![Código para hola mundo en JavaScript](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/crkixjyz9vw3q5awsyoc.png)
-
 Actualmente las capacidades de este lenguaje le han permitido expandirse a otro sin fin de áreas, lo que es una enorme ventaja para las personas que lo aprenden.
 
 También en el desarrollo web, pero esta vez del lado del servidor, podemos encontrar a Node, el entorno de ejecución con el que podemos usar JavaScript fuera de los navegadores.
 
-![Alt Text](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/44qpxrdmi6bm229s63uv.png)
+![Logo de Node.js frente a un servidor](/static/images/blog/porque-aprender-javascript-primero/node.png)
 
 ## Versatilidad de JavaScript
 
@@ -63,10 +62,12 @@ Debido a la enorme popularidad de JavaScript, algunos programadores vieron el po
 
 Existen otras aplicaciones del lenguaje como Realidad Virtual o Machine Learning, pero probablemente las anteriores son las mas populares. Por lo mismo, el mercado laboral esta en búsqueda constante de perfiles con conocimientos en este lenguaje.
 
+![Versatilidad - Navaja suiza con el logo de JavaScript](/static/images/blog/porque-aprender-javascript-primero/versatilidad-js.png)
+
 ### Conclusión
 
 Sin duda, la mayor ventaja de JavaScript contra otros lenguajes es su versatilidad de poder influir en distintos sectores. Hay muchas oportunidades al alcance por aprender un solo lenguaje.
 
 Su popularidad esta bien fundamentada, sin embargo no es el único camino. Tus decisiones deberían basarse principalmente en tus metas. Probablemente este lenguaje será mas conveniente para ti si buscas integrarte al sector del desarrollo web que si prefieres la ciencia de datos.
 
-_Continua tu aprendizaje con [¿Que se puede hacer con Javascript?](https://raulpacheco.dev/blog/posts/que-se-puede-hacer-con-javascript)._
+_Continua tu aprendizaje con [¿Qué se puede hacer con JavaScript?](https://raulpacheco.dev/blog/posts/que-se-puede-hacer-con-javascript)._
