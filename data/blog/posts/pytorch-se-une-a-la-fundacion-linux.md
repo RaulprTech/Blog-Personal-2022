@@ -33,4 +33,4 @@ En ese sentido, que Pytorch pase a manos de la Fundación Linux muestra la visi�
 
 Como desarrollador y usuario de este Framework, solo puedo desear que se siga manteniendo y actualizando tan bien como Meta estuvo haciendo hasta ahora y poder ver una gran evolución que siga trayendo facilidad al desarrollo de aplicaciones de Deep Learning.
 
-Si aun no sabes mucho sobre el Deep Learning quizas te interese [¿Qué es el Deep Learning](https://raulpacheco.dev/blog/posts/que-es-el-deep-learning) o [Atención era lo que la IA necesitaba](https://raulpacheco.dev/blog/posts/atencion-lo%20que-la-IA-necesitaba).
+Si aun no sabes mucho sobre el Deep Learning quizas te interese [¿Qué es el Deep Learning](https://raulpacheco.dev/blog/posts/que-es-el-deep-learning) o [Atención era lo que la IA necesitaba](https://raulpacheco.dev/blog/posts/atencion-lo-que-la-IA-necesitaba).
