@@ -14,7 +14,6 @@ export async function getStaticProps() {
 const skills = {
   html: 0,
   css: 0,
-  js: 0,
   react: 0,
   next: 0,
   tailwind: 0,
