@@ -28,7 +28,7 @@ Los mecanismos de atención son operaciones matemáticas que reciben como entrad
 
 ## El Transformer
 
-Propuesto en 2017 en el icónico documento [**Atenttion is all you need**](https://doi.org/10.48550/arxiv.1706.03762), el Transformer[@Vaswani-2017] es una arquitectura de red simple basada únicamente en mecanismos de atención, prescindiendo por completo de la recurrencia y las circunvoluciones.
+Propuesto en 2017 en el icónico documento **Atenttion is all you need**, el Transformer[@Vaswani-2017] es una arquitectura de red simple basada únicamente en mecanismos de atención, prescindiendo por completo de la recurrencia y las circunvoluciones.
 
 La principal ventaja de esta nueva arquitectura es que la información no ingresa un símbolo a la vez como en las RNN, si no que ingresan varios al mismo tiempo. Su forma de ingresar los datos permite una gran capacidad de paralelizar su entrenamiento.
 
