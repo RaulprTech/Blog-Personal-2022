@@ -18,7 +18,6 @@ const skills = {
   react: 0,
   next: 0,
   tailwind: 0,
-  node: 0,
   python: 0,
 }
 
