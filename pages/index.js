@@ -23,7 +23,10 @@ export async function getStaticProps() {
 export default function Home({ posts, tags }) {
   return (
     <>
-      <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
+      <PageSEO
+        title={`${siteMetadata.title} - ${siteMetadata.author}`}
+        description={`${siteMetadata.description} - Home`}
+      />
       <Script
         src="https://identity.netlify.com/v1/netlify-identity-widget.js"
         strategy="beforeInteractive"

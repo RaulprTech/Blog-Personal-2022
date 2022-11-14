@@ -1,6 +1,15 @@
 import React from 'react'
 import Timeline from '@/components/Profile/Timeline'
 import Skills from '@/components/Skills'
+import siteMetadata from '@/data/siteMetadata'
+import { PageSEO } from '@/components/SEO'
+import { getAllTags } from '@/lib/tags'
+
+export async function getStaticProps() {
+  const tags = await getAllTags('blog')
+
+  return { props: { tags } }
+}
 
 const skills = {
   html: 0,
@@ -18,17 +27,9 @@ const jobs = [
     title: 'Web Developer',
     place: 'TMaker',
     type: 'professional',
-    date: 'Noviembre de 2020',
-    description: 'Desarrollo de Sitio promocional para evento online organizado por Game Center',
-    current: false,
-  },
-  {
-    title: 'Web Developer',
-    place: 'TMaker',
-    type: 'professional',
     date: 'Junio de 2020',
     description:
-      'Diseño y Desarrollo de sitio web MVP para negocio inmobiliario con Next, React y Tailwind',
+      'Diseño y Desarrollo de sitio web MVP para negocio inmobiliario con Next, React y Tailwind y sitio promocional para evento online organizado por Game Center',
     current: false,
   },
   {
@@ -89,14 +90,20 @@ const edu = [
 
 export default function trayectoria() {
   return (
-    <article className="items-start space-y-2 xl:grid xl:grid-cols-4 xl:gap-x-8 xl:space-y-0">
-      <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">
-        <Timeline title="Estudios" jobs={edu} />
-        <Skills tags={skills} />
-      </div>
-      <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">
-        <Timeline title="Trabajos" jobs={jobs} />
-      </div>
-    </article>
+    <>
+      <PageSEO
+        title={`Blog - ${siteMetadata.author}`}
+        description={`Trayectoria Profesional y Escolar de ${siteMetadata.author}`}
+      />
+      <article className="items-start space-y-2 xl:grid xl:grid-cols-4 xl:gap-x-8 xl:space-y-0">
+        <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">
+          <Timeline title="Estudios" jobs={edu} />
+          <Skills tags={skills} />
+        </div>
+        <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">
+          <Timeline title="Trabajos" jobs={jobs} />
+        </div>
+      </article>
+    </>
   )
 }
