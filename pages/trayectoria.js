@@ -90,7 +90,7 @@ export default function trayectoria() {
   return (
     <>
       <PageSEO
-        title={`Blog - ${siteMetadata.author}`}
+        title={`Trayectoria - ${siteMetadata.author}`}
         description={`Trayectoria Profesional y Escolar de ${siteMetadata.author}`}
       />
       <article className="items-start space-y-2 xl:grid xl:grid-cols-4 xl:gap-x-8 xl:space-y-0">
