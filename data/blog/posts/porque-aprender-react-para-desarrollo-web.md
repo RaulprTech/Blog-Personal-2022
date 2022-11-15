@@ -1,7 +1,7 @@
 ---
-title: '¿Por qué usar React? ⚛️'
+title: '¿Por qué aprender React ⚛️ para Desarrollo Web?'
 date: '2022-11-14'
-tags: ['React', 'JavaScript', 'Web-Development']
+tags: ['React', 'JavaScript', 'Desarrollo Web']
 draft: false
 summary: '
 No son pocas las razones por las que React domina las interfaces visuales para web e incluso gran parte de las interfaces para móviles. Fácil de aprender e integrar y con un gran ecosistema son algunas de las ventajas que hacen de React una librería tan popular y en este artículo las conocerás.
@@ -76,7 +76,7 @@ Por otra parte, no solo el Desarrollo Móvil ha sido invadido por React, otro ej
 
 ## Conclusión
 
-Como ya has visto usar React tiene muchas ventajas y si ya sabes las bases de JavaScript, puedes estar seguro de que React es una gran opción para continuar tu camino en el Desarrollo Frontend.
+Como ya has visto usar React tiene muchas ventajas y si ya sabes las bases de JavaScript, puedes estar seguro de que React es una gran opción para continuar tu camino en el Desarrollo Web como Frontend.
 
 Si te ha gustado este artículo no olvides compartirlo y seguirme en mis redes sociales.
 

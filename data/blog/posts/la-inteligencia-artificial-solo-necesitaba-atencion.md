@@ -1,5 +1,5 @@
 ---
-title: 'Atención era lo que la IA necesitaba'
+title: 'La Inteligencia Artificial 🧠 solo necesitaba atención 👀'
 date: '2022-10-17'
 tags: ['Deep Learning', 'Natural Language Processing', 'Transformers']
 draft: false
@@ -38,6 +38,6 @@ En años recientes, han surgido grandes modelos de Inteligencia Artificial que a
 
 ## Conclusión
 
-A solo 5 años de su primera aparición, las variaciones del [Transformer](https://raulpacheco.dev/tags/transformers) [@Vaswani-2017] ya dominan en diferentes campos de la [Inteligencia Artificial](https://raulpacheco.dev/tags/machine-learning) por las ventajas que ofrece. Lo mas interesante de esto, es que una sola arquitectura base esta siendo estudiada por múltiples equipos de investigación en diversos campos de aplicación.
+A solo 5 años de su primera aparición, las variaciones del [Transformer](https://raulpacheco.dev/tags/transformers) ya dominan en diferentes campos de la Inteligencia Artificial por las ventajas que ofrece. Lo mas interesante de esto, es que una sola arquitectura base esta siendo estudiada por múltiples equipos de investigación en diversos campos de aplicación.
 
 ## Referencias

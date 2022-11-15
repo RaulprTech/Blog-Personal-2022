@@ -1,7 +1,7 @@
 ---
-title: 'JavaScript en el Desarrollo Web'
+title: 'JavaScript en el Desarrollo Web 🌐'
 date: '2021-05-02'
-tags: ['JavaScript', 'Web-Development']
+tags: ['JavaScript', 'Desarrollo Web']
 draft: false
 summary: '
 En este articulo profundizaremos en el uso más común de JavaScript, el Desarrollo Web. Área en la cual ha sido de vital importancia para su evolución y mejora.

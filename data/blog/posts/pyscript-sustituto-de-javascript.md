@@ -1,7 +1,7 @@
 ---
 title: 'PyScript, ¿El sustituto de JavaScript? 🤔'
 date: '2022-05-08'
-tags: ['Python', 'Javascript', 'Web-Development']
+tags: ['Python', 'Javascript', 'Desarrollo Web']
 draft: false
 summary: '
 Por mucho tiempo, cualquier persona que deseara iniciarse en desarrollo web ya sea como Frontend o Backend requiere aprender los 3 lenguajes de siempre HTML para la estructura, CSS para los estilos y JavaScript como único lenguaje de programación.
@@ -24,7 +24,7 @@ Así que en este artículo analizaremos esta nueva herramienta y su posible alca
 
 Por mucho tiempo, cualquier persona que deseara iniciarse en Desarrollo web ya sea como Frontend o Backend requiere aprender los 3 lenguajes de siempre HTML para la estructura, CSS para los estilos y JavaScript como único lenguaje de programación.
 
-JavaScript era el único lenguaje de programación que se podía usar directamente en el navegador (lado del cliente). Esto causo que muchas personas lo aprendieran y su ecosistema creciera significativamente, pero a la vez se volvía una barrera de entrada para el [Desarrollo web](https://raulpacheco.dev/tags/web-development).
+JavaScript era el único lenguaje de programación que se podía usar directamente en el navegador (lado del cliente). Esto causo que muchas personas lo aprendieran y su ecosistema creciera significativamente, pero a la vez se volvía una barrera de entrada para el [Desarrollo web](https://raulpacheco.dev/tags/desarrollo-web).
 
 Y si, Frameworks como Django o Flask permitían usar Python para desarrollar sitios web, pero esto era desde el servidor.
 

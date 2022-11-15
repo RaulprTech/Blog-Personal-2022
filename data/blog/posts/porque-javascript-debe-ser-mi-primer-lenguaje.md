@@ -1,7 +1,7 @@
 ---
-title: '¿Por qué aprender primero JavaScript?'
+title: '¿Por qué aprender primero JavaScript? 🤔'
 date: '2021-04-11'
-tags: ['Javascript', 'Web-Development']
+tags: ['Javascript', 'Desarrollo Web']
 draft: false
 summary: '
 Cuando decides comenzar a aprender en tecnología, mas específicamente en el desarrollo web, surgen ciertas preguntas. ¿Con que lenguaje debo empezar? ¿Cuál es el mejor lenguaje? ¿Por que todas estas personas usan ese lenguaje y esas otras no? ¿Por que existen tantos lenguajes de programación? Te mostrare las ventajas de iniciar con JavaScript

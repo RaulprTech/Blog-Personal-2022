@@ -1,7 +1,7 @@
 ---
-title: 'Mi Blog'
+title: 'Haciendo un portafolio 💼 de Desarrollo Web con Jamstack'
 date: '2022-08-15'
-tags: ['React', 'Next', 'Tailwind', 'Web-Development', 'jamstack']
+tags: ['React', 'Next', 'Tailwind', 'Desarrollo Web', 'Jamstack']
 draft: false
 summary: '
 Este blog es la herramienta principal que uso para compartir lo que aprendo sobre ciencia y tecnología, para aportar un poco al aprendizaje de quienes sigan un camino similar.

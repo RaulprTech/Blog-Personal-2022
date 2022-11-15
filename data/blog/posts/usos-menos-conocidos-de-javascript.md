@@ -1,7 +1,7 @@
 ---
-title: 'Usos menos conocidos de JavaScript'
+title: 'Usos menos conocidos de JavaScript ✨'
 date: '2021-04-25'
-tags: ['Javascript', 'Web-Development']
+tags: ['Javascript', 'Desarrollo Web']
 draft: false
 summary: '
 Desarrollo web, móvil y de escritorio son algunas de las mas conocidas aplicaciones de este lenguaje. Ahora te hablare de otras áreas que suelen ser mencionadas con menos frecuencia.
@@ -40,17 +40,17 @@ Un ejemplo de este uso, es la construcción de un sitio web para visualizar los 
 
 La otra forma en que podemos encontrar a JavaScript, aunque es menos común. Es usar JavaScript para programar el firmware de las placas electrónicas.
 
-Frameworks como [Johnny Five](http://johnny-five.io/) permiten tener nuestro primer acercamiento a la [electrónica](https://raulpacheco.dev/tags/electr%C3%B3nica).
+Frameworks como [Johnny Five](http://johnny-five.io/) permiten tener nuestro primer acercamiento a la [electrónica](https://raulpacheco.dev/tags/electronica).
 
 ![IoT - Niño armando el circuito de un auto miniatura, arriba el nombre Johnny Five junto a la figura de un robot](/static/images/blog/usos-menos-conocidos-de-javascript/iot-js.png)
 
-Si te interesa empezar a aprender de electrónica este articulo podría interesarte, te recomiendo el articulo [¿Cómo empezar en la electrónica?](https://raulpacheco.dev/blog/posts/como-empezar-en-la-electronica)
+Si te interesa empezar a aprender de electrónica este articulo podría interesarte, te recomiendo el articulo [Comenzando a aprender electrónica con Arduino](https://raulpacheco.dev/blog/posts/comenzando-a-aprender-electronica-con-arduino)
 
 ## Inteligencia Artificial 🤖
 
 Por ultimo hablaremos de JavaScript en la Inteligencia Artificial, un sector que se ha popularizado bastante en los últimos años, debido al sin fin de aplicaciones que se le ha dado y al aumento en capacidad de computo.
 
-Si bien, JavaScript no es el lenguaje mas popular para este uso. Existen varias aplicaciones en las que se puede aprovechar. Desde Chatbots hasta redes neuronales.
+Si bien, JavaScript no es el lenguaje mas popular para este uso. Existen varias aplicaciones en las que se puede aprovechar. Desde Chatbots hasta Redes Neuronales.
 
 Existen varias librerías dentro de este campo hechas con JavaScript, pero basta con mencionar que el mismo Google tiene una versión del famoso **_TensorFlow_** para este lenguaje ([TensorFlow.js](https://www.tensorflow.org/js?hl=es-419)).
 

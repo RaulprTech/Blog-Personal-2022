@@ -1,5 +1,5 @@
 ---
-title: '¿Qué es el Deep Learning?'
+title: '¿Qué es el Deep Learning? 🧠'
 date: '2022-08-22'
 tags: ['Machine Learning', 'Deep Learning']
 draft: false

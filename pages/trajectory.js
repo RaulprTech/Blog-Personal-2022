@@ -86,7 +86,7 @@ const edu = [
   },
 ]
 
-export default function trayectoria() {
+export default function trajectory() {
   return (
     <>
       <PageSEO

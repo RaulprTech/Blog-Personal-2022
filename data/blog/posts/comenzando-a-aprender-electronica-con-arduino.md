@@ -1,7 +1,7 @@
 ---
-title: '¿Cómo empezar en la electrónica?'
+title: 'Comenzando a aprender electrónica 🛰️ con Arduino'
 date: '2020-03-31'
-tags: ['Electrónica', 'Arduino']
+tags: ['Electronica', 'Arduino']
 draft: false
 summary: '
 Estudiar ingeniería no es la única forma de volverte inventor . No importa lo que estudiaste antes, solo importan las ganas que tengas de hacer cosas asombrosas.

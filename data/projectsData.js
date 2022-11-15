@@ -6,10 +6,10 @@ const projectsData = [
     href: '/blog/tutorials/haciendo-un-clon-de-google',
   },
   {
-    title: 'Mi blog',
-    description: `El blog en que lees esto fue construido por mi usando herramientas low-code ¿quieres saber mas?`,
+    title: 'Raul Pacheco - Blog de Tecnologia',
+    description: `El blog en el que lees esto fue construido usando herramientas low-code y jamstack ¿quieres saber como hacer el tuyo?`,
     imgSrc: '/static/images/twitter-card.png',
-    href: '/blog/projects/my-blog',
+    href: '/blog/projects/haciendo-un-portafolio-de-desarrollo-web-con-jamstack',
   },
   {
     title: 'Revo-Game',
