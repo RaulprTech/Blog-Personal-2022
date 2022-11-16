@@ -1,4 +1,4 @@
-import Link from '@/components/Link'
+import Link from 'next/link'
 import PageTitle from '@/components/PageTitle'
 import SectionContainer from '@/components/SectionContainer'
 import { BlogSEO } from '@/components/SEO'
@@ -59,8 +59,8 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                       {author.avatar && (
                         <Image
                           src={author.avatar}
-                          width="38px"
-                          height="38px"
+                          width="38"
+                          height="38"
                           alt="avatar"
                           className="h-10 w-10 rounded-full"
                         />
@@ -94,9 +94,9 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                 {/* <Link href={`${siteMetadata.twitter}`} rel="nofollow">
                   {'Discusion en Twitter'}
                 </Link> */}
-                <Link href={repository}>{'Ver en GitHub'}</Link>
+                {repository && <Link href={repository}>{'Ver en GitHub'}</Link>}
                 {demo && repository && ` • `}
-                {demo && <Link href={repository}>{'Ver Demo'}</Link>}
+                {demo && <Link href={demo}>{'Ver Demo'}</Link>}
               </div>
               {/* <Comments frontMatter={frontMatter} /> */}
             </div>

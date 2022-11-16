@@ -7,7 +7,8 @@ summary: '
 Este blog es la herramienta principal que uso para compartir lo que aprendo sobre ciencia y tecnología, para aportar un poco al aprendizaje de quienes sigan un camino similar.
 '
 layout: ProjectLayout
-github: https://github.com/RaulprTech/Blog-Personal-2022
+repository: https://github.com/RaulprTech/Blog-Personal-2022
+demo: https://raulpacheco.dev
 ---
 
 ## Motivación

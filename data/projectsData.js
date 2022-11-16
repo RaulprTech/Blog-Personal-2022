@@ -1,13 +1,13 @@
 const projectsData = [
   {
     title: 'Google Clone',
-    description: `Una replica del frontend del mas famoso motor de busquedas, hecha con HTML y CSS puros`,
+    description: `Este sitio es una replica del frontend del mas famoso motor de busquedas, hecha con HTML y CSS puros`,
     imgSrc: '/static/images/blog/google-clone.png',
-    href: '/blog/tutorials/haciendo-un-clon-de-google',
+    href: '/blog/projects/haciendo-un-clon-de-google',
   },
   {
     title: 'Raul Pacheco - Blog de Tecnologia',
-    description: `El blog en el que lees esto fue construido usando herramientas low-code y jamstack ¿quieres saber como hacer el tuyo?`,
+    description: `Este blog fue construido usando herramientas low-code y jamstack ¿quieres saber como hacer el tuyo?`,
     imgSrc: '/static/images/twitter-card.png',
     href: '/blog/projects/haciendo-un-portafolio-de-desarrollo-web-con-jamstack',
   },

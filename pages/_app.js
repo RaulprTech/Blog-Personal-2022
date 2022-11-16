@@ -13,6 +13,8 @@ import LayoutWrapper from '@/components/LayoutWrapper'
 import { ClientReload } from '@/components/ClientReload'
 import Hotjar from '@/components/analytics/Hotjar'
 
+import Script from 'next/script'
+
 const isDevelopment = process.env.NODE_ENV === 'development'
 const isSocket = process.env.SOCKET
 
@@ -21,18 +23,12 @@ export default function App({ Component, pageProps }) {
     <ThemeProvider attribute="class" defaultTheme={siteMetadata.theme}>
       <Head>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
-        <script
-          async
-          name="netlify"
-          src="https://identity.netlify.com/v1/netlify-identity-widget.js"
-        ></script>
-        {/* <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9581585585937945"
-          crossOrigin="anonymous"
-          name="adsbygoogle"
-        ></script> */}
       </Head>
+      <Script
+        async
+        name="netlify"
+        src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+      />
       <script
         dangerouslySetInnerHTML={{
           __html: `
