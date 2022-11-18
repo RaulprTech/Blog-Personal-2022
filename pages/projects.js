@@ -8,7 +8,7 @@ export default function Projects() {
     <>
       <PageSEO
         title={`Proyectos - ${siteMetadata.author}`}
-        description={siteMetadata.description}
+        description={`Proyectos de Desarrollo Web de ${siteMetadata.author} - React, Next, Gatasby, Javascript, html, css y python`}
       />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
