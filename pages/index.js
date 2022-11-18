@@ -24,13 +24,13 @@ export default function Home({ posts, tags }) {
   return (
     <>
       <PageSEO
-        title={`${siteMetadata.title} - ${siteMetadata.author}`}
-        description={`${siteMetadata.description} - Home`}
+        title={`${siteMetadata.title} - Blog de Tecnologia`}
+        description={`${siteMetadata.description}`}
       />
-      <Script
+      {/* <Script
         src="https://identity.netlify.com/v1/netlify-identity-widget.js"
         strategy="beforeInteractive"
-      ></Script>
+      ></Script> */}
       <Presentation />
       {/* <Skills tags={tags} /> */}
       <div className="divide-y divide-gray-200 dark:divide-gray-700">

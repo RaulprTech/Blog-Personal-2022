@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: 'Blog de Tecnologia',
+  title: 'Raul Pacheco',
   author: 'Raul Pacheco Rodriguez',
   headerTitle: 'Raul Pacheco',
   description:

@@ -13,7 +13,7 @@ import LayoutWrapper from '@/components/LayoutWrapper'
 import { ClientReload } from '@/components/ClientReload'
 import Hotjar from '@/components/analytics/Hotjar'
 
-import Script from 'next/script'
+// import Script from 'next/script'
 
 const isDevelopment = process.env.NODE_ENV === 'development'
 const isSocket = process.env.SOCKET
@@ -24,12 +24,12 @@ export default function App({ Component, pageProps }) {
       <Head>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
       </Head>
-      <Script
+      {/* <Script
         async
         name="netlify"
         src="https://identity.netlify.com/v1/netlify-identity-widget.js"
-      />
-      <script
+      /> */}
+      {/* <script
         dangerouslySetInnerHTML={{
           __html: `
               if (window.netlifyIdentity) {
@@ -43,7 +43,7 @@ export default function App({ Component, pageProps }) {
               }
           `,
         }}
-      />
+      /> */}
       {isDevelopment && isSocket && <ClientReload />}
       <Analytics />
       <Hotjar />
