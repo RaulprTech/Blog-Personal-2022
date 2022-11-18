@@ -18,6 +18,12 @@ const siteMetadata = {
   youtube: 'https://youtube.com/RaulprTech',
   linkedin: 'https://www.linkedin.com/in/RaulprTech',
   instagram: 'https://www.instagram.com/RaulprTech',
+  whatsapp: 'https://wa.link/57j5f1',
+  feedly: 'https://feedly.com/i/subscription/feed/https://raulpacheco.dev/feed.xml',
+  rss: 'https://feedly.com/i/subscription/feed/https://raulpacheco.dev/feed.xml',
+  platzi: 'https://platzi.com/p/RaulprTech/',
+  pinterest: 'https://pin.it/3DnwKxF',
+  googlenews: 'https://news.google.com/publications/CAAqBwgKMPDjwwswk__aAw?ceid=MX:es-419&oc=3',
   locale: 'es-MX',
   analytics: {
     // If you want to use an analytics provider you have to add it to the

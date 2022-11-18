@@ -7,6 +7,13 @@ import Twitter from './twitter.svg'
 import Whatsapp from './whatsapp.svg'
 import Instagram from './instagram.svg'
 import Telegram from './telegram.svg'
+import Pinterest from './pinterest.svg'
+import Platzi from './platzi.svg'
+import StackOverflow from './stackoverflow.svg'
+import Feedly from './feedly.svg'
+import Patreon from './patreon.svg'
+import RSS from './rss.svg'
+import GoogleNews from './googlenews.svg'
 
 // Icons taken from: https://simpleicons.org/
 
@@ -20,6 +27,13 @@ const components = {
   whatsapp: Whatsapp,
   instagram: Instagram,
   telegram: Telegram,
+  pinterest: Pinterest,
+  feedly: Feedly,
+  stackoverflow: StackOverflow,
+  platzi: Platzi,
+  patreon: Patreon,
+  rss: RSS,
+  googlenews: GoogleNews,
 }
 
 const SocialIcon = ({ kind, href, size = 8 }) => {
