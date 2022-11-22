@@ -24,7 +24,7 @@ export default function Home({ posts, tags }) {
   return (
     <>
       <PageSEO
-        title={`${siteMetadata.title} - ${siteMetadata.nickname}`}
+        title={`Blog de Tecnologia - ${siteMetadata.author} - ${siteMetadata.nickname}`}
         description={`${siteMetadata.description}`}
       />
       {/* <Script
