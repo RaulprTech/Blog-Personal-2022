@@ -90,8 +90,8 @@ export default function trajectory() {
   return (
     <>
       <PageSEO
-        title={`Trayectoria - ${siteMetadata.author}`}
-        description={`Trayectoria Profesional y Escolar de ${siteMetadata.author}`}
+        title={`Trayectoria - ${siteMetadata.author} - ${siteMetadata.nickname}`}
+        description={`Conoce la trayectoria Profesional y Escolar de ${siteMetadata.author}`}
       />
       <article className="items-start space-y-2 xl:grid xl:grid-cols-4 xl:gap-x-8 xl:space-y-0">
         <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">

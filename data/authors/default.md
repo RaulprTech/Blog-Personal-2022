@@ -1,5 +1,6 @@
 ---
 name: Raul Pacheco Rodriguez
+nickname: RaulprTech
 avatar: /static/images/avatar_bg_blue.png
 occupation: Electronic Engineer && Web Developer
 company:

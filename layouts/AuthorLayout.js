@@ -9,14 +9,25 @@ import { useRouter } from 'next/router'
 // import WorkHistory from '@/components/Profile/Work-history'
 
 export default function AuthorLayout({ children, frontMatter }) {
-  const { name, avatar, occupation, company, email, twitter, linkedin, github, platzi, CV } =
-    frontMatter
+  const {
+    name,
+    nickname,
+    avatar,
+    occupation,
+    company,
+    email,
+    twitter,
+    linkedin,
+    github,
+    platzi,
+    CV,
+  } = frontMatter
   // const router = useRouter()
 
   return (
     <>
       <PageSEO
-        title={`${name} - Conoce mas sobre mi`}
+        title={`¿Quien es ${name}? - @${nickname}`}
         description={`Trayectoria escolar y profesional, Skills tecnicos, Talleres impartidos y mas sobre ${name}`}
       />
       <section className="divide-y">

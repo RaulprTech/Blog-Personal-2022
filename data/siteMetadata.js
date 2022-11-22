@@ -24,6 +24,7 @@ const siteMetadata = {
   platzi: 'https://platzi.com/p/RaulprTech/',
   pinterest: 'https://pin.it/3DnwKxF',
   googlenews: 'https://news.google.com/publications/CAAqBwgKMPDjwwswk__aAw?ceid=MX:es-419&oc=3',
+  nickname: '@RaulprTech',
   locale: 'es-MX',
   analytics: {
     // If you want to use an analytics provider you have to add it to the

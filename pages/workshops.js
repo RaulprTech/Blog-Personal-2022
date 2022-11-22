@@ -50,8 +50,8 @@ export default function workshops() {
   return (
     <>
       <PageSEO
-        title={`Workshops - ${siteMetadata.author}`}
-        description={`Cronologia de Talleres impartidos por ${siteMetadata.author}`}
+        title={`Workshops - ${siteMetadata.author} - ${siteMetadata.nickname}`}
+        description={`Concoce todos los Talleres impartidos por ${siteMetadata.author}`}
       />
       <article className="items-start space-y-2 xl:grid xl:grid-cols-4 xl:gap-x-8 xl:space-y-0">
         <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-4">
