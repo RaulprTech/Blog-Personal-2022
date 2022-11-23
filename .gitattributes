@@ -70,7 +70,7 @@ Dockerfile        text
 AUTHORS           text
 CHANGELOG         text
 CHANGES           text
-CONTRIBUTING      text
+# CONTRIBUTING      text
 COPYING           text
 copyright         text
 *COPYRIGHT*       text
