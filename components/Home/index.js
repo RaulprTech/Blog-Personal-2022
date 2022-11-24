@@ -1,5 +1,3 @@
-// import Image from 'next/image'
-// import { useRouter } from 'next/router'
 import siteMetadata from '@/data/siteMetadata'
 // import SocialIcon from '@/components/social-icons'
 import IconCard from '../IconCard'
@@ -99,14 +97,8 @@ export default function Presentation() {
             <span className="inline-block">Web Developer</span>
           </h2>
           <h3 className="sm:text-md prose pt-2 text-sm text-gray-600 dark:text-gray-300 md:text-lg">
-            {`Bienvenido 👋 a mi blog. ${siteMetadata.description}`}
+            {`${siteMetadata.description}`}
           </h3>
-          {/* <div className="mx-4 mt-8 flex justify-around px-4">
-            <SocialIcon kind="linkedin" href={siteMetadata.linkedin} size="8" />
-            <SocialIcon kind="instagram" href={siteMetadata.instagram} size="8" />
-            <SocialIcon kind="twitter" href={siteMetadata.twitter} size="8" />
-            <SocialIcon kind="github" href={siteMetadata.github} size="8" />
-          </div> */}
         </div>
         <div className="flex items-end justify-center">
           <div className="grid grid-cols-2 grid-rows-1 gap-8 py-12 xl:grid-cols-1 xl:grid-rows-2">
