@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import kebabCase from '@/lib/utils/kebabCase'
-import Button from '@/components/Button'
 
 const Tag = ({ text, children }) => {
   return (
@@ -12,7 +11,7 @@ const Tag = ({ text, children }) => {
     >
       {text && (
         <div className="flex w-full content-center justify-between rounded-lg border border-primary-700 bg-white py-1 px-2 text-xs font-semibold text-primary-500 group-hover:bg-primary-500 group-hover:text-gray-100 dark:border-primary-500 dark:bg-gray-900 lg:text-sm">
-          <span className=" w-full">{text.split(' ').join('-')}</span>
+          <span className="w-full uppercase">{text.split(' ').join('-')}</span>
           {children && (
             <span className="flex items-center space-x-5 pl-4 group-hover:text-white">
               {children}
