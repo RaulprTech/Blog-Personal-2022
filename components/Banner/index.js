@@ -42,7 +42,7 @@ export default function SocialBanner({ title, link, image, emoji, bgColor }) {
               className=" h-10 w-20 rounded-lg"
             />
           )}
-          <span className="text-md w-full py-1">{title}</span>
+          <span className=" lg:text-md w-full py-1 text-sm">{title}</span>
           {emoji && <span className="py-1 text-2xl">{emoji}</span>}
         </div>
       )}
