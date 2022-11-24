@@ -27,11 +27,11 @@ export default function Tags({ tags }) {
               Tags
             </h1>
           </div>
-          <div className="flex max-w-2xl flex-wrap">
-            {Object.keys(tags).length === 0 && 'No tags found.'}
+          <div className="flex max-w-xl flex-wrap">
+            {Object.keys(tags).length === 0 && 'No se encontraron Tags.'}
             {sortedTags.map((t) => {
               return (
-                <div key={t} className="m-1">
+                <div key={t} className="mr-2 capitalize">
                   <Tag text={t} link={`/tags/${kebabCase(t)}`}>{` (${tags[t]})`}</Tag>
                 </div>
               )
