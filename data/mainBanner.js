@@ -1,5 +1,5 @@
 const mainBanner = {
-  title: 'Bienvenido a mi Blog ✨',
+  title: '',
   link: 'http://raulpacheco.dev',
   image: `/static/images/twitter-card.png`,
   emoji: '🎉',
@@ -7,3 +7,5 @@ const mainBanner = {
 }
 
 module.exports = mainBanner
+
+// Bienvenido a mi Blog ✨
