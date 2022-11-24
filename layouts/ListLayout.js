@@ -92,7 +92,7 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
           </div>
           {sortedTags != '0' && (
             <div className="py-4">
-              <span className="block py-4 text-center text-2xl font-bold text-secondary-400">
+              <span className="block py-4 text-center text-2xl font-bold text-primary-600 dark:text-secondary-400">
                 🏷️Tags
               </span>
               <div className="flex flex-wrap justify-start capitalize">
