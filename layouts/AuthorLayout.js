@@ -3,6 +3,7 @@ import Image from '@/components/Image'
 import { PageSEO } from '@/components/SEO'
 import IconCard from '@/components/IconCard'
 import Quote from '@/components/Quotes/quote'
+import Button from '@/components/Button'
 
 import { useRouter } from 'next/router'
 
@@ -56,14 +57,14 @@ export default function AuthorLayout({ children, frontMatter }) {
               <SocialIcon kind="platzi" href={platzi} />
             </div>
             <div className="grid grid-cols-2 grid-rows-1 gap-3 py-12 lg:grid-cols-1 lg:grid-rows-2">
-              <IconCard message="Descargar CV" link={CV}>
+              <Button link={CV} text="Descargar CV">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="h-6 w-6 -rotate-6 dark:text-gray-100 dark:group-hover:text-green-300"
+                  className="h-6 w-6 -rotate-6"
                 >
                   <path
                     strokeLinecap="round"
@@ -71,20 +72,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                     d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"
                   />
                 </svg>
-              </IconCard>
-              {/* <IconCard message="Perfil de Platzi" link={platzi}>
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  stroke="currentColor"
-                  strokeWidth={1.5}
-                  className="h-6 w-6 -rotate-6 dark:text-gray-100 dark:group-hover:text-green-300"
-                >
-                  <title>Platzi</title>
-                  <path d="M10.6392 1.127L2.486 9.282a3.842 3.842 0 000 5.4361l8.1552 8.1552a3.842 3.842 0 005.4361 0l2.719-2.718-2.719-2.7181-2.718 2.718-8.1562-8.1551 8.1552-8.1552 5.437 5.4371-5.437 5.4361 2.718 2.719 5.4371-5.437a3.842 3.842 0 000-5.4372l-5.448-5.436a3.828 3.828 0 00-5.4252 0z" />
-                </svg>
-              </IconCard> */}
+              </Button>
             </div>
             <Quote />
           </div>
