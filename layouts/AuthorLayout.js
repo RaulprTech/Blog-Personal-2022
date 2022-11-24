@@ -53,6 +53,7 @@ export default function AuthorLayout({ children, frontMatter }) {
               <SocialIcon kind="github" href={github} />
               <SocialIcon kind="linkedin" href={linkedin} />
               <SocialIcon kind="twitter" href={twitter} />
+              <SocialIcon kind="platzi" href={platzi} />
             </div>
             <div className="grid grid-cols-2 grid-rows-1 gap-3 py-12 lg:grid-cols-1 lg:grid-rows-2">
               <IconCard message="Descargar CV" link={CV}>
@@ -71,7 +72,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                   />
                 </svg>
               </IconCard>
-              <IconCard message="Perfil de Platzi" link={platzi}>
+              {/* <IconCard message="Perfil de Platzi" link={platzi}>
                 <svg
                   viewBox="0 0 24 24"
                   fill="none"
@@ -83,7 +84,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                   <title>Platzi</title>
                   <path d="M10.6392 1.127L2.486 9.282a3.842 3.842 0 000 5.4361l8.1552 8.1552a3.842 3.842 0 005.4361 0l2.719-2.718-2.719-2.7181-2.718 2.718-8.1562-8.1551 8.1552-8.1552 5.437 5.4371-5.437 5.4361 2.718 2.719 5.4371-5.437a3.842 3.842 0 000-5.4372l-5.448-5.436a3.828 3.828 0 00-5.4252 0z" />
                 </svg>
-              </IconCard>
+              </IconCard> */}
             </div>
             <Quote />
           </div>
