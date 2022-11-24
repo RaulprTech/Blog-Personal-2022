@@ -38,10 +38,13 @@ export async function getStaticProps({ params }) {
     fs.writeFileSync(path.join(rssPath, 'feed.xml'), rss)
   }
 
-  return { props: { posts: filteredPosts, tag: params.tag } }
+  // getAllTags for tag section
+  const tags = await getAllTags('blog')
+
+  return { props: { posts: filteredPosts, tag: params.tag, tags: tags } }
 }
 
-export default function Tag({ posts, tag }) {
+export default function Tag({ posts, tag, tags }) {
   // Capitalize first letter and convert space to dash
   const title = tag[0].toUpperCase() + tag.split(' ').join('-').slice(1)
   return (
@@ -50,7 +53,7 @@ export default function Tag({ posts, tag }) {
         title={`${tag} - ${siteMetadata.author} - ${siteMetadata.nickname}`}
         description={`Articulos sobre ${tag} - ${siteMetadata.author}`}
       />
-      <ListLayout posts={posts} title={title} />
+      <ListLayout posts={posts} title={title} tags={tags} />
     </LayoutWrapper>
   )
 }

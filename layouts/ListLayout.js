@@ -12,7 +12,7 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
     return searchContent.toLowerCase().includes(searchValue.toLowerCase())
   })
 
-  const sortedTags = Object.keys(tags).sort((a, b) => tags[b] - tags[a])
+  const sortedTags = tags != undefined ? Object.keys(tags).sort((a, b) => tags[b] - tags[a]) : '0'
 
   // If initialDisplayPosts exist, display it if no searchValue is specified
   const displayPosts =
@@ -90,17 +90,19 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
               })}
             </ul>
           </div>
-          <div className="py-4">
-            <span className="block py-4 text-center text-2xl font-bold text-secondary-400">
-              🏷️Tags
-            </span>
-            <div className="flex flex-wrap justify-start">
-              {Object.keys(tags).length === 0 && 'No se encontraron tags.'}
-              {sortedTags.map((t) => {
-                return <Tag key={t} text={t} link={`/tags/${kebabCase(t)}`} />
-              })}
+          {sortedTags != '0' && (
+            <div className="py-4">
+              <span className="block py-4 text-center text-2xl font-bold text-secondary-400">
+                🏷️Tags
+              </span>
+              <div className="flex flex-wrap justify-start capitalize">
+                {Object.keys(tags).length === 0 && 'No se encontraron tags.'}
+                {sortedTags.map((tag) => {
+                  return <Tag key={tag} text={tag} link={`/tags/${kebabCase(tag)}`} />
+                })}
+              </div>
             </div>
-          </div>
+          )}
         </article>
       </section>
       {pagination && pagination.totalPages > 1 && !searchValue && (
