@@ -1,16 +1,18 @@
 import Link from '@/components/Link'
 import Tag from '@/components/Tag'
-import siteMetadata from '@/data/siteMetadata'
 import { useState } from 'react'
 import Pagination from '@/components/Pagination'
 import formatDate from '@/lib/utils/formatDate'
+import kebabCase from '@/lib/utils/kebabCase'
 
-export default function ListLayout({ posts, title, initialDisplayPosts = [], pagination }) {
+export default function ListLayout({ posts, title, initialDisplayPosts = [], pagination, tags }) {
   const [searchValue, setSearchValue] = useState('')
   const filteredBlogPosts = posts.filter((frontMatter) => {
     const searchContent = frontMatter.title + frontMatter.summary + frontMatter.tags.join(' ')
     return searchContent.toLowerCase().includes(searchValue.toLowerCase())
   })
+
+  const sortedTags = Object.keys(tags).sort((a, b) => tags[b] - tags[a])
 
   // If initialDisplayPosts exist, display it if no searchValue is specified
   const displayPosts =
@@ -18,7 +20,7 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
 
   return (
     <>
-      <div className="divide-y">
+      <section className="divide-y">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-primary-500 dark:text-secondary-400 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             {title}
@@ -47,42 +49,60 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
             </svg>
           </div>
         </div>
-        <ul>
-          {!filteredBlogPosts.length && 'No posts found.'}
-          {displayPosts.map((frontMatter) => {
-            const { slug, date, title, summary, tags } = frontMatter
-            return (
-              <li key={slug} className="py-4">
-                <article className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
-                  <dl>
-                    <dt className="sr-only">Fecha de Publicacion</dt>
-                    <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
-                      <time dateTime={date}>{formatDate(date)}</time>
-                    </dd>
-                  </dl>
-                  <div className="space-y-3 xl:col-span-3">
-                    <div>
-                      <h2 className="text-2xl font-bold leading-8 tracking-tight">
-                        <Link href={`/blog/${slug}`} className="text-gray-900 dark:text-gray-100">
-                          {title}
-                        </Link>
-                      </h2>
-                      <div className="flex flex-wrap">
-                        {tags.map((tag) => (
-                          <Tag key={tag} text={tag} />
-                        ))}
+        <article className="items-start space-y-2 xl:grid xl:grid-cols-4 xl:gap-x-8 xl:space-y-0">
+          <div className="xl:col-span-3">
+            <ul>
+              {!filteredBlogPosts.length && 'No se encontraron coincidencias.'}
+              {displayPosts.map((frontMatter) => {
+                const { slug, date, title, summary, tags } = frontMatter
+                return (
+                  <li key={slug} className="py-4">
+                    <article className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+                      <dl>
+                        <dt className="sr-only">Fecha de Publicacion</dt>
+                        <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
+                          <time dateTime={date}>{formatDate(date)}</time>
+                        </dd>
+                      </dl>
+                      <div className="space-y-3 xl:col-span-3">
+                        <div>
+                          <h2 className="text-2xl font-bold leading-8 tracking-tight">
+                            <Link
+                              href={`/blog/${slug}`}
+                              className="text-gray-900 dark:text-gray-100"
+                            >
+                              {title}
+                            </Link>
+                          </h2>
+                          <div className="flex flex-wrap">
+                            {tags.map((tag) => (
+                              <Tag key={tag} text={tag} />
+                            ))}
+                          </div>
+                        </div>
+                        <div className="prose max-w-none text-gray-500 dark:text-gray-400">
+                          {summary}
+                        </div>
                       </div>
-                    </div>
-                    <div className="prose max-w-none text-gray-500 dark:text-gray-400">
-                      {summary}
-                    </div>
-                  </div>
-                </article>
-              </li>
-            )
-          })}
-        </ul>
-      </div>
+                    </article>
+                  </li>
+                )
+              })}
+            </ul>
+          </div>
+          <div className="py-4">
+            <span className="block py-4 text-center text-2xl font-bold text-secondary-400">
+              🏷️Tags
+            </span>
+            <div className="flex flex-wrap justify-start">
+              {Object.keys(tags).length === 0 && 'No se encontraron tags.'}
+              {sortedTags.map((t) => {
+                return <Tag key={t} text={t} link={`/tags/${kebabCase(t)}`} />
+              })}
+            </div>
+          </div>
+        </article>
+      </section>
       {pagination && pagination.totalPages > 1 && !searchValue && (
         <Pagination currentPage={pagination.currentPage} totalPages={pagination.totalPages} />
       )}

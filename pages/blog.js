@@ -4,6 +4,8 @@ import ListLayout from '@/layouts/ListLayout'
 import { PageSEO } from '@/components/SEO'
 import LayoutWrapper from '@/components/LayoutWrapper'
 
+import { getAllTags } from '@/lib/tags'
+
 export const POSTS_PER_PAGE = 5
 
 export async function getStaticProps() {
@@ -14,10 +16,12 @@ export async function getStaticProps() {
     totalPages: Math.ceil(posts.length / POSTS_PER_PAGE),
   }
 
-  return { props: { initialDisplayPosts, posts, pagination } }
+  const tags = await getAllTags('blog')
+
+  return { props: { initialDisplayPosts, posts, pagination, tags } }
 }
 
-export default function Blog({ posts, initialDisplayPosts, pagination }) {
+export default function Blog({ posts, initialDisplayPosts, pagination, tags }) {
   return (
     <LayoutWrapper>
       <PageSEO
@@ -29,6 +33,7 @@ export default function Blog({ posts, initialDisplayPosts, pagination }) {
         initialDisplayPosts={initialDisplayPosts}
         pagination={pagination}
         title="Blog"
+        tags={tags}
       />
     </LayoutWrapper>
   )
