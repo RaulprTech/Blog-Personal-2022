@@ -2,6 +2,7 @@ import React from 'react'
 import kebabCase from '@/lib/utils/kebabCase'
 import SkillIcon from './SkillIcon'
 import IconCard from '../IconCard'
+import Button from '../Button'
 
 // Frontend Icons
 import Html from './Frontend/html5.svg'
@@ -115,16 +116,16 @@ export default function index({ tags, title }) {
   return (
     <section className="mb-6 flex max-w-screen-lg flex-col justify-center">
       <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100">{title || 'Skills'}</h1>
-      <div className="grid grid-cols-2 grid-rows-2 gap-2 py-8 uppercase">
+      <div className="grid grid-cols-3 grid-rows-2 gap-2 py-8 uppercase">
         {sortedTags.map((t) => {
           const SkillSvg = components[t]
           return (
             // <div key={`${tags[t]}${t}`}>
             //   <SkillIcon kind={t} href={`/tags/${kebabCase(t)}`} size="4" />
             // </div>
-            <IconCard message={t} link={`/tags/${kebabCase(t)}`} key={`${tags[t]}${t}`}>
-              <SkillSvg className="h-4 w-4 fill-current text-gray-900 dark:text-gray-100" />
-            </IconCard>
+            <Button text={t} link={`/tags/${kebabCase(t)}`} key={`${tags[t]}${t}`}>
+              <SkillSvg className="h-4 w-4 fill-current" />
+            </Button>
           )
         })}
       </div>
