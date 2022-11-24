@@ -2,6 +2,7 @@ import React from 'react'
 import Timeline from '@/components/Profile/Timeline'
 import siteMetadata from '@/data/siteMetadata'
 import { PageSEO } from '@/components/SEO'
+import LayoutWrapper from '@/components/LayoutWrapper'
 
 const talleres = [
   {
@@ -48,7 +49,7 @@ const talleres = [
 
 export default function workshops() {
   return (
-    <>
+    <LayoutWrapper>
       <PageSEO
         title={`Workshops - ${siteMetadata.author} - ${siteMetadata.nickname}`}
         description={`Concoce todos los Talleres impartidos por ${siteMetadata.author}`}
@@ -58,6 +59,6 @@ export default function workshops() {
           <Timeline title="Talleres" jobs={talleres} />
         </div>
       </article>
-    </>
+    </LayoutWrapper>
   )
 }

@@ -4,6 +4,7 @@ import Skills from '@/components/Skills'
 import siteMetadata from '@/data/siteMetadata'
 import { PageSEO } from '@/components/SEO'
 import { getAllTags } from '@/lib/tags'
+import LayoutWrapper from '@/components/LayoutWrapper'
 
 export async function getStaticProps() {
   const tags = await getAllTags('blog')
@@ -88,7 +89,7 @@ const edu = [
 
 export default function trajectory() {
   return (
-    <>
+    <LayoutWrapper>
       <PageSEO
         title={`Trayectoria - ${siteMetadata.author} - ${siteMetadata.nickname}`}
         description={`Conoce la trayectoria Profesional y Escolar de ${siteMetadata.author}`}
@@ -102,6 +103,6 @@ export default function trajectory() {
           <Timeline title="Trabajos" jobs={jobs} />
         </div>
       </article>
-    </>
+    </LayoutWrapper>
   )
 }

@@ -2,10 +2,11 @@ import siteMetadata from '@/data/siteMetadata'
 import projectsData from '@/data/projectsData'
 import Card from '@/components/Card'
 import { PageSEO } from '@/components/SEO'
+import LayoutWrapper from '@/components/LayoutWrapper'
 
 export default function Projects() {
   return (
-    <>
+    <LayoutWrapper>
       <PageSEO
         title={`Proyectos - ${siteMetadata.author} - ${siteMetadata.nickname}`}
         description={`Proyectos de Desarrollo Web de ${siteMetadata.author} - React, Next, Gatasby, Javascript, html, css y python`}
@@ -33,6 +34,6 @@ export default function Projects() {
           </div>
         </div>
       </div>
-    </>
+    </LayoutWrapper>
   )
 }
