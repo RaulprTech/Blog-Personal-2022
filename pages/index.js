@@ -4,7 +4,7 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
-import Home from '@/components/Home'
+import Hero from '@/components/Hero'
 import Script from 'next/script'
 // import Skills from '@/components/Skills'
 import { getAllTags } from '@/lib/tags'
@@ -23,7 +23,7 @@ export async function getStaticProps() {
   return { props: { posts, tags } }
 }
 
-export default function index({ posts, tags }) {
+export default function Home({ posts, tags }) {
   return (
     <>
       <Banner
@@ -38,7 +38,7 @@ export default function index({ posts, tags }) {
           title={`${siteMetadata.title} - ${siteMetadata.author} - ${siteMetadata.nickname}`}
           description={`${siteMetadata.description}`}
         />
-        <Home />
+        <Hero />
         {/* <Skills tags={tags} /> */}
         <div className="divide-y divide-gray-200 dark:divide-gray-700">
           <div className="space-y-2 pt-6 pb-8 md:space-y-5">
