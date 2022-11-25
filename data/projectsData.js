@@ -12,10 +12,10 @@ const projectsData = [
     href: '/blog/projects/haciendo-un-portafolio-de-desarrollo-web-con-jamstack',
   },
   {
-    title: 'Revo-Game',
-    description: `Sitio para inscripcion en torneo de videojuegos del gamecenter Revolucion Game`,
-    imgSrc: '/static/images/blog/duels.png',
-    href: 'https://github.com/RaulprTech/Re-Game-tournaments-online',
+    title: 'LinkMe',
+    description: `Reúne y comparte tus enlaces en un solo lugar con LinkMe, alternativa libre para LinkTree `,
+    imgSrc: '/static/images/blog/linkme.png',
+    href: 'https://github.com/RaulprTech/linkme',
   },
   {
     title: 'HouseForSale',
