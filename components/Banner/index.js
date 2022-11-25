@@ -22,14 +22,14 @@ export default function SocialBanner({ title, link, image, emoji, bgColor }) {
 
   return (
     <Link
-      className="cursor-pointer text-center text-lg font-bold text-gray-100"
+      className="cursor-pointer text-center font-bold text-gray-100"
       href={link}
       target="_blank"
       rel="noreferrer"
     >
       {title && (
         <div
-          className={`flex w-full content-center justify-between rounded-md ${colorSelect(
+          className={`align-center flex w-full items-center rounded-md ${colorSelect(
             bgColor
           )} px-4 py-2`}
         >
@@ -42,8 +42,8 @@ export default function SocialBanner({ title, link, image, emoji, bgColor }) {
               className=" h-10 w-20 rounded-lg"
             />
           )}
-          <span className=" lg:text-md w-full py-1 text-sm">{title}</span>
-          {emoji && <span className="py-1 text-2xl">{emoji}</span>}
+          <span className="text-md w-full md:text-lg">{title}</span>
+          {emoji && <span className="text-2xl">{emoji}</span>}
         </div>
       )}
     </Link>
