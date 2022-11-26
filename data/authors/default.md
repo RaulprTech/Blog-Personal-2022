@@ -12,7 +12,7 @@ platzi: https://platzi.com/p/RaulprTech/
 CV: /static/CV/CV.pdf
 ---
 
-## ¿Quién es Raul Pacheco Rodriguez?
+## ¿Quién es Raul Pacheco Rodríguez?
 
 Mexicano nacido en Campeche, aficionado a la cultura Hacker, buscando siempre nuevos retos y aprendizajes.
 
