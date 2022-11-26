@@ -1,13 +1,18 @@
 import SocialIcon from '@/components/social-icons'
 import Image from '@/components/Image'
 import { PageSEO } from '@/components/SEO'
-import IconCard from '@/components/IconCard'
 import Quote from '@/components/Quotes/quote'
 import Button from '@/components/Button'
+import Skills from '@/components/Skills'
 
-import { useRouter } from 'next/router'
-
-// import WorkHistory from '@/components/Profile/Work-history'
+const skills = {
+  html: 0,
+  css: 0,
+  react: 0,
+  next: 0,
+  tailwind: 0,
+  python: 0,
+}
 
 export default function AuthorLayout({ children, frontMatter }) {
   const {
@@ -74,6 +79,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                 </svg>
               </Button>
             </div>
+            <Skills tags={skills} />
             <Quote />
           </div>
           <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">{children}</div>
