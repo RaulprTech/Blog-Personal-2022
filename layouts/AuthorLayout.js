@@ -64,7 +64,7 @@ export default function AuthorLayout({ children, frontMatter }) {
               <SocialIcon kind="twitter" href={twitter} />
               <SocialIcon kind="platzi" href={platzi} />
             </div>
-            <div className="grid grid-cols-2 grid-rows-1 gap-3 pt-10 pb-4 lg:grid-cols-1 lg:grid-rows-2">
+            <div className="grid grid-cols-1 grid-rows-1 gap-3 pt-10 pb-10 md:pb-2 lg:grid-cols-1 lg:grid-rows-2">
               <Button link={CV} text="Descargar CV">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -82,7 +82,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                 </svg>
               </Button>
             </div>
-            <Skills tags={skills} />
+            {/* <Skills tags={skills} /> */}
             <Quote />
           </div>
           <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">{children}</div>
