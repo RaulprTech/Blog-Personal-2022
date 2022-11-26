@@ -1,7 +1,5 @@
 import React from 'react'
 import kebabCase from '@/lib/utils/kebabCase'
-import SkillIcon from './SkillIcon'
-import IconCard from '../IconCard'
 import Button from '../Button'
 
 // Frontend Icons
@@ -114,9 +112,9 @@ const components = {
 export default function index({ tags, title }) {
   const sortedTags = Object.keys(tags).sort((a, b) => tags[b] - tags[a])
   return (
-    <section className="mb-6 flex max-w-screen-lg flex-col justify-center">
+    <section className="mb-6 flex max-w-screen-lg flex-col justify-center text-center">
       <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100">{title || 'Skills'}</h1>
-      <div className="grid grid-cols-3 grid-rows-2 gap-2 py-8 uppercase">
+      <div className="grid grid-cols-2 grid-rows-3 gap-2 py-6 uppercase">
         {sortedTags.map((t) => {
           const SkillSvg = components[t]
           return (
@@ -124,7 +122,7 @@ export default function index({ tags, title }) {
             //   <SkillIcon kind={t} href={`/tags/${kebabCase(t)}`} size="4" />
             // </div>
             <Button text={t} link={`/tags/${kebabCase(t)}`} key={`${tags[t]}${t}`}>
-              <SkillSvg className="h-4 w-4 fill-current" />
+              <SkillSvg className="h-5 w-5 fill-current" />
             </Button>
           )
         })}
