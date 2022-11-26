@@ -41,6 +41,9 @@ export default function AuthorLayout({ children, frontMatter }) {
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-primary-500 dark:text-secondary-400 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Sobre mi
           </h1>
+          <p className="text-lg leading-7 text-gray-800 dark:text-gray-400">
+            Encuentra aqui toda la informacion relevante sobre mi.
+          </p>
         </div>
         <article className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
           <div className="flex flex-col items-center pt-8">
@@ -61,7 +64,7 @@ export default function AuthorLayout({ children, frontMatter }) {
               <SocialIcon kind="twitter" href={twitter} />
               <SocialIcon kind="platzi" href={platzi} />
             </div>
-            <div className="grid grid-cols-2 grid-rows-1 gap-3 py-12 lg:grid-cols-1 lg:grid-rows-2">
+            <div className="grid grid-cols-2 grid-rows-1 gap-3 pt-10 pb-4 lg:grid-cols-1 lg:grid-rows-2">
               <Button link={CV} text="Descargar CV">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

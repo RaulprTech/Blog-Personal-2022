@@ -43,11 +43,11 @@ export default function Home({ posts, tags }) {
         <div className="divide-y divide-gray-200 dark:divide-gray-700">
           <div className="space-y-2 pt-6 pb-8 md:space-y-5">
             <h2 className="text-2xl font-extrabold leading-6 tracking-tight text-primary-500 dark:text-secondary-400 sm:text-3xl sm:leading-8 md:text-4xl md:leading-10">
-              ¡Ultimos Articulos!
+              Últimos Artículos
             </h2>
-            {/* <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            {siteMetadata.description}
-          </p> */}
+            <p className="text-lg leading-7 text-gray-800 dark:text-gray-400">
+              Encuentra aqui los artículos mas recientes. ¿Sobre que quieres aprender hoy? 😉
+            </p>
           </div>
           <ul className="divide-y divide-gray-200 dark:divide-gray-700">
             {!posts.length && 'No se encontraron Articulos.'}
