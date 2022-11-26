@@ -82,7 +82,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                 </svg>
               </Button>
             </div>
-            {/* <Skills tags={skills} /> */}
+            <Skills tags={skills} />
             <Quote />
           </div>
           <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">{children}</div>
