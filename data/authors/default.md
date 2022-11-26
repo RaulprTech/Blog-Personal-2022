@@ -28,7 +28,7 @@ Mi trayectoria profesional y escolar las puedes ver en mi CV o en la pagina de [
 
 ## Experiencia Enseñando
 
-Me encanta enseñar, he impartido talleres de electrónica y programación como los que ves en la pagina de [Workshops](https://raulpacheco.dev/workshops) y ahora busco aumentar mi alcance de educador escribiendo sobre ciencia y tecnología a través de este blog.
+Me encanta enseñar, he impartido talleres de electrónica y programación como los que ves en la pagina de [Trayectoria](https://raulpacheco.dev/trajectory) y ahora busco aumentar mi alcance de educador escribiendo sobre ciencia y tecnología a través de este blog.
 
 Principalmente escribo sobre [JavaScript](https://raulpacheco.dev/tags/javascript), [Python](https://raulpacheco.dev/tags/python), [Electrónica](https://raulpacheco.dev/tags/electronica), [Inteligencia Artificial](https://raulpacheco.dev/tags/machine-learning) y alguno que otro consejo para principiantes que quieren empezar a trabajar en tecnología.
 
