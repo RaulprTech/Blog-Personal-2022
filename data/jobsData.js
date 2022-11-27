@@ -4,8 +4,7 @@ const jobsData = [
     place: 'TMaker',
     type: 'professional',
     date: 'Junio de 2020',
-    description:
-      'Diseño y Desarrollo de sitio web MVP para negocio inmobiliario con Next, React y Tailwind y sitio promocional para evento online organizado por Game Center',
+    description: 'Diseño y desarrollo de landing pages para pymes con next, react y tailwind',
     current: false,
   },
   {
@@ -13,8 +12,7 @@ const jobsData = [
     place: 'Flexxo',
     type: 'professional',
     date: 'Enero de 2020',
-    description:
-      'Diseño y Desarrollo de sitio web de reservas, responsive design conectado a Base de Datos No-SQL de Firebase',
+    description: 'Diseño y desarrollo de sitio web de reservas, responsive conectado a Firebase',
     current: false,
   },
 ]
