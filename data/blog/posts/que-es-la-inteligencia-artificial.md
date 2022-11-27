@@ -1,6 +1,6 @@
 ---
 title: '¿Qué es la inteligencia Artificial? 🤖'
-date: '2022-11-21'
+date: '2022-11-14'
 tags: ['Machine Learning', 'Deep Learning']
 draft: false
 summary: '

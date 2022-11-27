@@ -1,6 +1,6 @@
 ---
 title: '¿Por qué aprender React ⚛️ para Desarrollo Web?'
-date: '2022-11-14'
+date: '2022-11-21'
 tags: ['React', 'JavaScript', 'Desarrollo Web']
 draft: false
 summary: '
