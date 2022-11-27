@@ -1,19 +1,18 @@
 const eduData = [
-  {
-    title: 'Msc Ingenieria Electrica',
-    place: 'CINVESTAV Gdl',
-    type: 'educational',
-    date: 'Agosto de 2023',
-    description:
-      'Diseñando un acelerador de Hardware para Swin Transformer con aplicacion en el diagnostico temprano de Retinopatia Diabetica',
-    current: true,
-  },
+  // {
+  //   title: 'Msc Ingenieria Electrica',
+  //   place: 'CINVESTAV Gdl',
+  //   type: 'educational',
+  //   date: 'Agosto de 2023',
+  //   description: 'Área de Diseño Electronico Digital trabajando con Deep Learning',
+  //   current: true,
+  // },
   {
     title: 'Ingeniería Electrónica',
     place: 'Instituto Tecnologico de Lerma',
     type: 'educational',
     date: 'Diciembre de 2018',
-    description: 'Licenciatura en Ingenieria Electrónica con especialidad en Telematica',
+    description: 'Grado de Ingenieria Electrónica con especialidad en Telematica',
     current: false,
   },
   {
@@ -21,7 +20,7 @@ const eduData = [
     place: 'CECYTEC',
     type: 'educational',
     date: 'Julio de 2013',
-    description: 'Graduacion de preparatoria tecnica con la especialidad de Tecnico en Mecatronica',
+    description: 'Titulado como Tecnico en Mecatrónica',
     current: false,
   },
 ]
