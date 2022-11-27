@@ -46,7 +46,7 @@ export default function Home({ posts, tags }) {
               Últimos Artículos
             </h2>
             <p className="text-lg leading-7 text-gray-800 dark:text-gray-400">
-              Encuentra aqui los artículos mas recientes. ¿Sobre que quieres aprender hoy? 😉
+              Encuentra aquí los artículos mas recientes. ¿Sobre que quieres aprender hoy? 😉
             </p>
           </div>
           <ul className="divide-y divide-gray-200 dark:divide-gray-700">
