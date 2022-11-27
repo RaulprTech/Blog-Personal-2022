@@ -26,7 +26,7 @@ export default function Blog({ posts, initialDisplayPosts, pagination, tags }) {
     <LayoutWrapper>
       <PageSEO
         title={`Blog - ${siteMetadata.author} - ${siteMetadata.nickname} - p${pagination.currentPage}`}
-        description={`${siteMetadata.description} - pagina ${pagination.currentPage}`}
+        description={`${siteMetadata.description} - página ${pagination.currentPage}`}
       />
       <ListLayout
         posts={posts}

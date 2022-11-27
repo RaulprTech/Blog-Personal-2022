@@ -48,7 +48,7 @@ export default function PostPage({ posts, initialDisplayPosts, pagination }) {
       <>
         <PageSEO
           title={`Blog - ${siteMetadata.author} - ${siteMetadata.nickname} - p${pagination.currentPage}`}
-          description={`${siteMetadata.description} - pagina ${pagination.currentPage}`}
+          description={`${siteMetadata.description} - página ${pagination.currentPage}`}
         />
         <ListLayout
           posts={posts}
