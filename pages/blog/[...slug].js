@@ -59,7 +59,7 @@ export default function Blog({ post, authorDetails, prev, next }) {
       ) : (
         <div className="mt-24 text-center">
           <PageTitle>
-            En Construccion{' '}
+            En Construcción{' '}
             <span role="img" aria-label="roadwork sign">
               🚧
             </span>
