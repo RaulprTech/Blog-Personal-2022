@@ -93,9 +93,9 @@ export default function Presentation() {
             </h1>
           </span>
           <h2 className="text-md flex space-x-4 text-center font-bold text-primary-500 dark:text-blue-400 sm:text-lg md:text-2xl xl:inline">
-            <span className="inline-block">Electronic Engineer</span>
+            <span className="inline-block">Ingeniero Electrónico</span>
             <span className="inline-block">{`  •  `}</span>
-            <span className="inline-block">Web Developer</span>
+            <span className="inline-block">Desarrollador Web</span>
           </h2>
           <h3 className="sm:text-md prose pt-2 text-sm text-gray-600 dark:text-gray-300 md:text-lg">
             {`${siteMetadata.description}`}
