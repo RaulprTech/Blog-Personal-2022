@@ -1,8 +1,8 @@
 ---
-name: Raul Pacheco Rodríguez
+name: Raúl Pacheco Rodríguez
 nickname: RaulprTech
 avatar: /static/images/avatar_bg_blue.png
-occupation: Electronic Engineer | Web Developer
+occupation: Ingeniero Electrónico • Desarrollador Web
 company: Freelance
 email: contact@raulpacheco.me
 twitter: https://twitter.com/RaulprTech
@@ -12,7 +12,7 @@ platzi: https://platzi.com/p/RaulprTech/
 CV: /static/CV/CV.pdf
 ---
 
-## ¿Quién es Raul Pacheco Rodríguez?
+## ¿Quién es Raúl Pacheco Rodríguez?
 
 Mexicano nacido en Campeche, aficionado a la cultura Hacker, buscando siempre nuevos retos y aprendizajes.
 
