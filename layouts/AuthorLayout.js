@@ -42,7 +42,7 @@ export default function AuthorLayout({ children, frontMatter }) {
             Sobre mi
           </h1>
           <p className="text-lg leading-7 text-gray-800 dark:text-gray-400">
-            Encuentra aqui toda la informacion relevante sobre mi.
+            Encuentra aquí la informacion más relevante sobre mí.
           </p>
         </div>
         <article className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
