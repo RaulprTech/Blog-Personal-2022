@@ -88,7 +88,7 @@ export default function Presentation() {
             {/* <span className="inline text-2xl text-gray-900 dark:text-gray-100 md:text-3xl">
               Hola 👋, soy{' '}
             </span> */}
-            <h1 className="block text-4xl text-gray-900 dark:text-secondary-400 md:text-6xl">
+            <h1 className="block text-4xl text-gray-900 dark:text-secondary-400 md:text-5xl">
               Raul Pacheco Rodríguez
             </h1>
           </span>
