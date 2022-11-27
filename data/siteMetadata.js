@@ -4,6 +4,8 @@ const siteMetadata = {
   headerTitle: 'Raul Pacheco',
   description:
     '✨ Aprende conmigo de Programación, Electrónica, IA y más. ¡Construyamos la tecnología del futuro 🙌!',
+  authorDescription:
+    'Construyo sitios web geniales con JavaScript y su ecosistema. La creatividad , persistencia y el amor por el conocimiento son mis principales características.',
   language: 'es-mx',
   theme: 'system', // system, dark or light
   siteUrl: 'https://raulpacheco.dev',
