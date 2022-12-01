@@ -44,7 +44,7 @@ Frameworks como [Johnny Five](http://johnny-five.io/) permiten tener nuestro pri
 
 ![IoT - Niño armando el circuito de un auto miniatura, arriba el nombre Johnny Five junto a la figura de un robot](/static/images/blog/usos-menos-conocidos-de-javascript/iot-js.png)
 
-Si te interesa empezar a aprender de electrónica este articulo podría interesarte, te recomiendo el articulo [Comenzando a aprender electrónica con Arduino](https://raulpacheco.dev/blog/posts/comenzando-a-aprender-electronica-con-arduino)
+Si te interesa empezar a aprender de electrónica este articulo podría interesarte, te recomiendo el articulo [Comenzando a aprender electrónica con Arduino](https://raulpacheco.dev/blog/posts/que-es-arduino-y-donde-conseguir-uno)
 
 ## Inteligencia Artificial 🤖
 
