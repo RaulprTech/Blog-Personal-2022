@@ -6,17 +6,21 @@ draft: false
 summary: '
 La última novedad de OpenAI podría convertirse en el reemplazo de Google. Conoce ChatGPT la Inteligencia Artificial conversacional basada en GPT-3.
 '
-images: ['/static/images/blog/javascript-en-el-desarrollo-web/portada.png']
+images: ['/static/images/blog/chatgpt-chatbot-gpt3-openai/portada.png']
 layout: PostLayout
 bibliography: references-data.bib
 canonicalUrl:
 ---
+
+![Portada - chatGPT](/static/images/blog/chatgpt-chatbot-gpt3-openai/portada.png)
 
 La última novedad de **OpenAI** podría convertirse en el reemplazo de **Google**. Conoce **ChatGPT** la **Inteligencia Artificial Conversacional** basada en **GPT-3**.
 
 La semana pasada **OpenAI**, la empresa de **Inteligencia Artificial** lanzo una nueva herramienta que fascino a los amantes de la ultima tecnología.
 
 **ChatGPT** es el nuevo **Chatbot** de **Inteligencia Artificial Conversacional**, al que le puedes pedir cualquier tipo de información y en pocos segundos es capaz de generar una respuesta de forma idéntica a lo que un ser humano escribiría. Esto se debe a que está basado en el modelo **GPT-3** de **OpenAI**, que es uno de los modelos de lenguaje más grandes y poderosos que se han desarrollado hasta la fecha.
+
+![chatGPT](/static/images/blog/chatgpt-chatbot-gpt3-openai/chatgpt.png)
 
 ## ¿Qué es GPT?
 
@@ -26,21 +30,25 @@ La semana pasada **OpenAI**, la empresa de **Inteligencia Artificial** lanzo una
 
 Hace poco tiempo este increíble modelo de **Inteligencia Artificial** nos sorprendió con su gran capacidad de generar textos y esta vez **ChatGPT** se nos presenta como una versión mejorada del modelo, algo así como una versión 3.5.
 
+![GPT](/static/images/blog/chatgpt-chatbot-gpt3-openai/gpt.png)
+
 ## Implicaciones de ChatGPT
 
 Tener **Chatbots** tan potentes como **ChatGPT** que generan textos idénticos a los que un ser humano escribiría implica un avance significativo en el campo de la **Inteligencia Artificial** y la generación de lenguaje natural.
 
-La capacidad de un **Chatbot** como **ChatGPT** para generar textos idénticos a los que un ser humano escribiría implica que puede simular el pensamiento humano y la forma en que se expresan las personas de manera muy precisa. Esto puede tener una serie de implicaciones interesantes, como la posibilidad de utilizar **Chatbots** como asistentes virtuales o para crear contenido de alta calidad en una variedad de campos.
+La capacidad de un **Chatbot** como **ChatGPT** para generar textos tan convincentes implica que puede simular el pensamiento humano y la forma en que se expresan las personas de manera muy precisa. Esto puede tener una serie de implicaciones interesantes, como la posibilidad de utilizar **Chatbots** como asistentes virtuales o para crear contenido de alta calidad en una variedad de campos.
 
 Sin embargo, también es importante tener en cuenta que la tecnología aún no está lo suficientemente desarrollada como para replicar completamente el pensamiento humano.
 
-Los **Chatbots** aún no pueden comprender el contexto y las emociones de la misma manera que un ser humano, y su capacidad para generar textos idénticos a los que un ser humano escribiría está limitada a lo que se les ha enseñado y a lo que pueden inferir de los datos que tienen disponibles.
+Los **Chatbots** aún no pueden comprender el contexto y las emociones de la misma manera que un ser humano, y su capacidad para generar textos está limitada a lo que se les ha enseñado y a lo que pueden inferir de los datos que tienen disponibles.
 
-## ChatGPT vs Google
+![chatbot chatGPT](/static/images/blog/chatgpt-chatbot-gpt3-openai/chatbot.png)
+
+### ChatGPT vs Google
 
 Como seguro te habrás imaginado, desde que el acceso a este nuevo chat fue liberado, la curiosidad del publico fue tanta que en menos de una semana ya había superado [un millón de usuarios.](https://link.mail.beehiiv.com/ss/c/I0-sigCLSiemi7mJo4rgybOFZcUQ9fteLGGgosT8AiCNJtD53oVzZkLP_7PsxaeJDflwMLKJ74KbG2MxfrVeVw/3rr/nLcrt4xZSFOh8n4fcUwAyA/h7/VDZiZWz3bT19oImTm2uNTlfuxUDmlN9tgn8wF2Yo_wQ)
 
-Entre esos usuarios que lo han probado, ha habido algunos que incluso lo han descrito como el reemplazo lógico de **Google**. Esto debido al incremento de velocidad que representa conseguir una respuesta en comparación con los motores de búsqueda.
+Entre los usuarios que lo han probado, ha habido algunos que incluso lo han descrito como el reemplazo lógico de **Google**. Esto debido al incremento de velocidad que representa conseguir una respuesta en comparación con los motores de búsqueda.
 
 Dicho aumento se debe a que cuando le pedimos a **Google** información, nos entrega una lista de sitios web que podrían contener la respuesta a nuestra pregunta. Sin embargo, con **ChatGPT** es diferente, pues este chat entrenado con toda la información de la web lo que nos entrega es una única y resumida respuesta.
 
@@ -49,6 +57,8 @@ Sin embargo, aunque el modelo **GPT-3** de **OpenAI** es uno de los modelos de l
 Además, sólo puede proporcionar información basada en lo que se le ha enseñado y en lo que puede inferir de los datos que tiene disponibles, por lo que su capacidad para proporcionar información confiable y actualizada sigue siendo limitada.
 
 Aunque un **chatbot** basado en **GPT-3** como **ChatGPT** puede ser una herramienta muy poderosa para generar contenido de alta calidad y para simular el pensamiento humano, todavía hay limitaciones en su capacidad para reemplazar a **Google** como una fuente de información rápida y confiable.
+
+![ChatGPT vs Google](/static/images/blog/chatgpt-chatbot-gpt3-openai/chatvsgoogle.png)
 
 ## Expectativa vs Realidad de ChatGPT
 
@@ -65,6 +75,8 @@ Sin embargo, en problemas de matemáticas y programación por ejemplo, aun no es
 Además el problema principal que se está detectando es que, como muchos otros **Chatbots**, **ChatGPT** refleja a la sociedad y está basado en todos los sesgos incorrectos que tenemos.
 
 Esto fue demostrado por un científico computacional llamado **Steven T. Piantadosi** que enseñó como la herramienta sugiere que los "mejores científicos" son hombres blancos o asiáticos.
+
+![Racismo en la IA](/static/images/blog/chatgpt-chatbot-gpt3-openai/gptracism.png)
 
 ## Conclusión
 
