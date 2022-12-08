@@ -5,7 +5,7 @@ import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
 import Hero from '@/components/Hero'
-import Script from 'next/script'
+// import Script from 'next/script'
 // import Skills from '@/components/Skills'
 import { getAllTags } from '@/lib/tags'
 import LayoutWrapper from '@/components/LayoutWrapper'
@@ -33,7 +33,7 @@ export default function Home({ posts, tags }) {
         image={mainBanner.image}
         emoji={mainBanner.emoji}
       />
-      <LayoutWrapper>
+      <LayoutWrapper bgImage={''}>
         <PageSEO
           title={`${siteMetadata.title} - ${siteMetadata.author} - ${siteMetadata.nickname}`}
           description={`${siteMetadata.description}`}

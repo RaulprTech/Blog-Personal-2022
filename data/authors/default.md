@@ -1,7 +1,7 @@
 ---
 name: Raúl Pacheco Rodríguez
 nickname: RaulprTech
-avatar: /static/images/avatar_bg_blue.png
+avatar: /static/images/avatar_nblue.png
 occupation: Ingeniero Electrónico • Desarrollador Web
 company: Freelance
 email: contact@raulpacheco.me

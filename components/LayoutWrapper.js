@@ -7,9 +7,9 @@ import Footer from './Footer'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
 
-const LayoutWrapper = ({ children }) => {
+const LayoutWrapper = ({ children, bgImage }) => {
   return (
-    <SectionContainer>
+    <SectionContainer bgImage={bgImage}>
       <div className="flex h-screen flex-col justify-between">
         <header className="flex items-center justify-between py-10">
           <div>

@@ -49,9 +49,9 @@ export default function AuthorLayout({ children, frontMatter }) {
           <div className="flex flex-col items-center pt-8">
             <Image
               src={avatar}
-              alt="avatar"
-              width="192"
-              height="192"
+              alt="Raul Alberto Pacheco Rodriguez"
+              width="800"
+              height="800"
               className="h-48 w-48 rounded-full"
             />
             <h2 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">{name}</h2>

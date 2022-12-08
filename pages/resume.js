@@ -32,7 +32,7 @@ const Resume = () => {
               <div className="mb-6 grid grid-cols-3 gap-x-4">
                 <div className="max-w-none items-start xl:col-span-1">
                   <Image
-                    src="/static/images/avatar_bg_blue.png"
+                    src="/static/images/avatar_nblue.png"
                     alt="avatar"
                     width="192"
                     height="192"

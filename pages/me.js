@@ -19,7 +19,7 @@ export default function me() {
           <div className="flex flex-col justify-between px-4 py-2 align-middle sm:px-6">
             <div className="flex justify-center">
               <Image
-                src="/static/images/avatar_bg_blue.png"
+                src="/static/images/avatar_nblue.png"
                 alt="Raul Pacheco Rodriguez"
                 width={300}
                 height={300}
