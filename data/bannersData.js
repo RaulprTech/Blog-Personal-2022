@@ -7,6 +7,13 @@ const bannersData = [
     bgColor: 'blue',
   },
   {
+    title: '🗣️ Que es ChatGPT y Por que puede reemplazara a Google',
+    link: 'https://raulpacheco.dev/blog/posts/chatgpt-el-chatbot-ia-basado-openai',
+    image: `/static/images/chatgpt-chatbot-gpt3-openai/portada.png`,
+    emoji: '📃',
+    bgColor: 'red',
+  },
+  {
     title: '¿Qué se puede hacer con Javascript?',
     link: 'https://raulpacheco.dev/blog/posts/que-se-puede-hacer-con-javascript',
     image: `/static/images/blog/que-se-puede-hacer-con-javascript/portada.png`,
@@ -26,13 +33,6 @@ const bannersData = [
     image: `/static/images/blog/que-se-puede-hacer-con-javascript/web.png`,
     emoji: '🧑‍💻',
     bgColor: 'green',
-  },
-  {
-    title: 'Descargar CV',
-    link: 'https://raulpacheco.dev/static/CV/CV.pdf',
-    image: `/static/images/cv.png`,
-    emoji: '📃',
-    bgColor: 'red',
   },
 ]
 

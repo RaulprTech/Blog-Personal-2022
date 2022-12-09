@@ -35,7 +35,7 @@ export default function me() {
               </h2>
               <p className="mt-1 max-w-2xl text-center text-sm  text-gray-900 dark:text-gray-100">
                 🧑‍💻 Frontend Developer | ⚛️ React | ✨ JavaScript | 🐍 Python | 📡 Electronic
-                Engineer | 🧠 Deep Learning | 💻 C/C++ |
+                Engineer | 🧠 Deep Learning | 💻 C++ |
               </p>
             </div>
           </div>
