@@ -13,19 +13,12 @@ const bannersData = [
     emoji: '📃',
     bgColor: 'red',
   },
-  // {
-  //   title: '¿Qué se puede hacer con Javascript?',
-  //   link: 'https://raulpacheco.dev/blog/posts/que-se-puede-hacer-con-javascript',
-  //   image: `/static/images/blog/que-se-puede-hacer-con-javascript/portada.png`,
-  //   emoji: '📚',
-  //   bgColor: 'yellow',
-  // },
   {
     title: '¿Qué es la Inteligencia Artificial?',
     link: 'https://raulpacheco.dev/blog/posts/que-es-la-inteligencia-artificial',
     image: `/static/images/blog/que-es-la-ia/portada.png`,
     emoji: '🤖',
-    bgColor: 'yellow',
+    bgColor: 'orange',
   },
   {
     title: '¿Qué es el Deep Learning?',
@@ -40,6 +33,13 @@ const bannersData = [
     image: `/static/images/blog/por-que-usar-react/portada.png`,
     emoji: '⚛️',
     bgColor: 'purple',
+  },
+  {
+    title: '¿Qué se puede hacer con Javascript?',
+    link: 'https://raulpacheco.dev/blog/posts/que-se-puede-hacer-con-javascript',
+    image: `/static/images/blog/que-se-puede-hacer-con-javascript/portada.png`,
+    emoji: '📚',
+    bgColor: 'yellow',
   },
 ]
 
