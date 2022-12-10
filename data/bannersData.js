@@ -7,7 +7,7 @@ const bannersData = [
     bgColor: 'blue',
   },
   {
-    title: '🗣️ Que es ChatGPT y Por que puede reemplazara a Google',
+    title: '🗣️ Que es ChatGPT y Por que puede reemplazar a Google',
     link: 'https://raulpacheco.dev/blog/posts/chatgpt-el-chatbot-ia-basado-openai',
     image: `/static/images/blog/chatgpt-chatbot-gpt3-openai/portada.png`,
     emoji: '📃',
