@@ -4,14 +4,14 @@ date: '2022-12-26'
 tags: ['Machine Learning', 'Deep Learning', 'Generative Adversarial Networks']
 draft: false
 summary: 'Descubre cómo las IA generativas están cambiando la 🎨 creación de contenido, 🤖 automatizando tareas creativas, y lo que se espera de ellas el próximo año.'
-images: ['/static/images/blog/año-redes-generativas/portada.png']
+images: ['/static/images/blog/futuro-redes-generativas-2023/portada.png']
 layout: PostLayout
 canonicalUrl:
 ---
 
 Estamos finalizando un gran año para la [Inteligencia Artificial](https://raulpacheco.dev/blog/posts/que-es-la-inteligencia-artificial), donde pudimos ser testigos de grandes demostraciones del avance de un tipo de IA muy particular, la IA Generativa. Por ello aquí te contare que es una IA generativa, en que formas podemos encontrarla y que esperamos de este tipo de tecnología para el próximo año.
 
-![Arte IA - Portada](/static/images/blog/año-redes-generativas/portada.png)
+![Arte IA - Portada](/static/images/blog/futuro-redes-generativas-2023/portada.png)
 
 ## ¿Qué es la IA generativa?
 
@@ -29,7 +29,7 @@ Hasta ahora, la IA ha sido capaz de diferenciar personas, objetos o animales. Po
 
 Y es que, como ya se ha comentado, la inteligencia artificial puede simular la inteligencia. Pero no otros aspectos de un ser humano como la imaginación. La IA Generativa está en pleno desarrollo para permitir crear contenido como imágenes, vídeos, obras de arte, texto o música desde cero gracias a los algoritmos de Redes Generativas Adversarias.
 
-![Alcance de la IA](/static/images/blog/año-redes-generativas/alcance.png)
+![Alcance de la IA](/static/images/blog/futuro-redes-generativas-2023/alcance.png)
 
 ## Redes Generativas Adversarias
 
@@ -75,7 +75,7 @@ El negocio de Google parece peligrar debido a la reciente masificación de [Chat
 
 Algo a destacar es que una IA no es capaz de imitar el potencial de creatividad humano, por ello no serán un reemplazo, si no mas bien una herramienta que facilite el trabajo de las personas. Te explico mas a fondo esto en el articulo [¿Qué es la Inteligencia Artificial?](https://raulpacheco.dev/blog/posts/que-es-la-inteligencia-artificial).
 
-![Futuro de la IA](/static/images/blog/año-redes-generativas/futuro.png)
+![Futuro de la IA](/static/images/blog/futuro-redes-generativas-2023/futuro.png)
 
 ## Riesgos y Problemas
 
@@ -85,7 +85,7 @@ Otro problema a destacar esta ligado con nuestra privacidad, pues las aplicacion
 
 Un caso muy conocido es el de [FaceApp](https://www.bbc.com/mundo/noticias-49012256) la aplicación a la que le dabas una foto tuya para que te mostrara como te verías de viejo o del sexo opuesto. Los usuarios subían sus fotos sin pensar que estas imágenes se estaban subiendo a internet, cosa que no fue tan obvia para muchos en ese entonces.
 
-![riesgos](/static/images/blog/año-redes-generativas/riesgos.png)
+![riesgos](/static/images/blog/futuro-redes-generativas-2023/riesgos.png)
 
 ## Conclusión
 
