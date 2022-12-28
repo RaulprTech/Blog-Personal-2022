@@ -1,6 +1,6 @@
 ---
 title: '🎨 Un gran año para las IA Generativas ¿Qué nos espera en 2023?'
-date: '2022-12-12'
+date: '2022-12-26'
 tags: ['Machine Learning', 'Deep Learning', 'Generative Adversarial Networks']
 draft: false
 summary: 'Descubre cómo las IA generativas están cambiando la 🎨 creación de contenido, 🤖 automatizando tareas creativas, y lo que se espera de ellas el próximo año.'
