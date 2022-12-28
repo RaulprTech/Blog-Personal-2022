@@ -7,7 +7,6 @@ summary: '
 La inteligencia artificial ha pasado de las películas a formar parte de nuestra vida diaria.  Descubre que es la inteligencia artificial y para que sirve.
 '
 images: ['/static/images/blog/que-es-la-ia/portada.png']
-
 layout: PostLayout
 bibliography: references-data.bib
 ---
