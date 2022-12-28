@@ -89,6 +89,6 @@ Un caso muy conocido es el de [FaceApp](https://www.bbc.com/mundo/noticias-49012
 
 ## Conclusión
 
-Aunque ya estamos un poco mas acostumbrados al uso de aplicaciones con IA, pues ya son mas comunes en las **tiendas de aplicaciones** o en la **web**. Como es el caso de [Lensa](https://prisma-ai.com/lensa) que ha sido toda una sensación para la creación de fotos de perfil. Debemos recordar ser consientes al compartir información con las aplicaciones, no solo con las que usan IA.
+Aunque ya estamos un poco mas acostumbrados al uso de [aplicaciones con IA](https://www.antler.co/blog/generative-ai), pues ya son mas comunes en las **tiendas de aplicaciones** o en la **web**. Como es el caso de [Lensa](https://prisma-ai.com/lensa) que ha sido toda una sensación para la creación de fotos de perfil. Debemos recordar ser consientes al compartir información con las aplicaciones, no solo con las que usan IA.
 
 Hay muchos aspectos a considerar al hablar sobre **Inteligencia Artificial Generativa**, sin embargo, lo innegable es que ya están revolucionando distintas industrias y con el ritmo de mejora que han mostrado, estoy seguro que nos seguiremos asombrando los próximos años.
