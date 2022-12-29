@@ -1,6 +1,6 @@
 const siteMetadata = {
   title: 'Blog de Tecnolgia',
-  author: 'Raul Pacheco Rodriguez',
+  author: 'Raúl Pacheco Rodríguez',
   headerTitle: 'Raul Pacheco',
   description:
     '✨ Aprende conmigo de Programación, Electrónica, IA y más. ¡Construyamos la tecnología del futuro 🙌!',
