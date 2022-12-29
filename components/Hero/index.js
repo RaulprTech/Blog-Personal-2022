@@ -5,24 +5,24 @@ import Image from 'next/image'
 
 export default function Presentation() {
   return (
-    <section className="container flex-col items-center justify-center pt-6 pb-8 sm:grid sm:grid-cols-3 sm:grid-rows-1">
+    <section className="container flex-col items-center justify-center pt-4 pb-8 sm:grid sm:grid-cols-3 sm:grid-rows-1">
       <div className="">
         <Image
           src="/static/images/Hero.png"
           alt="Raul Alberto Pacheco Rodriguez"
-          width="800"
-          height="800"
+          width="900"
+          height="900"
           priority={true}
           className="h-full w-full content-center rounded-lg"
         />
       </div>
       <div className=" col-span-2 flex flex-col items-end gap-x-12 pt-4 sm:ml-24 xl:flex-row">
         <div className="flex-col text-center font-extrabold leading-9 tracking-tight sm:text-left sm:leading-10 md:mb-1 md:leading-14">
-          <h1 className="block space-x-4 text-3xl text-gray-900 dark:text-secondary-400 lg:text-5xl">
-            Raul Pacheco Rodríguez
+          <h1 className="block space-x-4 text-xl text-primary-500 dark:text-blue-400 lg:text-2xl">
+            Raúl Pacheco Rodríguez
           </h1>
-          <h2 className="inline-block text-lg text-primary-500 dark:text-blue-400 sm:text-xl md:text-2xl">
-            Ingeniero Electrónico • Desarrollador Web
+          <h2 className="inline-block text-xl text-gray-900 dark:text-secondary-400 sm:text-xl md:text-5xl lg:text-6xl">
+            Electronic Engineer • Web Developer
           </h2>
           <h3 className="sm:text-md prose pt-2 text-sm text-gray-600 dark:text-gray-300 md:text-lg">
             {`${siteMetadata.description}`}
