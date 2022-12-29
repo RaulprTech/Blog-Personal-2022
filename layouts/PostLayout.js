@@ -44,11 +44,16 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
               <div>
                 <PageTitle>{title}</PageTitle>
               </div>
+              <div className="flex flex-wrap justify-center py-4">
+                {tags.map((tag) => (
+                  <Tag key={tag} text={tag} />
+                ))}
+              </div>
             </div>
           </header>
           <div
             className="divide-y divide-gray-200 pb-8 dark:divide-gray-700 xl:grid xl:grid-cols-4 xl:gap-x-6 xl:divide-y-0"
-            style={{ gridTemplateRows: 'auto 1fr' }}
+            style={{ gridTemplateRows: 'auto 1fr auto' }}
           >
             <dl className="pt-6 pb-10 xl:border-b xl:border-gray-200 xl:pt-11 xl:dark:border-gray-700">
               <dt className="sr-only">Autor</dt>
@@ -86,7 +91,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
               </dd>
             </dl>
             <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
-              <div className="prose max-w-none pt-10 pb-8 dark:prose-dark">{children}</div>
+              <div className="prose max-w-3xl pt-10 pb-8 dark:prose-dark">{children}</div>
               <div className="pt-6 pb-6 text-sm text-gray-700 dark:text-gray-300">
                 {/* <Link href={discussUrl(slug)} rel="nofollow">
                   {'Discusion en Twitter'}
@@ -103,7 +108,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
             </div>
             <footer>
               <div className="divide-gray-200 text-sm font-medium leading-5 dark:divide-gray-700 xl:col-start-1 xl:row-start-2 xl:divide-y">
-                {tags && (
+                {/* {tags && (
                   <div className="py-4 xl:py-8">
                     <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
                       Temas
@@ -114,7 +119,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                       ))}
                     </div>
                   </div>
-                )}
+                )} */}
                 {(next || prev) && (
                   <div className="flex justify-between py-4 xl:block xl:space-y-8 xl:py-8">
                     {prev && (
