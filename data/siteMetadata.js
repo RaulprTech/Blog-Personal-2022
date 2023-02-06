@@ -17,7 +17,7 @@ const siteMetadata = {
   github: 'https://github.com/RaulprTech',
   twitter: 'https://twitter.com/RaulprTech',
   facebook: 'https://facebook.com/RaulprTech',
-  youtube: 'https://youtube.com/RaulprTech',
+  youtube: 'https://www.youtube.com/@raulprtech',
   linkedin: 'https://www.linkedin.com/in/RaulprTech',
   instagram: 'https://www.instagram.com/RaulprTech',
   whatsapp: 'https://wa.link/57j5f1',
