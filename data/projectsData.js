@@ -15,7 +15,7 @@ const projectsData = [
     title: 'LinkMe',
     description: `Reúne y comparte tus enlaces en un solo lugar con LinkMe, alternativa libre para LinkTree `,
     imgSrc: '/static/images/blog/linkme.png',
-    href: 'https://github.com/RaulprTech/linkme',
+    href: '/blog/projects/haz-tu-propio-linktree',
   },
   {
     title: 'HouseForSale',
