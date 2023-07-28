@@ -4,7 +4,7 @@ nickname: RaulprTech
 avatar: /static/images/avatar_nblue.png
 occupation: Electronic Engineer • Web Developer
 company: Freelance
-email: contact@raulpacheco.me
+email: raul.pacheco@cinvestav.mx
 twitter: https://twitter.com/RaulprTech
 linkedin: https://www.linkedin.com/in/raulprtech
 github: https://github.com/RaulprTech

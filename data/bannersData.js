@@ -7,26 +7,12 @@ const bannersData = [
     bgColor: 'blue',
   },
   {
-    title: '¡Aprende a hacer tu propio Linktree!',
-    link: 'https://raulpacheco.dev/blog/projects/haz-tu-propio-linktree',
-    image: `/static/images/blog/linkme.png`,
-    emoji: '😁',
-    bgColor: 'orange',
-  },
-  {
-    title: 'Te regalo una Hoja de Trucos para CSS',
-    link: 'https://6964453136575.gumroad.com/l/css-cheats',
-    image: `/static/images/cheat-sheet-portada.png`,
-    emoji: '📄',
+    title: '¿Qué es el Deep Learning?',
+    link: 'https://raulpacheco.dev/blog/posts/que-es-el-deep-learning',
+    image: `/static/images/blog/que-es-el-deep-learning/portada.png`,
+    emoji: '🧠',
     bgColor: 'green',
   },
-  // {
-  //   title: '¿Qué es el Deep Learning?',
-  //   link: 'https://raulpacheco.dev/blog/posts/que-es-el-deep-learning',
-  //   image: `/static/images/blog/que-es-el-deep-learning/portada.png`,
-  //   emoji: '🧠',
-  //   bgColor: 'green',
-  // },
   {
     title: '¿Por qué aprender React?',
     link: 'https://raulpacheco.dev/blog/posts/porque-aprender-react-para-desarrollo-web',
@@ -48,6 +34,20 @@ const bannersData = [
     emoji: '📃',
     bgColor: 'red',
   },
+  {
+    title: '¡Aprende a hacer tu propio Linktree!',
+    link: 'https://raulpacheco.dev/blog/projects/haz-tu-propio-linktree',
+    image: `/static/images/blog/linkme.png`,
+    emoji: '😁',
+    bgColor: 'orange',
+  },
+  {
+    title: 'Te regalo una Hoja de Trucos para CSS',
+    link: 'https://6964453136575.gumroad.com/l/css-cheats',
+    image: `/static/images/cheat-sheet-portada.png`,
+    emoji: '📄',
+    bgColor: 'green',
+  }
 ]
 
 module.exports = bannersData
