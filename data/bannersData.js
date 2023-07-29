@@ -28,11 +28,11 @@ const bannersData = [
     bgColor: 'red',
   },
   {
-    title: '¿Eres Fan de ChatGPT? Muestralo con una playera',
+    title: '¿Eres Fan de ChatGPT? ¡Muestralo con una playera!',
     link: 'https://printome.mx/tienda/1/14612641a6d39686f23.02850711',
     image: `/static/images/blog/chatgpt-chatbot-gpt3-openai/chatgpt.png`,
     emoji: '👕',
-    bgColor: 'purple',
+    bgColor: 'green',
   },
   {
     title: '¡Aprende a hacer tu propio Linktree!',
@@ -46,7 +46,7 @@ const bannersData = [
     link: 'https://6964453136575.gumroad.com/l/css-cheats',
     image: `/static/images/cheat-sheet-portada.png`,
     emoji: '📄',
-    bgColor: 'green',
+    bgColor: 'yellow',
   },
 ]
 
