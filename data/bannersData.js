@@ -13,26 +13,26 @@ const bannersData = [
     emoji: '🧠',
     bgColor: 'green',
   },
-  {
-    title: '¿Por qué aprender React?',
-    link: 'https://raulpacheco.dev/blog/posts/porque-aprender-react-para-desarrollo-web',
-    image: `/static/images/blog/por-que-usar-react/portada.png`,
-    emoji: '⚛️',
-    bgColor: 'purple',
-  },
-  {
-    title: '¿Qué se puede hacer con Javascript?',
-    link: 'https://raulpacheco.dev/blog/posts/que-se-puede-hacer-con-javascript',
-    image: `/static/images/blog/que-se-puede-hacer-con-javascript/portada.png`,
-    emoji: '📚',
-    bgColor: 'yellow',
-  },
+  // {
+  //   title: '¿Por qué aprender React?',
+  //   link: 'https://raulpacheco.dev/blog/posts/porque-aprender-react-para-desarrollo-web',
+  //   image: `/static/images/blog/por-que-usar-react/portada.png`,
+  //   emoji: '⚛️',
+  //   bgColor: 'purple',
+  // },
   {
     title: '🗣️ Que es ChatGPT y Por que puede reemplazar a Google',
     link: 'https://raulpacheco.dev/blog/posts/chatgpt-el-chatbot-ia-basado-openai',
     image: `/static/images/blog/chatgpt-chatbot-gpt3-openai/portada.png`,
     emoji: '📃',
     bgColor: 'red',
+  },
+  {
+    title: '¿Eres Fan de ChatGPT? Muestralo con una playera',
+    link: 'https://printome.mx/tienda/1/14612641a6d39686f23.02850711',
+    image: `/static/images/blog/chatgpt-chatbot-gpt3-openai/chatgpt.png`,
+    emoji: '👕',
+    bgColor: 'purple',
   },
   {
     title: '¡Aprende a hacer tu propio Linktree!',
@@ -47,7 +47,7 @@ const bannersData = [
     image: `/static/images/cheat-sheet-portada.png`,
     emoji: '📄',
     bgColor: 'green',
-  }
+  },
 ]
 
 module.exports = bannersData
