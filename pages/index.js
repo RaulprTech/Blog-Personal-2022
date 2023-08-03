@@ -41,7 +41,7 @@ export default function Home({ posts, tags }) {
         <Hero />
         {/* <Skills tags={tags} /> */}
         <div className="divide-y divide-gray-200 dark:divide-gray-700">
-          <div className="space-y-2 pt-6 pb-8 md:space-y-5">
+          <div className="space-y-2 pb-8 pt-6 md:space-y-5">
             <h2 className="text-2xl font-extrabold leading-6 tracking-tight text-primary-500 dark:text-secondary-400 sm:text-3xl sm:leading-8 md:text-4xl md:leading-10">
               Últimos Artículos
             </h2>

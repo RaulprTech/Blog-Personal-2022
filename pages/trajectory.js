@@ -16,7 +16,7 @@ export default function trajectory() {
         description={`Conoce la trayectoria profesional y escolar, de ${siteMetadata.author}`}
       />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="space-y-2 pt-6 pb-8 md:space-y-5">
+        <div className="space-y-2 pb-8 pt-6 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-primary-500 dark:text-secondary-400 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Trayectoria
           </h1>
@@ -26,18 +26,18 @@ export default function trajectory() {
           </p>
         </div>
         <article className="items-start space-y-2 xl:grid xl:grid-cols-4 xl:gap-x-8 xl:space-y-0">
-          <div className="max-w-none pt-8 pb-8 xl:col-span-2">
+          <div className="max-w-none pb-8 pt-8 xl:col-span-2">
             <Timeline title="Estudios" jobs={eduData} />
           </div>
-          <div className="max-w-none pt-8 pb-8 xl:col-span-2">
+          <div className="max-w-none pb-8 pt-8 xl:col-span-2">
             <Timeline title="Trabajos" jobs={jobsData} />
           </div>
         </article>
         <article className="items-start space-y-2 xl:grid xl:grid-cols-4 xl:gap-x-8 xl:space-y-0">
-          <div className="max-w-none pt-8 pb-8 xl:col-span-2">
+          <div className="max-w-none pb-8 pt-8 xl:col-span-2">
             <Timeline title="Workshops" jobs={workshopsData} />
           </div>
-          <div className="max-w-none pt-8 pb-8 xl:col-span-2">
+          <div className="max-w-none pb-8 pt-8 xl:col-span-2">
             <Timeline title="Emprendimientos" jobs={mvpData} />
           </div>
         </article>
