@@ -37,7 +37,7 @@ export default function AuthorLayout({ children, frontMatter }) {
         description={`Trayectoria escolar y profesional, Skills tecnicos, Talleres impartidos y mas sobre ${name}`}
       />
       <section className="divide-y">
-        <div className="space-y-2 pt-6 pb-8 md:space-y-5">
+        <div className="space-y-2 pb-8 pt-6 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-primary-500 dark:text-secondary-400 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Sobre mi
           </h1>
@@ -54,7 +54,7 @@ export default function AuthorLayout({ children, frontMatter }) {
               height="800"
               className="h-48 w-48 rounded-full"
             />
-            <h2 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">{name}</h2>
+            <h2 className="pb-2 pt-4 text-2xl font-bold leading-8 tracking-tight">{name}</h2>
             <h3 className="text-gray-500 dark:text-gray-400">{occupation}</h3>
             <h4 className="text-gray-500 dark:text-gray-400">{company}</h4>
             <div className="flex space-x-3 pt-6">
@@ -64,7 +64,7 @@ export default function AuthorLayout({ children, frontMatter }) {
               <SocialIcon kind="twitter" href={twitter} />
               <SocialIcon kind="platzi" href={platzi} />
             </div>
-            <div className="grid grid-cols-1 grid-rows-1 gap-3 pt-10 pb-10 md:pb-2 lg:grid-cols-1 lg:grid-rows-2">
+            <div className="grid grid-cols-1 grid-rows-1 gap-3 pb-10 pt-10 md:pb-2 lg:grid-cols-1 lg:grid-rows-2">
               <Button link={CV} text="Descargar CV">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -85,7 +85,7 @@ export default function AuthorLayout({ children, frontMatter }) {
             <Skills tags={skills} />
             <Quote />
           </div>
-          <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">{children}</div>
+          <div className="prose max-w-none pb-8 pt-8 dark:prose-dark xl:col-span-2">{children}</div>
         </article>
       </section>
     </>
