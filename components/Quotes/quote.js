@@ -7,7 +7,7 @@ export default function quote() {
       <blockquote className="rounded-md bg-gray-200 p-6 dark:bg-gray-800">
         <div className="text-md relative md:flex-grow">
           <svg
-            className="absolute top-0 left-0 h-8 w-8 -translate-x-9 -translate-y-9 transform text-gray-500 dark:text-gray-300"
+            className="absolute left-0 top-0 h-8 w-8 -translate-x-9 -translate-y-9 transform text-gray-500 dark:text-gray-300"
             fill="currentColor"
             viewBox="0 0 32 32"
             aria-hidden="true"

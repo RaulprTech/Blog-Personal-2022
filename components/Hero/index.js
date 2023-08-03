@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export default function Presentation() {
   return (
-    <section className="container flex-col items-center justify-center pt-4 pb-8 sm:grid sm:grid-cols-3 sm:grid-rows-1">
+    <section className="container flex-col items-center justify-center pb-8 pt-4 sm:grid sm:grid-cols-3 sm:grid-rows-1">
       <div className="">
         <Image
           src="/static/images/Hero.png"
