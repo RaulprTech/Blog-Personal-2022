@@ -46,7 +46,7 @@ const bannersData = [
     link: 'https://6964453136575.gumroad.com/l/css-cheats',
     image: `/static/images/cheat-sheet-portada.png`,
     emoji: '📄',
-    bgColor: 'yellow',
+    bgColor: 'blue',
   },
 ]
 
