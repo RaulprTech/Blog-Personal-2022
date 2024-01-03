@@ -15,15 +15,21 @@ export default function index({ text, link, children }) {
   }
 
   return (
-    <Link className="group cursor-pointer text-center" href={link} target={target} rel="noreferrer">
+    <Link
+      className="group cursor-pointer text-center"
+      href={link}
+      aria-label={target}
+      target={target}
+      rel="noreferrer"
+    >
       {text && (
-        <div className="flex w-full content-center justify-between rounded-lg border-2 border-primary-700 bg-white px-3 py-1 text-lg font-semibold text-primary-500 group-hover:bg-primary-500 group-hover:text-gray-100 dark:border-primary-500 dark:bg-gray-900">
+        <div className="text-white-500 flex w-full content-center justify-between border-2 border-gray-700 border-opacity-60 px-6 py-2 text-lg font-medium group-hover:border-gray-800 group-hover:bg-primary-600 group-hover:text-white dark:border-primary-400 dark:bg-gray-900 dark:text-primary-400">
           {children && (
             <span className="flex items-center space-x-5 pr-4 group-hover:text-white">
               {children}
             </span>
           )}
-          <span className=" lg:text-md w-full py-1 text-sm">{text}</span>
+          <span className=" w-full py-1 text-sm md:text-lg lg:text-3xl">{text}</span>
         </div>
       )}
     </Link>

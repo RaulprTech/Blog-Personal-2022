@@ -1,20 +1,25 @@
 import Link from 'next/link'
 import { PageSEO } from '@/components/SEO'
-import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
-import formatDate from '@/lib/utils/formatDate'
 import Hero from '@/components/Hero'
-// import Script from 'next/script'
-// import Skills from '@/components/Skills'
 import { getAllTags } from '@/lib/tags'
 import LayoutWrapper from '@/components/LayoutWrapper'
 import Banner from '@/components/Banner'
 import mainBanner from '@/data/mainBanner'
-
+import Card from '@/components/Card'
+import projectsData from '@/data/projectsData'
 import NewsletterForm from '@/components/NewsletterForm'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import Image from '@/components/Image'
 
-const MAX_DISPLAY = 4
+// Import Swiper styles
+import 'swiper/css'
+import 'swiper/css/pagination'
+import 'swiper/css/navigation'
+
+import { Autoplay, Pagination, Navigation } from 'swiper/modules'
+const MAX_DISPLAY = 6
 
 export async function getStaticProps() {
   const posts = await getAllFilesFrontMatter('blog')
@@ -23,7 +28,7 @@ export async function getStaticProps() {
   return { props: { posts, tags } }
 }
 
-export default function Home({ posts, tags }) {
+export default function Home({ posts }) {
   return (
     <>
       <Banner
@@ -39,84 +44,149 @@ export default function Home({ posts, tags }) {
           description={`${siteMetadata.description}`}
         />
         <Hero />
-        {/* <Skills tags={tags} /> */}
-        <div className="divide-y divide-gray-200 dark:divide-gray-700">
-          <div className="space-y-2 pb-8 pt-6 md:space-y-5">
-            <h2 className="text-2xl font-extrabold leading-6 tracking-tight text-primary-500 dark:text-secondary-400 sm:text-3xl sm:leading-8 md:text-4xl md:leading-10">
-              Últimos Artículos
-            </h2>
-            <p className="text-lg leading-7 text-gray-800 dark:text-gray-400">
-              Encuentra aquí los artículos mas recientes. ¿Sobre que quieres aprender hoy? 😉
-            </p>
-          </div>
-          <ul className="divide-y divide-gray-200 dark:divide-gray-700">
-            {!posts.length && 'No se encontraron Articulos.'}
-            {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
-              const { slug, date, title, summary, tags } = frontMatter
-              return (
-                <li key={slug} className="py-12">
-                  <article>
-                    <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
-                      <dl>
-                        <dt className="sr-only">Fecha de Publicacion</dt>
-                        <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
-                          <time dateTime={date}>{formatDate(date)}</time>
-                        </dd>
-                      </dl>
-                      <div className="space-y-5 xl:col-span-3">
-                        <div className="space-y-6">
-                          <div>
-                            <h3 className="text-2xl font-bold leading-8 tracking-tight">
-                              <Link
-                                href={`/blog/${slug}`}
-                                className="text-gray-900 dark:text-gray-100"
-                              >
-                                {title}
-                              </Link>
-                            </h3>
-                            <div className="flex flex-wrap">
-                              {tags.map((tag) => (
-                                <Tag key={tag} text={tag} />
-                              ))}
-                            </div>
-                          </div>
-                          <div className="prose max-w-none text-gray-500 dark:text-gray-400">
-                            {summary}
-                          </div>
-                        </div>
-                        <div className="text-base font-medium leading-6">
-                          <Link
-                            href={`/blog/${slug}`}
-                            className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-                            aria-label={`Leer "${title}"`}
-                          >
-                            Leer mas &rarr;
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </article>
-                </li>
-              )
-            })}
-          </ul>
-        </div>
-        {posts.length > MAX_DISPLAY && (
-          <div className="flex justify-end text-base font-medium leading-6">
-            <Link
-              href="/blog"
-              className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-              aria-label="Todos los Posts"
+        <section className="py-12">
+          <h2 className="justify-center py-2 text-center text-xl font-bold leading-6 tracking-tight text-primary-500 dark:text-secondary-400 sm:text-3xl sm:leading-8 md:text-4xl md:leading-10">
+            ¿Aprendemos algo? 🧑‍💻
+          </h2>
+          <div className="container py-10">
+            <Swiper
+              slidesPerView={3}
+              spaceBetween={30}
+              centeredSlides={true}
+              loop={true}
+              autoplay={{
+                delay: 3000,
+                disableOnInteraction: false,
+              }}
+              modules={[Autoplay, Pagination, Navigation]}
+              className="mySwiper"
             >
-              Ver todo &rarr;
-            </Link>
+              {!posts.length && 'No se encontraron Articulos.'}
+              {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
+                const { slug, date, title, summary, tags } = frontMatter
+                const link = `blog/${slug}`
+                return (
+                  <SwiperSlide key={title}>
+                    <Card
+                      key={title}
+                      title={title}
+                      description={summary}
+                      // imgSrc={imgSrc}
+                      href={link}
+                      tags={tags}
+                      date={date}
+                    />
+                  </SwiperSlide>
+                )
+              })}
+            </Swiper>
+            {posts.length > MAX_DISPLAY && (
+              <div className="flex justify-end text-base font-medium leading-6">
+                <Link
+                  href="/blog"
+                  className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                  aria-label="Todos los Posts"
+                >
+                  Ver más &rarr;
+                </Link>
+              </div>
+            )}
           </div>
+        </section>
+        <section className="py-8">
+          <h2 className="justify-center py-2 text-center text-xl font-bold leading-6 tracking-tight text-primary-500 dark:text-secondary-400 sm:text-3xl sm:leading-8 md:text-4xl md:leading-10">
+            ¡Mira lo que he desarrollado! 🚀
+          </h2>
+          <div className="container py-10">
+            <Swiper
+              slidesPerView={3}
+              spaceBetween={30}
+              centeredSlides={true}
+              loop={true}
+              autoplay={{
+                delay: 3000,
+                disableOnInteraction: false,
+              }}
+              modules={[Autoplay, Pagination, Navigation]}
+              className="mySwiper"
+            >
+              {!posts.length && 'No se encontraron Articulos.'}
+              {projectsData.slice(0, MAX_DISPLAY).map((frontMatter) => {
+                const { imgSrc, title, description, href, tags } = frontMatter
+                return (
+                  <SwiperSlide key={title}>
+                    <Card
+                      key={title}
+                      title={title}
+                      description={description}
+                      imgSrc={imgSrc}
+                      href={href}
+                      tags={tags}
+                    />
+                  </SwiperSlide>
+                )
+              })}
+            </Swiper>
+            <div className="flex justify-end text-base font-medium leading-6">
+              <Link
+                href="/projects"
+                className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                aria-label="Todos los Proyectos"
+              >
+                Ver más &rarr;
+              </Link>
+            </div>
+          </div>
+        </section>
+        {/* <section className="mt-12 text-gray-300">
+          <div className="container mx-auto flex flex-col items-center px-4 py-16 md:flex-row lg:px-8">
+            <div className="mb-16 flex flex-col items-start text-left md:mb-0 md:w-1/2 md:pr-16 lg:flex-grow lg:pr-24">
+              <h2 className="title-font 100 mb-8 text-xs font-semibold uppercase tracking-widest text-gray-100">
+                {' '}
+                Servicios Freelance{' '}
+              </h2>
+              <h1 className="title-font mb-8 text-xl font-black tracking-tighter text-gray-100 md:text-5xl">
+                {' '}
+                ¿Necesitas un sitio web?{' '}
+              </h1>
+              <p className="text-blueGray-600 mb-8 text-left text-base leading-relaxed ">
+                {' '}
+                ¿Tienes una idea que quieres llevar a la acción? No dejes que los clientes se te
+                escapen. Solicita una cotización de tu MVP para que comiences tu negocio ya.{' '}
+              </p>
+              <div className="flex flex-col justify-center lg:flex-row">
+                <button className="focus:shadow-outline mt-auto flex transform items-center rounded-lg bg-blue-600 px-6 py-2 font-semibold text-white ring-offset-2 ring-offset-current transition duration-500 ease-in-out hover:bg-blue-700 focus:outline-none focus:ring-2">
+                  {' '}
+                  Contactar{' '}
+                </button>
+                <p className="text-blueGray-600 mt-2 text-left text-sm md:ml-6 md:mt-0">
+                  {' '}
+                  It will take you to candy shop. <br className="hidden lg:block" />
+                  <Link
+                    href="/services"
+                    className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                    aria-label="Todos los Proyectos"
+                  >
+                    Ver servicios &rarr;
+                  </Link>
+                </p>
+              </div>
+            </div>
+            <div className="w-full md:w-1/2 lg:w-1/3 lg:max-w-lg">
+              <Image
+                src="/static/images/internet.png"
+                alt="Raul Alberto Pacheco Rodriguez"
+                width="720"
+                height="600"
+                className="h-120 w-240 rounded-lg object-cover object-center "
+              />
+            </div>
+          </div>
+        </section> */}
+
+        {siteMetadata.newsletter.provider !== '' && ( // set mailchimp keys for function
+          <div className="flex items-center justify-center pt-4">{/* <NewsletterForm /> */}</div>
         )}
-        {/* {siteMetadata.newsletter.provider !== '' && ( // set mailchimp keys for function
-        <div className="flex items-center justify-center pt-4">
-          <NewsletterForm />
-        </div>
-      )} */}
       </LayoutWrapper>
     </>
   )

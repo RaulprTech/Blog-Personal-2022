@@ -1,7 +1,7 @@
 ---
 title: 'Haciendo un clon de Google 🔎'
 date: '2021-04-04'
-tags: ['HTML', 'CSS', 'Desarrollo Web']
+tags: ['HTML', 'CSS', 'Web Development']
 draft: false
 summary: '
 Una forma común de practicar tus habilidades de desarrollo web es clonando webs famosas, por eso en este articulo se lleva un registro de como fue desarrollado un clon de uno de los motores de búsqueda mas conocidos y usados

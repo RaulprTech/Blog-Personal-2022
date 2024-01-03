@@ -1,7 +1,7 @@
 ---
-title: 'Haz tu propio Linktree 😃'
+title: 'Haz tu propio Linktree 😃 (Tutorial)'
 date: '2023-03-12'
-tags: ['HTML', 'CSS', 'Desarrollo Web']
+tags: ['HTML', 'CSS', 'Web Development']
 draft: false
 summary: '
 En este tutorial usamos HTML y CSS para crear nuestra propia versión de Linktree. Un gran primer proyecto para principiantes.

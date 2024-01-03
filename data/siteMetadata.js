@@ -3,7 +3,7 @@ const siteMetadata = {
   author: 'Raúl Pacheco Rodríguez',
   headerTitle: 'Raul Pacheco',
   description:
-    '✨ Aprende conmigo de Programación, Electrónica, IA y más. ¡Construyamos la tecnología del futuro 🙌!',
+    '✨ Aprende conmigo sobre Programación, Electrónica, Inteligencia Artificial y mucho más ✨',
   authorDescription:
     'Construyo sitios web geniales con JavaScript y su ecosistema. La creatividad , persistencia y el amor por el conocimiento son mis principales características.',
   language: 'es-mx',
@@ -13,7 +13,7 @@ const siteMetadata = {
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'raul.pacheco@cinvestav.mx',
+  email: 'contacto@raulpacheco.dev',
   github: 'https://github.com/RaulprTech',
   twitter: 'https://twitter.com/RaulprTech',
   facebook: 'https://facebook.com/RaulprTech',
@@ -40,14 +40,14 @@ const siteMetadata = {
   newsletter: {
     // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus
     // Please add your .env file and modify it according to your selection
-    provider: 'mailchimp',
+    provider: 'convertkit',
   },
   comment: {
     // If you want to use a commenting system other than giscus you have to add it to the
     // content security policy in the `next.config.js` file.
     // Select a provider and use the environment variables associated to it
     // https://vercel.com/docs/environment-variables
-    provider: '', // supported providers: giscus, utterances, disqus
+    provider: 'giscus', // supported providers: giscus, utterances, disqus
     giscusConfig: {
       // Visit the link below, and follow the steps in the 'configuration' section
       // https://giscus.app/

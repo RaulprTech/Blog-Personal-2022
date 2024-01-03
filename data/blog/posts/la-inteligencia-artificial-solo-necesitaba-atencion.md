@@ -1,7 +1,7 @@
 ---
 title: 'La Inteligencia Artificial 🧠 solo necesitaba atención 👀'
 date: '2022-10-17'
-tags: ['Deep Learning', 'Natural Language Processing', 'Transformers']
+tags: ['AI', 'Natural Language Processing']
 draft: false
 summary: '
 Las redes neuronales recurrentes (RNN) fueron por mucho tiempo la red mas usada en el modelado de secuencias y problemas de transducción. Mientras mas esfuerzos se realizaban para empujar los límites de estos modelos, mas evidentes se volvían los problemas que implicaban su uso.

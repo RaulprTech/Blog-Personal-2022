@@ -1,7 +1,7 @@
 ---
 title: '¿Por qué aprender React ⚛️ para Desarrollo Web?'
 date: '2022-11-21'
-tags: ['React', 'JavaScript', 'Desarrollo Web']
+tags: ['React', 'JavaScript', 'Web Development']
 draft: false
 summary: '
 No son pocas las razones por las que React domina las interfaces visuales para web e incluso gran parte de las interfaces para móviles. Fácil de aprender e integrar y con un gran ecosistema son algunas de las ventajas que hacen de React una librería tan popular y en este artículo las conocerás.

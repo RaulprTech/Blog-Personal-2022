@@ -36,7 +36,7 @@
 }
 
 .line-number::before {
-  @apply mr-4 -ml-2 inline-block w-4 text-right text-gray-400;
+  @apply -ml-2 mr-4 inline-block w-4 text-right text-gray-400;
   content: attr(line);
 }
 
@@ -137,4 +137,37 @@
 
 .token.table {
   display: inline;
+}
+
+.truncate-3l {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.hide-scrollbar {
+  scrollbar-width: none; /* Para Firefox */
+  -ms-overflow-style: none; /* Para Internet Explorer y Edge */
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Para Chrome, Safari y Opera */
+}
+
+.swiper {
+  /* width: 100%;
+  height: 30%; */
+  @apply h-full w-full;
+}
+
+.swiper-slide {
+  /* text-align: center;
+  font-size: 18px; */
+  /* background: #fff; */
+
+  /* Center slide text vertically */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  @apply flex justify-center align-middle;
 }

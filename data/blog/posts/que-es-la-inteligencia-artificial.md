@@ -1,7 +1,7 @@
 ---
 title: '¿Qué es la inteligencia Artificial? 🤖'
 date: '2022-11-14'
-tags: ['Machine Learning', 'Deep Learning']
+tags: ['Machine Learning', 'AI']
 draft: false
 summary: '
 La inteligencia artificial ha pasado de las películas a formar parte de nuestra vida diaria.  Descubre que es la inteligencia artificial y para que sirve.

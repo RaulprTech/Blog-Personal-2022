@@ -1,7 +1,7 @@
 ---
 title: '⚽ Tecnología en el Mundial de Qatar 2022, la innovación cambia el juego'
 date: '2022-12-12'
-tags: ['Machine Learning', 'Internet of Things']
+tags: ['AI', 'Internet of Things']
 draft: false
 summary: 'Un Balón inteligente ⚽, control de temperatura 🌡️, rastreo de jugadores usando Inteligencia Artificial. Qatar optó por una copa mundial llena de innovaciones.'
 images: ['/static/images/blog/mundial-qatar-2022/portada.png']

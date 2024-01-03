@@ -1,7 +1,7 @@
 ---
 title: '🗣️ ChatGPT: El potente Chatbot basado en GPT-3 de OpenAI'
 date: '2022-12-05'
-tags: ['Machine Learning', 'Deep Learning', 'Natural Language Processing']
+tags: ['AI', 'Natural Language Processing']
 draft: false
 summary: '
 La última novedad de OpenAI podría convertirse en el reemplazo de Google. Conoce ChatGPT la Inteligencia Artificial conversacional basada en GPT-3.

@@ -64,6 +64,7 @@ const MobileNav = () => {
                 href={link.href}
                 className="text-2xl font-bold tracking-widest text-gray-900 dark:text-gray-100"
                 onClick={onToggleNav}
+                aria-label={link.title}
               >
                 {link.title}
               </Link>

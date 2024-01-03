@@ -1,7 +1,7 @@
 ---
 title: 'Usos menos conocidos de JavaScript ✨'
 date: '2021-04-25'
-tags: ['Javascript', 'Desarrollo Web']
+tags: ['Javascript', 'Web Development']
 draft: false
 summary: '
 Desarrollo web, móvil y de escritorio son algunas de las mas conocidas aplicaciones de este lenguaje. Ahora te hablare de otras áreas que suelen ser mencionadas con menos frecuencia.

@@ -1,7 +1,7 @@
 ---
 title: '♾️ Que es Arduino, para qué sirve y donde conseguir uno'
 date: '2022-11-28'
-tags: ['Electronica', 'Arduino']
+tags: ['Electronic', 'Arduino']
 draft: false
 summary: '
 👋 Aquí te cuento que es ♾️ Arduino, la famosa placa Open Source de la que todos hablan. Descubre sus características, tipos, usos y donde conseguir el tuyo 😉

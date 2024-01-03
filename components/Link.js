@@ -13,7 +13,7 @@ const CustomLink = ({ href, children }) => {
     return <a href={href} {...children} />
   }
 
-  return <a target="_blank" rel="noopener noreferrer" href={href} {...children} />
+  return <a target="_blank" rel="noopener noreferrer" aria-label={href} href={href} {...children} />
 }
 
 export default CustomLink
