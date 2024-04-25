@@ -12,16 +12,16 @@ export default function Presentation() {
         width={80}
         height={80}
         priority={true}
-        className="h-100 w-100 animate-bounce content-center rounded-md"
+        className="lg:h-100 lg:w-100 h-20 w-20 animate-bounce content-center rounded-md"
       />
       <div className="flex-col py-4 text-center font-extrabold leading-9 tracking-tight">
         <h1 className="block space-x-4 text-xl font-bold text-primary-400 dark:text-primary-400 lg:text-3xl">
           Raúl Pacheco Rodríguez
         </h1>
-        <h2 className="py-5 text-xl font-bold text-secondary-400 dark:text-secondary-400 sm:text-xl md:text-5xl lg:text-7xl">
+        <h2 className="text-xl font-bold text-gray-900 dark:text-secondary-400 sm:text-xl md:text-5xl lg:py-5 lg:text-7xl">
           Exploremos juntos los límites de la tecnología
         </h2>
-        <h3 className=" py-4 text-xl font-medium text-gray-600 dark:text-gray-300">
+        <h3 className="font-medium text-gray-600 dark:text-gray-300 lg:py-4 lg:text-xl">
           {`${siteMetadata.description}`}
         </h3>
         <div className="mx-auto flex items-center justify-center py-6">
@@ -33,7 +33,7 @@ export default function Presentation() {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="h-10 w-10 group-hover:skew-y-6"
+                className="h-5 w-5 group-hover:skew-y-6 lg:h-10 lg:w-10"
               >
                 <path
                   strokeLinecap="round"
@@ -42,14 +42,14 @@ export default function Presentation() {
                 />
               </svg>
             </Button>
-            <Button text="Mas de mi" link="about">
+            <Button text="Sobre mi" link="about">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="h-10 w-10 group-hover:skew-y-6"
+                className="h-5 w-5 group-hover:skew-y-6 lg:h-10 lg:w-10"
               >
                 <path
                   strokeLinecap="round"

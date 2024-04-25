@@ -45,13 +45,11 @@ export default function Home({ posts }) {
         />
         <Hero />
         <section className="py-12">
-          <h2 className="justify-center py-2 text-center text-xl font-bold leading-6 tracking-tight text-primary-500 dark:text-secondary-400 sm:text-3xl sm:leading-8 md:text-4xl md:leading-10">
-            ¿Aprendemos algo? 🧑‍💻
-          </h2>
-          <div className="container py-10">
+          {/* ... */}
+          <div className="container flex flex-wrap justify-center py-10">
             <Swiper
               slidesPerView={3}
-              spaceBetween={30}
+              spaceBetween={10}
               centeredSlides={true}
               loop={true}
               autoplay={{
@@ -61,46 +59,38 @@ export default function Home({ posts }) {
               modules={[Autoplay, Pagination, Navigation]}
               className="mySwiper"
             >
-              {!posts.length && 'No se encontraron Articulos.'}
+              {/* ... */}
               {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
                 const { slug, date, title, summary, tags } = frontMatter
                 const link = `blog/${slug}`
                 return (
-                  <SwiperSlide key={title}>
-                    <Card
-                      key={title}
-                      title={title}
-                      description={summary}
-                      // imgSrc={imgSrc}
-                      href={link}
-                      tags={tags}
-                      date={date}
-                    />
+                  <SwiperSlide
+                    key={title}
+                    className="flex w-full justify-center px-40 md:w-1/3 lg:w-1/4 lg:px-0"
+                  >
+                    <div className="w-full">
+                      <Card
+                        key={title}
+                        title={title}
+                        description={summary}
+                        href={link}
+                        tags={tags}
+                        date={date}
+                      />
+                    </div>
                   </SwiperSlide>
                 )
               })}
             </Swiper>
-            {posts.length > MAX_DISPLAY && (
-              <div className="flex justify-end text-base font-medium leading-6">
-                <Link
-                  href="/blog"
-                  className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-                  aria-label="Todos los Posts"
-                >
-                  Ver más &rarr;
-                </Link>
-              </div>
-            )}
+            {/* ... */}
           </div>
         </section>
         <section className="py-8">
-          <h2 className="justify-center py-2 text-center text-xl font-bold leading-6 tracking-tight text-primary-500 dark:text-secondary-400 sm:text-3xl sm:leading-8 md:text-4xl md:leading-10">
-            ¡Mira lo que he desarrollado! 🚀
-          </h2>
-          <div className="container py-10">
+          {/* ... */}
+          <div className="container flex flex-wrap justify-center py-10">
             <Swiper
               slidesPerView={3}
-              spaceBetween={30}
+              spaceBetween={10}
               centeredSlides={true}
               loop={true}
               autoplay={{
@@ -110,34 +100,32 @@ export default function Home({ posts }) {
               modules={[Autoplay, Pagination, Navigation]}
               className="mySwiper"
             >
-              {!posts.length && 'No se encontraron Articulos.'}
+              {/* ... */}
               {projectsData.slice(0, MAX_DISPLAY).map((frontMatter) => {
                 const { imgSrc, title, description, href, tags } = frontMatter
                 return (
-                  <SwiperSlide key={title}>
-                    <Card
-                      key={title}
-                      title={title}
-                      description={description}
-                      imgSrc={imgSrc}
-                      href={href}
-                      tags={tags}
-                    />
+                  <SwiperSlide
+                    key={title}
+                    className="flex w-full justify-center px-40 md:w-1/3 lg:w-1/4 lg:px-0"
+                  >
+                    <div className="w-full">
+                      <Card
+                        key={title}
+                        title={title}
+                        description={description}
+                        imgSrc={imgSrc}
+                        href={href}
+                        tags={tags}
+                      />
+                    </div>
                   </SwiperSlide>
                 )
               })}
             </Swiper>
-            <div className="flex justify-end text-base font-medium leading-6">
-              <Link
-                href="/projects"
-                className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-                aria-label="Todos los Proyectos"
-              >
-                Ver más &rarr;
-              </Link>
-            </div>
+            {/* ... */}
           </div>
         </section>
+
         {/* <section className="mt-12 text-gray-300">
           <div className="container mx-auto flex flex-col items-center px-4 py-16 md:flex-row lg:px-8">
             <div className="mb-16 flex flex-col items-start text-left md:mb-0 md:w-1/2 md:pr-16 lg:flex-grow lg:pr-24">

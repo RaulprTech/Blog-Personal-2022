@@ -5,7 +5,7 @@ import formatDate from '@/lib/utils/formatDate'
 
 const Card = ({ title, description, imgSrc, href, tags, date }) => {
   return (
-    <div className=" max-w-sm p-4">
+    <div className="w-80 pb-4 lg:mx-0 lg:w-full">
       <div
         className={`${
           imgSrc && 'h-full'
@@ -17,7 +17,7 @@ const Card = ({ title, description, imgSrc, href, tags, date }) => {
               <Image
                 alt={title}
                 src={imgSrc}
-                className="object-cover object-center md:h-36 lg:h-48"
+                className="h-24 object-cover object-center md:h-36 lg:h-48"
                 width={544}
                 height={306}
               />
