@@ -16,7 +16,7 @@ CV: /static/CV/CV.pdf
 
 **Mexicano** nacido en **Campeche**, fanático de la **Ciencia** 🧪, la **Tecnología** ⚙️ y de la cultura Hacker, buscando nuevos retos, aprendizajes y compartir lo que aprendo. La tecnología no para de mejorar y quiero estar siempre en primera fila para verlo.
 
-**Ingeniero Electrónico**, especializado en **Electrónica Digital**, uso **Python** 🐍 y **Verilog** para diseñar aceleradores de **Deep Learning** en **FPGA's** y aplicaciones de **IoT**. También hago Desarrollo Web con **JavaScript** y **React** ⚛️.
+**Ingeniero Electrónico** y Maestro en ciencias, especializado en **Electrónica Digital**, uso **Python** 🐍 y **Verilog** para diseñar aceleradores de **Deep Learning** en **FPGA's** y aplicaciones de **IoT**. También hago Desarrollo Web con **JavaScript** y **React** ⚛️.
 
 ## Trayectoria
 
@@ -38,7 +38,7 @@ Principalmente escribo sobre [JavaScript](https://raulpacheco.dev/tags/javascrip
 
 ## Proyectos Recientes
 
-Actualmente estudio una Maestría en Ingeniería Eléctrica con la especialidad de Diseño Electrónico Digital en el CINVESTAV, unidad Guadalajara. Me encuentro desarrollando mi tesis, que consiste en un Acelerador de Hardware para un modelo de [Deep Learning](https://raulpacheco.dev/tags/deep-learning) basado en el **Swin Transformer**.
+Actualmente estudio un doctorado en Ingeniería Eléctrica con la especialidad de Diseño Electrónico Digital en el CINVESTAV, unidad Guadalajara. Me encuentro desarrollando mi tesis, que consiste en un Acelerador de Hardware para un modelo de [Deep Learning](https://raulpacheco.dev/tags/deep-learning) basado en el **Swin Transformer**.
 
 ## ¿Qué busco de un trabajo?
 
